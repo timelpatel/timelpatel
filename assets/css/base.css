@@ -25,19 +25,19 @@ body {
     background: #efefef;
 	color: #3c3c3c;
 	font: 100% helveticaneue, helvetica, arial;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 /* font */
 h1, h2, h3 {
     font-family: helveticaneueultralight, 'helveticaneueultralight';
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
 }
 h1 {
 	font-size: 2.3em;
 }
 h2 {
-	font-size: 1.6em;
+	font-size: 2em;
 }
 h3 {
     font-size: 1.35em;
@@ -166,11 +166,11 @@ a:active, a:hover {
     text-align: center;
 }
 #section-home #me {
-    border-radius: 90px;
+    border-radius: 30px;
     display: block;
-    margin: 50px auto 4em;
-    -webkit-border-radius: 90px;
-    -moz-border-radius: 90px;
+    margin: 0 auto 4em;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
 }
 #section-home h3 {
     margin: 0 auto;

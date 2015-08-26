@@ -9,6 +9,10 @@ $( "#navmob" ).click (function() {
     toggleMenu();
 });
 
+$( "#nav a" ).click (function() {
+    toggleMenu();
+});
+
 function toggleMenu() {
     $( "#nav" ).slideToggle('fast');
     $( "#navmob" ).toggleClass( "on" );

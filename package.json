@@ -1,0 +1,22 @@
+{
+  "name": "timelpatel",
+  "version": "1.0.0",
+  "description": "timelpatel.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timelpatel/timelpatel.git"
+  },
+  "keywords": [
+    "timelpatel"
+  ],
+  "author": "Timel Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timelpatel/timelpatel/issues"
+  },
+  "homepage": "https://github.com/timelpatel/timelpatel#readme"
+}
