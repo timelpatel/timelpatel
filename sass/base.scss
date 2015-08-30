@@ -1,9 +1,13 @@
-@import '_reset';
-
 /*
     timelpatel.com
     Base SCSS
 */
+
+@import '_reset';
+@import '_mixins';
+
+@include font-face(helveticaneueultralight, '/assets/font/helveticaneueultralight');
+@include font-face(fontello, '/assets/font/fontello');
 
 /* varables */
 $font-stack-normal: helveticaneue, helvetica, arial;
@@ -17,15 +21,6 @@ $background-body: #efefef;
 $border: #e8e8e8;
 
 /* global */
-@font-face {
-    font-family: 'helveticaneueultralight';
-    src: url('/assets/font/helveticaneueultralight.eot');
-    src: url('/assets/font/helveticaneueultralight.eot?#iefix') format('embedded-opentype'),
-         url('/assets/font/helveticaneueultralight.woff') format('woff'),
-         url('/assets/font/helveticaneueultralight.ttf')  format('truetype'),
-         url('/assets/font/helveticaneueultralight.svg#svgFontName') format('svg');
-}
-
 body {
     background: $background-body;
     color: $font-primary-color;
@@ -128,11 +123,10 @@ a:active, a:hover {
     position: fixed;
     top: 0;
     width: 60px;
-
-    .on {
-        background-color: $background-white;
-        height: 60px;
-    }
+}
+#navmob.on {
+    background-color: $background-white;
+    height: 60px;
 }
 
 /* home */
@@ -157,35 +151,22 @@ a:active, a:hover {
         -moz-border-radius: 30px;
     }
     ul#social {
-        @extend .hide-text;
-        margin: 0 auto;
-        width: 220px;
+        text-align: center;
 
         li {
-            background: url(/assets/img/social.png) no-repeat 0 0;
-            background-size: 100%;
-            float: left;
-            height: 40px;
-            margin: 0 1em;
-            width: 40px;
-        }
-        li.linkedin {
-            background-position: 0 -50px;
-        }
-        li.linkedin:hover {
-            background-position: 0 0;
-        }
-        li.twitter {
-            background-position: 0 -150px;
-        }
-        li.twitter:hover {
-            background-position: 0 -100px;
-        }
-        li.instagram {
-            background-position: 0 -250px;
-        }
-        li.instagram:hover {
-            background-position: 0 -200px;
+            display: inline;
+            font: normal 1.3em fontello;
+            margin: 1em;
+            width: 1em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+
+            a {
+                color: #aaadae;
+            }
+            a:hover {
+                color: $font-primary-link;
+            }
         }
     }
 }
