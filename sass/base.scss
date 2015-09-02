@@ -4,21 +4,11 @@
 */
 
 @import '_reset';
+@import '_variables';
 @import '_mixins';
 
 @include font-face(helveticaneueultralight, '/assets/font/helveticaneueultralight');
 @include font-face(fontello, '/assets/font/fontello');
-
-/* varables */
-$font-stack-normal: helveticaneue, helvetica, arial;
-$font-stack-light: helveticaneueultralight, 'helveticaneueultralight';
-$font-primary-color: #3c3c3c;
-$font-primary-link: #0099cc;
-$font-primary-hover: #cc3300;
-$background-light: #f8f8f8;
-$background-white: #fff;
-$background-body: #efefef;
-$border: #e8e8e8;
 
 /* global */
 body {
@@ -111,8 +101,8 @@ a:active, a:hover {
         padding: 0.7em 2.2em;
     }
     li a:active, li a:hover {
-        background: #cc3300;
-        color: #fff;
+        background: $font-primary-link;
+        color: $background-white;
     }
 }
 #navmob {
@@ -154,19 +144,25 @@ a:active, a:hover {
         text-align: center;
 
         li {
-            display: inline;
+            @include circle(2em, 2em, #aaadae);
+            display: inline-block;
             font: normal 1.3em fontello;
-            margin: 1em;
-            width: 1em;
+            margin: 0 1em;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
 
             a {
                 color: #aaadae;
+                display: block;
+                line-height: 2em;
             }
             a:hover {
                 color: $font-primary-link;
             }
+        }
+        li:hover {
+            background: $background-white;
+            border-color: $font-primary-link;
         }
     }
 }
@@ -176,6 +172,10 @@ a:active, a:hover {
     background: #fafafa;
     padding: 100px 0;
 
+    .project {
+        background-color: $background-white;
+        padding: 0.5em;
+    }
     h2 {
         text-align: center;
     }
@@ -184,9 +184,6 @@ a:active, a:hover {
     }
     img {
         width: 100%;
-    }
-    article {
-        margin-bottom: 2.5em;
     }
 }
 

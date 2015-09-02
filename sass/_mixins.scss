@@ -1,7 +1,16 @@
 /*
     timelpatel.com
-    mixins.scss
+    _mixins.scss
 */
+
+@mixin circle($height, $width, $border-color) {
+    border: 1px solid $border-color;
+    height: $height;
+    width: $width;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
 
 @mixin font-face($font-family, $font-path) {
   @font-face {
@@ -11,8 +20,6 @@
            url('#{$font-path}.woff') format('woff'),
            url('#{$font-path}.ttf') format('truetype'),
            url('#{$font-path}.svg##{$font-family}') format('svg');
-    /*font-weight: $font-weight;
-    font-style: $font-style;*/
   }
   /* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */
   @media screen and (-webkit-min-device-pixel-ratio: 0) {
