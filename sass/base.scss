@@ -7,8 +7,8 @@
 @import '_variables';
 @import '_mixins';
 
-@include font-face(helveticaneueultralight, '/assets/font/helveticaneueultralight');
-@include font-face(fontello, '/assets/font/fontello');
+@include font-face(helveticaneueultralight, '/src/pulic/assets/font/helveticaneueultralight');
+@include font-face(fontello, '/src/pulic/assets/font/fontello');
 
 /* global */
 body {
@@ -90,7 +90,7 @@ a:active, a:hover {
     position: fixed;
     top: 60px;
     z-index: 1;
-    
+
     li {
         background: #fff;
         border-bottom: 1px solid $border;
@@ -198,7 +198,7 @@ body {background:blue;}
 
 /* Smartphones (landscape) ----------- */
 @media screen and (min-width : 601px) {
-    
+
     /* grid */
     .col-2-3 {
         width: 66.66%;
@@ -222,7 +222,7 @@ body {background:blue;}
     }
     #navmob {
         background-position: center -25px;
-    }    
+    }
 
     /* work */
     /*#section-work .col-1-3 {
