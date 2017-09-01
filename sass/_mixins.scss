@@ -3,14 +3,14 @@
     mixins.scss
 */
 
-@mixin circle($height, $width, $border-color) {
-    border: 1px solid $border-color;
-    height: $height;
-    width: $width;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-}
+// @mixin circle($height, $width, $border-color) {
+//     border: 1px solid $border-color;
+//     height: $height;
+//     width: $width;
+//     -moz-border-radius: 50px;
+//     -webkit-border-radius: 50px;
+//     border-radius: 50px;
+// }
 
 @mixin font-face($font-family, $font-path) {
   @font-face {

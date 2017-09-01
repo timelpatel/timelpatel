@@ -1,0 +1,62 @@
+@include font-face(fontello, '/assets/font/fontello');
+@include font-face(heavydock11, '/assets/font/heavy_dock11');
+@include font-face(helveticaneueultralight, '/assets/font/helveticaneueultralight');
+
+
+
+h1 {
+    font-family: $font-stack-title;
+    font-size: 37px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: $font-stack-light;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: $font-stack-light;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+
+a:link, a:visited {
+    color: $font-primary-link;
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    color: $font-primary-hover;
+}
+
+// .hide-text {
+//     text-indent: 100%;
+//     white-space: nowrap;
+//     overflow: hidden;
+// }
+
+
+
+/* Smartphones (portrait) ----------- */
+@media screen and (max-width : 600px) {
+
+    h1 {
+        font-size: 1.7em;
+        // padding-top: 10px;
+        // text-align: center;
+    }
+
+    h3 {
+        font-size: 1.4em;
+    }
+
+}

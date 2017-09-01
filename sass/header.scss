@@ -1,0 +1,36 @@
+.container__header {
+    background: #6e7f80;
+    color: #fff;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header__h1 {
+    left:40px;
+    position: absolute;
+    top: 26px;
+}
+
+.header__menu {
+    font-family: $font-stack-light;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 60px;
+    top: 32px;
+
+    li {
+        display: inline;
+        margin-left: 40px;
+
+        a {
+            color: #fff;
+
+            &:hover {
+                border-bottom: 1px solid #fff;
+                padding-bottom: 6px;
+            }
+        }
+    }
+}
