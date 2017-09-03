@@ -1286,7 +1286,7 @@ var CallbackQueue = __webpack_require__(64);
 var PooledClass = __webpack_require__(17);
 var ReactFeatureFlags = __webpack_require__(65);
 var ReactReconciler = __webpack_require__(20);
-var Transaction = __webpack_require__(29);
+var Transaction = __webpack_require__(30);
 
 var invariant = __webpack_require__(1);
 
@@ -2156,12 +2156,12 @@ module.exports = DOMProperty;
 
 
 
-var _assign = __webpack_require__(26);
+var _assign = __webpack_require__(27);
 
 var ReactCurrentOwner = __webpack_require__(9);
 
 var warning = __webpack_require__(12);
-var canDefineProperty = __webpack_require__(27);
+var canDefineProperty = __webpack_require__(28);
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
 var REACT_ELEMENT_TYPE = __webpack_require__(56);
@@ -2621,7 +2621,7 @@ module.exports = PooledClass;
 
 
 
-var _assign = __webpack_require__(26);
+var _assign = __webpack_require__(27);
 
 var ReactBaseClasses = __webpack_require__(53);
 var ReactChildren = __webpack_require__(88);
@@ -2639,7 +2639,7 @@ var cloneElement = ReactElement.cloneElement;
 
 if (process.env.NODE_ENV !== 'production') {
   var lowPriorityWarning = __webpack_require__(36);
-  var canDefineProperty = __webpack_require__(27);
+  var canDefineProperty = __webpack_require__(28);
   var ReactElementValidator = __webpack_require__(58);
   var didWarnPropTypesDeprecated = false;
   createElement = ReactElementValidator.createElement;
@@ -2976,7 +2976,7 @@ module.exports = ReactReconciler;
 
 
 var DOMNamespaces = __webpack_require__(43);
-var setInnerHTML = __webpack_require__(31);
+var setInnerHTML = __webpack_require__(32);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(44);
 var setTextContent = __webpack_require__(69);
@@ -3240,7 +3240,7 @@ module.exports = EventPropagators;
 
 var _prodInvariant = __webpack_require__(3);
 
-var EventPluginRegistry = __webpack_require__(28);
+var EventPluginRegistry = __webpack_require__(29);
 var EventPluginUtils = __webpack_require__(37);
 var ReactErrorUtils = __webpack_require__(38);
 
@@ -3621,6 +3621,16 @@ module.exports = ReactInstanceMap;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+
+
+module.exports = __webpack_require__(18);
+
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 /*
 object-assign
 (c) Sindre Sorhus
@@ -3714,7 +3724,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3746,7 +3756,7 @@ module.exports = canDefineProperty;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4005,7 +4015,7 @@ module.exports = EventPluginRegistry;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4239,7 +4249,7 @@ module.exports = TransactionImpl;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4316,7 +4326,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 module.exports = SyntheticMouseEvent;
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4419,7 +4429,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = setInnerHTML;
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4546,7 +4556,7 @@ function escapeTextContentForBrowser(text) {
 module.exports = escapeTextContentForBrowser;
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4564,7 +4574,7 @@ module.exports = escapeTextContentForBrowser;
 
 var _assign = __webpack_require__(5);
 
-var EventPluginRegistry = __webpack_require__(28);
+var EventPluginRegistry = __webpack_require__(29);
 var ReactEventEmitterMixin = __webpack_require__(139);
 var ViewportMetrics = __webpack_require__(68);
 
@@ -4873,16 +4883,6 @@ var ReactBrowserEventEmitter = _assign({}, ReactEventEmitterMixin, {
 });
 
 module.exports = ReactBrowserEventEmitter;
-
-/***/ }),
-/* 34 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = __webpack_require__(18);
-
 
 /***/ }),
 /* 35 */
@@ -5489,7 +5489,7 @@ var ReactDOMComponentTree = __webpack_require__(4);
 var ReactInstrumentation = __webpack_require__(8);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(44);
-var setInnerHTML = __webpack_require__(31);
+var setInnerHTML = __webpack_require__(32);
 var setTextContent = __webpack_require__(69);
 
 function getNodeAfter(parentNode, node) {
@@ -6828,11 +6828,11 @@ module.exports = getEventCharCode;
 
 
 var _prodInvariant = __webpack_require__(19),
-    _assign = __webpack_require__(26);
+    _assign = __webpack_require__(27);
 
 var ReactNoopUpdateQueue = __webpack_require__(54);
 
-var canDefineProperty = __webpack_require__(27);
+var canDefineProperty = __webpack_require__(28);
 var emptyObject = __webpack_require__(55);
 var invariant = __webpack_require__(13);
 var lowPriorityWarning = __webpack_require__(36);
@@ -7187,7 +7187,7 @@ var ReactElement = __webpack_require__(16);
 
 var checkReactTypeSpec = __webpack_require__(93);
 
-var canDefineProperty = __webpack_require__(27);
+var canDefineProperty = __webpack_require__(28);
 var getIteratorFn = __webpack_require__(57);
 var warning = __webpack_require__(12);
 var lowPriorityWarning = __webpack_require__(36);
@@ -7984,8 +7984,8 @@ module.exports = ViewportMetrics;
 
 
 var ExecutionEnvironment = __webpack_require__(6);
-var escapeTextContentForBrowser = __webpack_require__(32);
-var setInnerHTML = __webpack_require__(31);
+var escapeTextContentForBrowser = __webpack_require__(33);
+var setInnerHTML = __webpack_require__(32);
 
 /**
  * Set the textContent property of a node, ensuring that whitespace is preserved
@@ -9479,7 +9479,7 @@ var _prodInvariant = __webpack_require__(3);
 var DOMLazyTree = __webpack_require__(21);
 var DOMProperty = __webpack_require__(15);
 var React = __webpack_require__(18);
-var ReactBrowserEventEmitter = __webpack_require__(33);
+var ReactBrowserEventEmitter = __webpack_require__(34);
 var ReactCurrentOwner = __webpack_require__(9);
 var ReactDOMComponentTree = __webpack_require__(4);
 var ReactDOMContainerInfo = __webpack_require__(183);
@@ -9495,7 +9495,7 @@ var ReactUpdates = __webpack_require__(11);
 var emptyObject = __webpack_require__(78);
 var instantiateReactComponent = __webpack_require__(76);
 var invariant = __webpack_require__(1);
-var setInnerHTML = __webpack_require__(31);
+var setInnerHTML = __webpack_require__(32);
 var shouldUpdateReactComponent = __webpack_require__(48);
 var warning = __webpack_require__(2);
 
@@ -10043,7 +10043,7 @@ module.exports = getHostComponentFromComposite;
 "use strict";
 
 
-var _react = __webpack_require__(34);
+var _react = __webpack_require__(26);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -10061,7 +10061,7 @@ var _index4 = _interopRequireDefault(_index3);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var css = __webpack_require__(195);
+var css = __webpack_require__(196);
 
 var App = function App() {
     return _react2.default.createElement(
@@ -11660,7 +11660,7 @@ module.exports = factory(Component, isValidElement, ReactNoopUpdateQueue);
 
 
 
-var _assign = __webpack_require__(26);
+var _assign = __webpack_require__(27);
 
 var emptyObject = __webpack_require__(55);
 var _invariant = __webpack_require__(13);
@@ -14512,7 +14512,7 @@ module.exports = DefaultEventPluginOrder;
 
 var EventPropagators = __webpack_require__(22);
 var ReactDOMComponentTree = __webpack_require__(4);
-var SyntheticMouseEvent = __webpack_require__(30);
+var SyntheticMouseEvent = __webpack_require__(31);
 
 var eventTypes = {
   mouseEnter: {
@@ -15313,8 +15313,8 @@ var DOMNamespaces = __webpack_require__(43);
 var DOMProperty = __webpack_require__(15);
 var DOMPropertyOperations = __webpack_require__(72);
 var EventPluginHub = __webpack_require__(23);
-var EventPluginRegistry = __webpack_require__(28);
-var ReactBrowserEventEmitter = __webpack_require__(33);
+var EventPluginRegistry = __webpack_require__(29);
+var ReactBrowserEventEmitter = __webpack_require__(34);
 var ReactDOMComponentFlags = __webpack_require__(60);
 var ReactDOMComponentTree = __webpack_require__(4);
 var ReactDOMInput = __webpack_require__(141);
@@ -15326,7 +15326,7 @@ var ReactMultiChild = __webpack_require__(147);
 var ReactServerRenderingTransaction = __webpack_require__(156);
 
 var emptyFunction = __webpack_require__(10);
-var escapeTextContentForBrowser = __webpack_require__(32);
+var escapeTextContentForBrowser = __webpack_require__(33);
 var invariant = __webpack_require__(1);
 var isEventSupported = __webpack_require__(40);
 var shallowEqual = __webpack_require__(47);
@@ -16851,7 +16851,7 @@ module.exports = memoizeStringOnly;
 
 
 
-var escapeTextContentForBrowser = __webpack_require__(32);
+var escapeTextContentForBrowser = __webpack_require__(33);
 
 /**
  * Escapes attribute value to prevent scripting attacks.
@@ -20052,7 +20052,7 @@ module.exports = flattenChildren;
 var _assign = __webpack_require__(5);
 
 var PooledClass = __webpack_require__(17);
-var Transaction = __webpack_require__(29);
+var Transaction = __webpack_require__(30);
 var ReactInstrumentation = __webpack_require__(8);
 var ReactServerUpdateQueue = __webpack_require__(157);
 
@@ -20504,7 +20504,7 @@ var DOMChildrenOperations = __webpack_require__(42);
 var DOMLazyTree = __webpack_require__(21);
 var ReactDOMComponentTree = __webpack_require__(4);
 
-var escapeTextContentForBrowser = __webpack_require__(32);
+var escapeTextContentForBrowser = __webpack_require__(33);
 var invariant = __webpack_require__(1);
 var validateDOMNesting = __webpack_require__(51);
 
@@ -20668,7 +20668,7 @@ module.exports = ReactDOMTextComponent;
 var _assign = __webpack_require__(5);
 
 var ReactUpdates = __webpack_require__(11);
-var Transaction = __webpack_require__(29);
+var Transaction = __webpack_require__(30);
 
 var emptyFunction = __webpack_require__(10);
 
@@ -20947,7 +20947,7 @@ var EventPluginHub = __webpack_require__(23);
 var EventPluginUtils = __webpack_require__(37);
 var ReactComponentEnvironment = __webpack_require__(46);
 var ReactEmptyComponent = __webpack_require__(79);
-var ReactBrowserEventEmitter = __webpack_require__(33);
+var ReactBrowserEventEmitter = __webpack_require__(34);
 var ReactHostComponent = __webpack_require__(80);
 var ReactUpdates = __webpack_require__(11);
 
@@ -20985,10 +20985,10 @@ var _assign = __webpack_require__(5);
 
 var CallbackQueue = __webpack_require__(64);
 var PooledClass = __webpack_require__(17);
-var ReactBrowserEventEmitter = __webpack_require__(33);
+var ReactBrowserEventEmitter = __webpack_require__(34);
 var ReactInputSelection = __webpack_require__(83);
 var ReactInstrumentation = __webpack_require__(8);
-var Transaction = __webpack_require__(29);
+var Transaction = __webpack_require__(30);
 var ReactUpdateQueue = __webpack_require__(50);
 
 /**
@@ -22077,7 +22077,7 @@ var SyntheticClipboardEvent = __webpack_require__(175);
 var SyntheticEvent = __webpack_require__(14);
 var SyntheticFocusEvent = __webpack_require__(176);
 var SyntheticKeyboardEvent = __webpack_require__(177);
-var SyntheticMouseEvent = __webpack_require__(30);
+var SyntheticMouseEvent = __webpack_require__(31);
 var SyntheticDragEvent = __webpack_require__(179);
 var SyntheticTouchEvent = __webpack_require__(180);
 var SyntheticTransitionEvent = __webpack_require__(181);
@@ -22632,7 +22632,7 @@ module.exports = getEventKey;
 
 
 
-var SyntheticMouseEvent = __webpack_require__(30);
+var SyntheticMouseEvent = __webpack_require__(31);
 
 /**
  * @interface DragEvent
@@ -22767,7 +22767,7 @@ module.exports = SyntheticTransitionEvent;
 
 
 
-var SyntheticMouseEvent = __webpack_require__(30);
+var SyntheticMouseEvent = __webpack_require__(31);
 
 /**
  * @interface WheelEvent
@@ -23097,7 +23097,7 @@ module.exports = ReactMount.renderSubtreeIntoContainer;
 
 
 var DOMProperty = __webpack_require__(15);
-var EventPluginRegistry = __webpack_require__(28);
+var EventPluginRegistry = __webpack_require__(29);
 var ReactComponentTreeHook = __webpack_require__(7);
 
 var warning = __webpack_require__(2);
@@ -23356,7 +23356,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _react = __webpack_require__(34);
+var _react = __webpack_require__(26);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -23379,7 +23379,7 @@ var Header = function Header() {
                 null,
                 _react2.default.createElement(
                     'a',
-                    { href: '#' },
+                    { href: '/' },
                     'About'
                 )
             ),
@@ -23409,30 +23409,47 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _react = __webpack_require__(34);
+var _react = __webpack_require__(26);
 
 var _react2 = _interopRequireDefault(_react);
+
+var _index = __webpack_require__(195);
+
+var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var AboutPage = function AboutPage() {
     return _react2.default.createElement(
         'div',
-        { className: 'container__about' },
-        _react2.default.createElement('div', { className: 'me' }),
+        null,
         _react2.default.createElement(
             'div',
-            { className: 'wrapper' },
+            { className: 'container' },
+            _react2.default.createElement('div', { className: 'me' }),
             _react2.default.createElement(
-                'h2',
-                null,
-                'Hello.'
-            ),
-            _react2.default.createElement(
-                'h3',
-                null,
-                'London based software engineer, Timel provides creative and development services to leading organisations and technology start-ups.'
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col7' },
+                    _react2.default.createElement(
+                        'h2',
+                        null,
+                        'Hello.'
+                    ),
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'London based software engineer, Timel provides creative and development services to leading organisations and technology start-ups.'
+                    )
+                )
             )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement(_index2.default, null)
         )
     );
 };
@@ -23443,10 +23460,75 @@ exports.default = AboutPage;
 /* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(26);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Social = function Social() {
+    return _react2.default.createElement(
+        'div',
+        { className: 'row' },
+        _react2.default.createElement(
+            'div',
+            { className: 'col' },
+            _react2.default.createElement(
+                'a',
+                { href: 'http://linkedin.com/in/timelpatel' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'social__icon linkedin hide-text' },
+                    'LinkedIn'
+                )
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'col' },
+            _react2.default.createElement(
+                'a',
+                { href: 'https://twitter.com/timelpatel' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'social__icon twitter hide-text' },
+                    'Twitter'
+                )
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'col' },
+            _react2.default.createElement(
+                'a',
+                { href: 'http://instagram.com/timelpatel/' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'social__icon instagram hide-text' },
+                    'Instagram'
+                )
+            )
+        )
+    );
+};
+
+exports.default = Social;
+
+/***/ }),
+/* 196 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(196);
+var content = __webpack_require__(197);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -23454,7 +23536,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(198)(content, options);
+var update = __webpack_require__(199)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -23471,21 +23553,21 @@ if(false) {
 }
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(197)(undefined);
+exports = module.exports = __webpack_require__(198)(undefined);
 // imports
 
 
 // module
-exports.push([module.i, "/*\n    timelpatel.com\n    Base SASS\n*/\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/*\n    timelpatel.com\n    _varables.scss\n*/\n/* typography */\n/*\n    timelpatel.com\n    mixins.scss\n*/\n.row {\n  display: flex;\n  flex-flow: row wrap;\n  /*margin: 0 -10px;\n    margin-bottom: 10px;*/ }\n\n.col {\n  /*-webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    box-sizing: border-box;*/ }\n\n.wrapper {\n  margin: 40px;\n  padding-right: 30%; }\n\n/* Smartphones (landscape) ----------- */\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .wrapper {\n    padding-right: 0; } }\n\n@font-face {\n  font-family: fontello;\n  src: url(\"/assets/font/fontello.eot\");\n  src: url(\"/assets/font/fontello.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/fontello.woff\") format(\"woff\"), url(\"/assets/font/fontello.ttf\") format(\"truetype\"), url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: fontello;\n    src: url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); } }\n\n@font-face {\n  font-family: heavydock11;\n  src: url(\"/assets/font/heavy_dock11.eot\");\n  src: url(\"/assets/font/heavy_dock11.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/heavy_dock11.woff\") format(\"woff\"), url(\"/assets/font/heavy_dock11.ttf\") format(\"truetype\"), url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: heavydock11;\n    src: url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); } }\n\n@font-face {\n  font-family: helveticaneueultralight;\n  src: url(\"/assets/font/helveticaneueultralight.eot\");\n  src: url(\"/assets/font/helveticaneueultralight.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/helveticaneueultralight.woff\") format(\"woff\"), url(\"/assets/font/helveticaneueultralight.ttf\") format(\"truetype\"), url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: helveticaneueultralight;\n    src: url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); } }\n\nh1 {\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  text-transform: uppercase; }\n\nh2 {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 2em;\n  letter-spacing: 2px;\n  margin-bottom: 20px; }\n\nh3 {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 16px;\n  font-weight: bold;\n  letter-spacing: 1px;\n  line-height: 24px; }\n\np {\n  font-size: 0.8em;\n  margin-bottom: 1em; }\n\na:link, a:visited {\n  color: #09c;\n  text-decoration: none; }\n\na:active, a:hover {\n  color: #cc3300; }\n\n/* Smartphones (portrait) ----------- */\n.container__header {\n  background: #6e7f80;\n  color: #fff;\n  height: 80px;\n  position: fixed;\n  top: 0;\n  width: 100%; }\n\n.header__h1 {\n  left: 40px;\n  position: absolute;\n  top: 30px; }\n\n.header__menu {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  letter-spacing: 2px;\n  position: absolute;\n  right: 40px;\n  top: 32px; }\n  .header__menu li {\n    display: inline;\n    margin-left: 40px; }\n    .header__menu li a {\n      color: #fff; }\n      .header__menu li a:hover {\n        border-bottom: 1px solid #fff;\n        padding-bottom: 6px; }\n\n.me {\n  background: #ddd;\n  height: 380px;\n  margin-bottom: 40px;\n  width: 100%; }\n\n/* global */\nbody {\n  background: #efefef;\n  color: #3c3c3c;\n  font: 100% helveticaneue, helvetica, arial;\n  margin-top: 80px;\n  min-width: 480px; }\n\n/* Smartphones (portrait and landscape) ----------- */\n/*@media screen\nand (min-device-width : 320px)\nand (max-device-width : 480px) {\nbody {background:blue;}\n}*/\n", ""]);
+exports.push([module.i, "/*\n    timelpatel.com\n    Base SASS\n*/\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/*\n    timelpatel.com\n    _varables.scss\n*/\n/* typography */\n/*\n    timelpatel.com\n    mixins.scss\n*/\n.container {\n  margin: 40px; }\n\n.row {\n  display: flex;\n  flex-flow: row wrap;\n  /*margin: 0 -10px;\n    margin-bottom: 10px;*/ }\n\n.col {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.col1 {\n  width: 8.333%; }\n\n.col2 {\n  width: 16.665%; }\n\n.col3 {\n  width: 25%; }\n\n.col4 {\n  width: 33.333%; }\n\n.col5 {\n  width: 41.665%; }\n\n.col6 {\n  width: 50%; }\n\n.col7 {\n  width: 58.333%; }\n\n.col8 {\n  width: 66.665%; }\n\n.col9 {\n  width: 75%; }\n\n.col10 {\n  width: 83.333%; }\n\n.col11 {\n  width: 91.665%; }\n\n.col12 {\n  width: 100%; }\n\n/* Smartphones (landscape) ----------- */\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .wrapper {\n    padding-right: 0; } }\n\n@font-face {\n  font-family: fontello;\n  src: url(\"/assets/font/fontello.eot\");\n  src: url(\"/assets/font/fontello.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/fontello.woff\") format(\"woff\"), url(\"/assets/font/fontello.ttf\") format(\"truetype\"), url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: fontello;\n    src: url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); } }\n\n@font-face {\n  font-family: heavydock11;\n  src: url(\"/assets/font/heavy_dock11.eot\");\n  src: url(\"/assets/font/heavy_dock11.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/heavy_dock11.woff\") format(\"woff\"), url(\"/assets/font/heavy_dock11.ttf\") format(\"truetype\"), url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: heavydock11;\n    src: url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); } }\n\n@font-face {\n  font-family: helveticaneueultralight;\n  src: url(\"/assets/font/helveticaneueultralight.eot\");\n  src: url(\"/assets/font/helveticaneueultralight.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/helveticaneueultralight.woff\") format(\"woff\"), url(\"/assets/font/helveticaneueultralight.ttf\") format(\"truetype\"), url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: helveticaneueultralight;\n    src: url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); } }\n\nh1 {\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  text-transform: uppercase; }\n\nh2 {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 2em;\n  letter-spacing: 2px;\n  margin-bottom: 20px; }\n\nh3 {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 16px;\n  font-weight: bold;\n  letter-spacing: 1px;\n  line-height: 24px; }\n\np {\n  font-size: 0.8em;\n  margin-bottom: 1em; }\n\na:link, a:visited {\n  color: #09c;\n  text-decoration: none; }\n\na:active, a:hover {\n  color: #cc3300; }\n\n.hide-text {\n  text-indent: 100%;\n  white-space: nowrap;\n  overflow: hidden; }\n\n/* Smartphones (portrait) ----------- */\n.me {\n  background: #ddd;\n  height: 380px;\n  margin-bottom: 40px;\n  width: 100%; }\n\n.container__header {\n  background: #6e7f80;\n  color: #fff;\n  height: 80px;\n  position: fixed;\n  top: 0;\n  width: 100%; }\n\n.header__h1 {\n  left: 40px;\n  position: absolute;\n  top: 30px; }\n\n.header__menu {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  letter-spacing: 2px;\n  position: absolute;\n  right: 40px;\n  top: 32px; }\n  .header__menu li {\n    display: inline;\n    margin-left: 40px; }\n    .header__menu li a {\n      color: #fff; }\n      .header__menu li a:hover {\n        border-bottom: 1px solid #fff;\n        padding-bottom: 6px; }\n\n.social__icon {\n  background: url(\"/assets/img/social.png\") no-repeat;\n  background-size: 100%;\n  height: 40px;\n  margin-right: 20px;\n  width: 40px; }\n  .social__icon.linkedin {\n    background-position: 0 -50px; }\n    .social__icon.linkedin:hover {\n      background-position: 0 0; }\n  .social__icon.twitter {\n    background-position: 0 -150px; }\n    .social__icon.twitter:hover {\n      background-position: 0 -100px; }\n  .social__icon.instagram {\n    background-position: 0 -250px; }\n    .social__icon.instagram:hover {\n      background-position: 0 -200px; }\n\n/* global */\nbody {\n  background: #efefef;\n  color: #3c3c3c;\n  font: 100% helveticaneue, helvetica, arial;\n  margin-top: 120px;\n  min-width: 480px; }\n\n/* Smartphones (portrait and landscape) ----------- */\n/*@media screen\nand (min-device-width : 320px)\nand (max-device-width : 480px) {\nbody {background:blue;}\n}*/\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, exports) {
 
 /*
@@ -23567,7 +23649,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -23613,7 +23695,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(199);
+var	fixUrls = __webpack_require__(200);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -23926,7 +24008,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, exports) {
 
 
