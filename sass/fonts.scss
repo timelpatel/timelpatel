@@ -12,23 +12,39 @@ h1 {
 }
 
 h2 {
+    color: $font-secondary-color;
     font-family: $font-stack-light;
-    font-size: 2em;
+    font-size: 20px;
+    font-weight: bold;
     letter-spacing: 2px;
-    margin-bottom: 20px;
+    line-height: 27px;
+    margin-bottom: 40px;
 }
 
 h3 {
-    font-family: $font-stack-light;
-    font-size: 16px;
+    color: $font-secondary-color;
+    font-family: $font-stack-normal;
+    font-size: 12px;
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 24px;
 }
 
+p, li {
+    color: $font-body-color;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 18px;
+}
+
 p {
-    font-size: 0.8em;
-    margin-bottom: 1em;
+    margin-bottom: 20px;
+}
+
+ul.list__bullet {
+    list-style: circle inside;
+    margin-bottom: 20px;
 }
 
 a:link, a:visited {
@@ -51,14 +67,6 @@ a:active, a:hover {
 /* Smartphones (portrait) ----------- */
 @media screen and (max-width : 600px) {
 
-    h1 {
-        // font-size: 1.7em;
-        // padding-top: 10px;
-        // text-align: center;
-    }
 
-    h3 {
-        // font-size: 1.4em;
-    }
 
 }

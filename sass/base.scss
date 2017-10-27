@@ -11,6 +11,7 @@
 @import './components/about-page';
 @import './components/header';
 @import './components/social';
+@import './components/work-page';
 
 
 
@@ -18,7 +19,7 @@
 body {
     background: $background-body;
     color: $font-primary-color;
-    font: 100% $font-stack-normal;
+    font: 100% $font-stack-light;
     margin-top: 120px;
     min-width: 480px;
 }

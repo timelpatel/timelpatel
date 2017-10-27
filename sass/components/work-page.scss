@@ -1,0 +1,25 @@
+.work__logo {
+    .col {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+@media screen and (max-width : 600px) {
+
+    .work__logo {
+
+        .container {
+            padding-right: 0;
+        }
+
+        .col {
+            text-align: left;
+        }
+
+    }
+
+}

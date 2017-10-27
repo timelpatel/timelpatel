@@ -1,20 +1,25 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
+import Routes from './routes.js'
+// import createBrowserHistory from 'history/createBrowserHistory'
 import Header from './components/Header/index.jsx'
-import AboutPage from './components/AboutPage/index.jsx'
 
 
+// const customHistory = createBrowserHistory()
 const css = require('../../sass/base.scss')
 
 const App = () => (
     <div>
         <Header />
-        <AboutPage />
+        <Routes />
     </div>
 )
 
 
 ReactDOM.render(
-    <App />,
+    <Router>
+        <App />
+    </Router>,
     document.getElementById('app')
 );
