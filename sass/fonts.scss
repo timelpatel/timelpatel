@@ -24,10 +24,17 @@ h2 {
 h3 {
     color: $font-secondary-color;
     font-family: $font-stack-normal;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     letter-spacing: 1px;
-    line-height: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2;
+    text-transform: uppercase;
 }
 
 p, li {

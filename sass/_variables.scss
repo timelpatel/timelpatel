@@ -3,6 +3,7 @@
     _varables.scss
 */
 
+
 /* typography */
 $font-stack-title: heavydock11, 'Arial Black';
 $font-stack-normal: helveticaneue, helvetica, arial;
@@ -14,6 +15,12 @@ $font-primary-link: #09c;
 $font-primary-hover: #cc3300;
 $font-secondary-color: #6e7f80;
 $font-body-color: #3c3c3c; // IN USE..???
+$font-white: #fff;
 
 /* background */
 $background-body: #efefef;
+$background-container-primary: #fafafa;
+$background-container-secondary: #fefefe;
+
+/* button */
+$button-primary-color: #6e7f80;

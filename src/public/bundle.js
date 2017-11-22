@@ -11699,7 +11699,7 @@ var App = function App() {
 };
 
 _reactDom2.default.render(_react2.default.createElement(
-    _reactRouterDom.BrowserRouter,
+    _reactRouterDom.HashRouter,
     null,
     _react2.default.createElement(App, null)
 ), document.getElementById('app'));
@@ -28714,6 +28714,8 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactRouterDom = __webpack_require__(59);
+
 var _index = __webpack_require__(248);
 
 var _index2 = _interopRequireDefault(_index);
@@ -28766,6 +28768,17 @@ var AboutPage = function AboutPage() {
                         null,
                         'Meticulous and well organised, Timel is able to provide hands-on development as well as leadership skills. His vast experience has taken him on journeys from small start-up environments to enterprise level multi-million pound budget projects.'
                     )
+                )
+            ),
+            _react2.default.createElement(
+                _reactRouterDom.Link,
+                {
+                    className: 'button',
+                    to: '/work' },
+                _react2.default.createElement(
+                    'p',
+                    null,
+                    'View Clients & Projects'
                 )
             )
         ),
@@ -28859,6 +28872,12 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactRouterDom = __webpack_require__(59);
+
+var _index = __webpack_require__(248);
+
+var _index2 = _interopRequireDefault(_index);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var WorkPage = function WorkPage() {
@@ -28868,12 +28887,6 @@ var WorkPage = function WorkPage() {
         _react2.default.createElement(
             'div',
             { className: 'container' },
-            _react2.default.createElement(
-                'h2',
-                null,
-                'Clients'
-            ),
-            _react2.default.createElement('p', null),
             _react2.default.createElement(
                 'div',
                 { className: 'row' },
@@ -29080,6 +29093,161 @@ var WorkPage = function WorkPage() {
                     _react2.default.createElement('img', { alt: 'Lloyds Banking Group logo', src: '/assets/img/logo-lbg.svg', width: '150' })
                 )
             )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'container work__project' },
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'Lloyds Banking Group'
+                    ),
+                    _react2.default.createElement(
+                        'h4',
+                        null,
+                        'Bank of Scotland public website'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Led a team of developers to build the Bank of Scotland public website. Used kanban agile methodology to manage workload and provided support for other team members.'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { href: 'https://www.bankofscotland.co.uk' },
+                            'www.bankofscotland.co.uk'
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'desktop-frame' },
+                        _react2.default.createElement('img', {
+                            className: 'shadow',
+                            src: '/assets/img/project-bos.png',
+                            width: '60%',
+                            alt: 'Bank of Scotland website'
+                        })
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'container work__project alt' },
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'desktop-frame' },
+                        _react2.default.createElement('img', {
+                            className: 'shadow',
+                            src: '/assets/img/project-evi.png',
+                            height: '300',
+                            width: 'auto',
+                            alt: 'Evi home screen'
+                        })
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'Evi Technologies'
+                    ),
+                    _react2.default.createElement(
+                        'h4',
+                        null,
+                        'The Evi app'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Created pixel-perfect views for this Cambridge based artificial intelligence start-up, which is now part of the Amazon Group of companies.'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { href: 'https://www.evi.com' },
+                            'www.evi.com'
+                        )
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'container work__project' },
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'Livedrive'
+                    ),
+                    _react2.default.createElement(
+                        'h4',
+                        null,
+                        'Cloud storage software'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Provided full art direction, creating all digital assets as well as user interface development. Helped the company launch a suite of products and features including websites, mobile and desktop applications and marketing materials.'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { href: 'https://www.livedrive.com' },
+                            'www.livedrive.com'
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'desktop-frame' },
+                        _react2.default.createElement('img', {
+                            alt: 'Computer files flying out of a folder',
+                            src: '/assets/img/project-livedrive.png',
+                            width: '70%'
+                        })
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement(_index2.default, null)
         )
     );
 };
@@ -29112,7 +29280,11 @@ var Header = function Header() {
         _react2.default.createElement(
             'h1',
             { className: 'header__h1' },
-            'Timel Patel'
+            _react2.default.createElement(
+                _reactRouterDom.Link,
+                { to: '/' },
+                'Timel Patel'
+            )
         ),
         _react2.default.createElement(
             'ul',
@@ -29181,7 +29353,7 @@ exports = module.exports = __webpack_require__(253)(undefined);
 
 
 // module
-exports.push([module.i, "/*\n    timelpatel.com\n    Base SASS\n*/\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/*\n    timelpatel.com\n    _varables.scss\n*/\n/* typography */\n/* font */\n/* background */\n/*\n    timelpatel.com\n    mixins.scss\n*/\n.container {\n  margin: 40px; }\n\n.row {\n  display: flex;\n  flex-flow: row wrap;\n  /*margin: 0 -10px;\n    margin-bottom: 10px;*/ }\n\n.col {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.col1 {\n  width: 8.333%; }\n\n.col2 {\n  width: 16.665%; }\n\n.col3 {\n  width: 25%; }\n\n.col4 {\n  width: 33.333%; }\n\n.col5 {\n  width: 41.665%; }\n\n.col6 {\n  width: 50%; }\n\n.col7 {\n  width: 58.333%; }\n\n.col8 {\n  width: 66.665%; }\n\n.col9 {\n  width: 75%; }\n\n.col10 {\n  width: 83.333%; }\n\n.col11 {\n  width: 91.665%; }\n\n.col12 {\n  width: 100%; }\n\n/* Smartphones (landscape) ----------- */\n@media screen and (max-width: 1024px) {\n  .col3 {\n    width: 33.333%; }\n  .col4 {\n    width: 50%; } }\n\n/* Smartphones (landscape) ----------- */\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .container {\n    padding-right: 0; }\n  .col3,\n  .col4,\n  .col6,\n  .col8 {\n    width: 100%; } }\n\n@font-face {\n  font-family: fontello;\n  src: url(\"/assets/font/fontello.eot\");\n  src: url(\"/assets/font/fontello.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/fontello.woff\") format(\"woff\"), url(\"/assets/font/fontello.ttf\") format(\"truetype\"), url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: fontello;\n    src: url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); } }\n\n@font-face {\n  font-family: heavydock11;\n  src: url(\"/assets/font/heavy_dock11.eot\");\n  src: url(\"/assets/font/heavy_dock11.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/heavy_dock11.woff\") format(\"woff\"), url(\"/assets/font/heavy_dock11.ttf\") format(\"truetype\"), url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: heavydock11;\n    src: url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); } }\n\n@font-face {\n  font-family: helveticaneueultralight;\n  src: url(\"/assets/font/helveticaneueultralight.eot\");\n  src: url(\"/assets/font/helveticaneueultralight.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/helveticaneueultralight.woff\") format(\"woff\"), url(\"/assets/font/helveticaneueultralight.ttf\") format(\"truetype\"), url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: helveticaneueultralight;\n    src: url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); } }\n\nh1 {\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  text-transform: uppercase; }\n\nh2 {\n  color: #6e7f80;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 20px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  line-height: 27px;\n  margin-bottom: 40px; }\n\nh3 {\n  color: #6e7f80;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 12px;\n  font-weight: bold;\n  letter-spacing: 1px;\n  line-height: 24px; }\n\np, li {\n  color: #3c3c3c;\n  font-size: 13px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  line-height: 18px; }\n\np {\n  margin-bottom: 20px; }\n\nul.list__bullet {\n  list-style: circle inside;\n  margin-bottom: 20px; }\n\na:link, a:visited {\n  color: #09c;\n  text-decoration: none; }\n\na:active, a:hover {\n  color: #cc3300; }\n\n.hide-text {\n  text-indent: 100%;\n  white-space: nowrap;\n  overflow: hidden; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 415px) {\n  h1 {\n    font-size: 21px; } }\n\n.me {\n  background: url(\"/assets/img/pexels-photo-301614.jpg\") no-repeat;\n  background-position: center;\n  height: 380px;\n  margin-bottom: 40px;\n  width: 100%; }\n\n.container__header {\n  background: #6e7f80;\n  color: #fff;\n  height: 80px;\n  position: fixed;\n  top: 0;\n  width: 100%; }\n\n.header__h1 {\n  left: 40px;\n  position: absolute;\n  top: 30px; }\n\n.header__menu {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  letter-spacing: 2px;\n  position: absolute;\n  right: 40px;\n  top: 32px; }\n  .header__menu li {\n    display: inline;\n    font-size: 16px;\n    margin-left: 40px; }\n    .header__menu li a {\n      color: #fff; }\n      .header__menu li a:hover {\n        border-bottom: 1px solid #fff;\n        padding-bottom: 6px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 415px) {\n  .header__h1 {\n    top: 32px; }\n  .header__menu li {\n    font-size: 13px;\n    margin-left: 20px; } }\n\n.social__icon {\n  background: url(\"/assets/img/social.png\") no-repeat;\n  background-size: 100%;\n  height: 40px;\n  margin-right: 20px;\n  width: 40px; }\n  .social__icon.linkedin {\n    background-position: 0 -50px; }\n    .social__icon.linkedin:hover {\n      background-position: 0 0; }\n  .social__icon.twitter {\n    background-position: 0 -150px; }\n    .social__icon.twitter:hover {\n      background-position: 0 -100px; }\n  .social__icon.instagram {\n    background-position: 0 -250px; }\n    .social__icon.instagram:hover {\n      background-position: 0 -200px; }\n\n.work__logo .col {\n  margin-bottom: 60px;\n  text-align: center; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .work__logo .container {\n    padding-right: 0; }\n  .work__logo .col {\n    text-align: left; } }\n\n/* global */\nbody {\n  background: #efefef;\n  color: #3c3c3c;\n  font: 100% helveticaneueultralight, \"helveticaneueultralight\";\n  margin-top: 120px;\n  min-width: 375px; }\n", ""]);
+exports.push([module.i, "/*\n    timelpatel.com\n    Base SASS\n*/\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/*\n    timelpatel.com\n    _varables.scss\n*/\n/* typography */\n/* font */\n/* background */\n/* button */\n/*\n    timelpatel.com\n    mixins.scss\n*/\n.container {\n  padding: 40px; }\n\n.row {\n  display: flex;\n  flex-flow: row wrap;\n  /*margin: 0 -10px;\n    margin-bottom: 10px;*/ }\n\n.col {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.col1 {\n  width: 8.333%; }\n\n.col2 {\n  width: 16.665%; }\n\n.col3 {\n  width: 25%; }\n\n.col4 {\n  width: 33.333%; }\n\n.col5 {\n  width: 41.665%; }\n\n.col6 {\n  width: 50%; }\n\n.col7 {\n  width: 58.333%; }\n\n.col8 {\n  width: 66.665%; }\n\n.col9 {\n  width: 75%; }\n\n.col10 {\n  width: 83.333%; }\n\n.col11 {\n  width: 91.665%; }\n\n.col12 {\n  width: 100%; }\n\n/* Smartphones (landscape) ----------- */\n@media screen and (max-width: 1024px) {\n  .col3 {\n    width: 33.333%; }\n  .col4 {\n    width: 50%; } }\n\n/* Smartphones (landscape) ----------- */\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .col3,\n  .col4,\n  .col6,\n  .col8 {\n    width: 100%; } }\n\n@font-face {\n  font-family: fontello;\n  src: url(\"/assets/font/fontello.eot\");\n  src: url(\"/assets/font/fontello.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/fontello.woff\") format(\"woff\"), url(\"/assets/font/fontello.ttf\") format(\"truetype\"), url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: fontello;\n    src: url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); } }\n\n@font-face {\n  font-family: heavydock11;\n  src: url(\"/assets/font/heavy_dock11.eot\");\n  src: url(\"/assets/font/heavy_dock11.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/heavy_dock11.woff\") format(\"woff\"), url(\"/assets/font/heavy_dock11.ttf\") format(\"truetype\"), url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: heavydock11;\n    src: url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); } }\n\n@font-face {\n  font-family: helveticaneueultralight;\n  src: url(\"/assets/font/helveticaneueultralight.eot\");\n  src: url(\"/assets/font/helveticaneueultralight.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/helveticaneueultralight.woff\") format(\"woff\"), url(\"/assets/font/helveticaneueultralight.ttf\") format(\"truetype\"), url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: helveticaneueultralight;\n    src: url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); } }\n\nh1 {\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  text-transform: uppercase; }\n\nh2 {\n  color: #6e7f80;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 20px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  line-height: 27px;\n  margin-bottom: 40px; }\n\nh3 {\n  color: #6e7f80;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 11px;\n  font-weight: bold;\n  letter-spacing: 1px;\n  line-height: 30px;\n  text-transform: uppercase; }\n\nh4 {\n  font-size: 14px;\n  font-weight: bold;\n  letter-spacing: 2;\n  text-transform: uppercase; }\n\np, li {\n  color: #3c3c3c;\n  font-size: 13px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  line-height: 18px; }\n\np {\n  margin-bottom: 20px; }\n\nul.list__bullet {\n  list-style: circle inside;\n  margin-bottom: 20px; }\n\na:link, a:visited {\n  color: #09c;\n  text-decoration: none; }\n\na:active, a:hover {\n  color: #cc3300; }\n\n.hide-text {\n  text-indent: 100%;\n  white-space: nowrap;\n  overflow: hidden; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 415px) {\n  h1 {\n    font-size: 21px; } }\n\n.me {\n  background: url(\"/assets/img/pexels-photo-301614.jpg\") no-repeat;\n  background-position: center;\n  height: 380px;\n  margin-bottom: 40px;\n  width: 100%; }\n\n.container__header {\n  background: #6e7f80;\n  color: #fff;\n  height: 80px;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  z-index: 1; }\n\n.header__h1 {\n  left: 40px;\n  position: absolute;\n  top: 30px; }\n  .header__h1 a {\n    color: #fff; }\n\n.header__menu {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  letter-spacing: 2px;\n  position: absolute;\n  right: 40px;\n  top: 32px; }\n  .header__menu li {\n    display: inline;\n    font-size: 16px;\n    margin-left: 40px; }\n    .header__menu li a {\n      color: #fff; }\n      .header__menu li a:hover {\n        border-bottom: 1px solid #fff;\n        padding-bottom: 6px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 415px) {\n  .header__h1 {\n    top: 32px; }\n  .header__menu li {\n    font-size: 13px;\n    margin-left: 20px; } }\n\n.social__icon {\n  background: url(\"/assets/img/social.png\") no-repeat;\n  background-size: 100%;\n  height: 40px;\n  margin-right: 20px;\n  width: 40px; }\n  .social__icon.linkedin {\n    background-position: 0 -50px; }\n    .social__icon.linkedin:hover {\n      background-position: 0 0; }\n  .social__icon.twitter {\n    background-position: 0 -150px; }\n    .social__icon.twitter:hover {\n      background-position: 0 -100px; }\n  .social__icon.instagram {\n    background-position: 0 -250px; }\n    .social__icon.instagram:hover {\n      background-position: 0 -200px; }\n\n.work__logo {\n  background: #fefefe; }\n  .work__logo .col {\n    margin: 50px 0;\n    position: relative;\n    text-align: center; }\n    .work__logo .col img {\n      bottom: 50%;\n      position: absolute;\n      top: 50%;\n      transform: translate(-50%, -50%); }\n\n.work__project {\n  background: #fafafa; }\n  .work__project.alt {\n    background: #fefefe; }\n  .work__project h4 {\n    margin-bottom: 40px; }\n  .work__project .desktop-frame {\n    text-align: center; }\n    .work__project .desktop-frame img {\n      margin-bottom: 20px; }\n      .work__project .desktop-frame img.shadow {\n        box-shadow: 0px 0px 30px -10px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .work__logo {\n    padding-right: 40px; }\n  .work__project .desktop-frame {\n    text-align: left; } }\n\n/* global */\nbody {\n  background: #efefef;\n  color: #3c3c3c;\n  font: 100% helveticaneueultralight, \"helveticaneueultralight\";\n  margin-top: 80px;\n  min-width: 375px; }\n\n/* buttons */\na.button {\n  border: 1px solid #6e7f80;\n  display: inline-block;\n  margin-top: 40px;\n  padding: 10px; }\n  a.button:hover {\n    background-color: #6e7f80; }\n    a.button:hover p {\n      color: #fff; }\n  a.button p {\n    margin: 0; }\n", ""]);
 
 // exports
 

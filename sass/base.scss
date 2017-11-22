@@ -20,6 +20,26 @@ body {
     background: $background-body;
     color: $font-primary-color;
     font: 100% $font-stack-light;
-    margin-top: 120px;
+    margin-top: 80px;
     min-width: 375px;
+}
+
+/* buttons */
+a.button {
+    border: 1px solid $button-primary-color;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px;
+
+    &:hover {
+        background-color: $button-primary-color;
+
+        p {
+            color: $font-white;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
 }

@@ -5,12 +5,17 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .header__h1 {
     left:40px;
     position: absolute;
     top: 30px;
+
+    a {
+        color: $font-white;
+    }
 }
 
 .header__menu {

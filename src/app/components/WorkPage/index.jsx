@@ -1,12 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Social from '../Social/index.jsx'
 
 
 const WorkPage = () => (
     <div>
 
         <div className='container'>
-            <h2>Clients</h2>
-            <p></p>
 
             <div className='row'>
                 <div className='col col4'>
@@ -82,6 +82,74 @@ const WorkPage = () => (
                     <img alt='Lloyds Banking Group logo' src='/assets/img/logo-lbg.svg' width='150' />
                 </div>
             </div>
+        </div>
+
+        <div className='container work__project'>
+            <div className='row'>
+                <div className='col col6'>
+                    <h3>Lloyds Banking Group</h3>
+                    <h4>Bank of Scotland public website</h4>
+                    <p>Led a team of developers to build the Bank of Scotland public website. Used kanban agile methodology to manage workload and provided support for other team members.</p>
+                    <p><a href='https://www.bankofscotland.co.uk'>www.bankofscotland.co.uk</a></p>
+                </div>
+                <div className='col col6'>
+                    <div className='desktop-frame'>
+                        <img
+                            className='shadow'
+                            src='/assets/img/project-bos.png'
+                            width='60%'
+                            alt='Bank of Scotland website'
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='container work__project alt'>
+            <div className='row'>
+                <div className='col col6'>
+                    <div className='desktop-frame'>
+                        <img
+                            className='shadow'
+                            src='/assets/img/project-evi.png'
+                            height='300'
+                            width='auto'
+                            alt='Evi home screen'
+                        />
+                    </div>
+                </div>
+                <div className='col col6'>
+                    <h3>Evi Technologies</h3>
+                    <h4>The Evi app</h4>
+                    <p>Created pixel-perfect views for this Cambridge based artificial intelligence start-up, which is now part of the Amazon Group of companies.</p>
+                    <p><a href='https://www.evi.com'>www.evi.com</a></p>
+                </div>
+
+            </div>
+        </div>
+
+        <div className='container work__project'>
+            <div className='row'>
+                <div className='col col6'>
+                    <h3>Livedrive</h3>
+                    <h4>Cloud storage software</h4>
+                    <p>Provided full art direction, creating all digital assets as well as user interface development. Helped the company launch a suite of products and features including websites, mobile and desktop applications and marketing materials.</p>
+                    <p><a href='https://www.livedrive.com'>www.livedrive.com</a></p>
+                </div>
+                <div className='col col6'>
+                    <div className='desktop-frame'>
+                        <img
+                            alt='Computer files flying out of a folder'
+                            src='/assets/img/project-livedrive.png'
+                            width='70%'
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='container'>
+            <Social />
         </div>
 
     </div>

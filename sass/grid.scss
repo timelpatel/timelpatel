@@ -1,5 +1,5 @@
 .container {
-    margin: 40px;
+    padding: 40px;
 }
 
 .row {
@@ -80,10 +80,6 @@
 
 /* Smartphones (portrait) ----------- */
 @media screen and (max-width : 600px) {
-
-    .container {
-        padding-right: 0;
-    }
 
     .col3,
     .col4,

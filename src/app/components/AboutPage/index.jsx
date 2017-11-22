@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Social from '../Social/index.jsx'
 
 
@@ -17,6 +18,12 @@ const AboutPage = () => (
                     <p>Meticulous and well organised, Timel is able to provide hands-on development as well as leadership skills. His vast experience has taken him on journeys from small start-up environments to enterprise level multi-million pound budget projects.</p>
                 </div>
             </div>
+
+            <Link
+                className='button'
+                to='/work'>
+                <p>View Clients &amp; Projects</p>
+            </Link>
         </div>
 
         <div className='container'>
