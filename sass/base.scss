@@ -9,6 +9,8 @@
 @import 'grid';
 @import 'fonts';
 @import './components/about-page';
+@import './components/component-page';
+@import './components/footer';
 @import './components/header';
 @import './components/social';
 @import './components/work-page';
@@ -30,6 +32,7 @@ a.button {
     display: inline-block;
     margin-top: 40px;
     padding: 10px;
+    transition: all 0.3s ease;
 
     &:hover {
         background-color: $button-primary-color;

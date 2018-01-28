@@ -2,6 +2,7 @@ import React from 'react'
 
 
 const Social = () => (
+
     <div className='row'>
         <div className='col'>
             <a href='http://linkedin.com/in/timelpatel'>
@@ -21,6 +22,7 @@ const Social = () => (
             </a>
         </div>
     </div>
+
 )
 
 

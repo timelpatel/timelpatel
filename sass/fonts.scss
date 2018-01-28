@@ -5,9 +5,11 @@
 
 
 h1 {
+    color: $font-secondary-color;
     font-family: $font-stack-title;
     font-size: 27px;
     letter-spacing: 2px;
+    margin-bottom: 40px;
     text-transform: uppercase;
 }
 
@@ -52,6 +54,11 @@ p {
 ul.list__bullet {
     list-style: circle inside;
     margin-bottom: 20px;
+
+    ul {
+        list-style: circle inside;
+        margin-left: 20px;
+    }
 }
 
 a:link, a:visited {

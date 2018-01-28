@@ -1,31 +1,30 @@
 .social__icon {
-    background: url('/assets/img/social.png') no-repeat;
-    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    border: 1px solid #000;
+    border-radius: 50%;
     height: 40px;
     margin-right: 20px;
     width: 40px;
 
     &.linkedin {
-        background-position: 0 -50px;
-
-        &:hover {
-            background-position: 0 0;
-        }
+        background-image: url('/assets/img/linkedin.svg');
     }
 
     &.twitter {
-        background-position: 0 -150px;
+        background-image: url('/assets/img/twitter.svg');
 
         &:hover {
-            background-position: 0 -100px;
+
         }
     }
 
     &.instagram {
-        background-position: 0 -250px;
+        background-image: url('/assets/img/instagram.svg');
 
         &:hover {
-            background-position: 0 -200px;
+
         }
     }
 }
