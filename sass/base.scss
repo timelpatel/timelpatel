@@ -8,8 +8,9 @@
 @import '_mixins';
 @import 'grid';
 @import 'fonts';
+@import 'table';
 @import './components/about-page';
-@import './components/component-page';
+@import './components/composition-page';
 @import './components/footer';
 @import './components/header';
 @import './components/social';
@@ -30,7 +31,6 @@ body {
 a.button {
     border: 1px solid $button-primary-color;
     display: inline-block;
-    margin-top: 40px;
     padding: 10px;
     transition: all 0.3s ease;
 

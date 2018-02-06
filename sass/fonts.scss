@@ -39,11 +39,11 @@ h4 {
     text-transform: uppercase;
 }
 
-p, li {
+p, li, td {
     color: $font-body-color;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-family: $font-stack-normal;
+    font-size: 12px;
+    letter-spacing: 1px;
     line-height: 18px;
 }
 
