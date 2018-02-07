@@ -19,15 +19,15 @@
 }
 
 .header__menu {
-    font-family: $font-stack-light;
-    letter-spacing: 2px;
     position: absolute;
     right: 40px;
     top: 32px;
 
     li {
         display: inline;
+        font-family: $font-stack-light;
         font-size: 16px;
+        letter-spacing: 2px;
         margin-left: 40px;
 
         a {

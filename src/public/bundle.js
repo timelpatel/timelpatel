@@ -437,7 +437,7 @@ module.exports = reactProdInvariant;
 "use strict";
 
 
-module.exports = __webpack_require__(23);
+module.exports = __webpack_require__(22);
 
 
 /***/ }),
@@ -865,7 +865,7 @@ module.exports = warning;
 
 
 
-var _prodInvariant = __webpack_require__(24);
+var _prodInvariant = __webpack_require__(23);
 
 var ReactCurrentOwner = __webpack_require__(13);
 
@@ -1459,7 +1459,7 @@ var _prodInvariant = __webpack_require__(3),
 var CallbackQueue = __webpack_require__(80);
 var PooledClass = __webpack_require__(21);
 var ReactFeatureFlags = __webpack_require__(81);
-var ReactReconciler = __webpack_require__(25);
+var ReactReconciler = __webpack_require__(24);
 var Transaction = __webpack_require__(36);
 
 var invariant = __webpack_require__(1);
@@ -2780,65 +2780,6 @@ module.exports = PooledClass;
 
 /***/ }),
 /* 22 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(217);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(222);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(107);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(224);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(227);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(230);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(232);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(108);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(65);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(238);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(240);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(242);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(243);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2976,7 +2917,7 @@ module.exports = React;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3020,7 +2961,7 @@ function reactProdInvariant(code) {
 module.exports = reactProdInvariant;
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3192,7 +3133,7 @@ module.exports = ReactReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3313,6 +3254,65 @@ DOMLazyTree.queueHTML = queueHTML;
 DOMLazyTree.queueText = queueText;
 
 module.exports = DOMLazyTree;
+
+/***/ }),
+/* 26 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(217);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(222);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(107);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(224);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(227);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(230);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(232);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(108);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(65);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(238);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(240);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(242);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(243);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /***/ }),
 /* 27 */
@@ -5920,7 +5920,7 @@ module.exports = getEventModifierState;
 
 
 
-var DOMLazyTree = __webpack_require__(26);
+var DOMLazyTree = __webpack_require__(25);
 var Danger = __webpack_require__(148);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(10);
@@ -6219,7 +6219,7 @@ var _prodInvariant = __webpack_require__(3);
 var ReactPropTypesSecret = __webpack_require__(89);
 var propTypesFactory = __webpack_require__(166);
 
-var React = __webpack_require__(23);
+var React = __webpack_require__(22);
 var PropTypes = propTypesFactory(React.isValidElement);
 
 var invariant = __webpack_require__(1);
@@ -7858,7 +7858,7 @@ var createTransitionManager = function createTransitionManager() {
 
 
 
-var _prodInvariant = __webpack_require__(24),
+var _prodInvariant = __webpack_require__(23),
     _assign = __webpack_require__(33);
 
 var ReactNoopUpdateQueue = __webpack_require__(70);
@@ -9890,7 +9890,7 @@ module.exports = instantiateReactComponent;
 
 var _prodInvariant = __webpack_require__(3);
 
-var React = __webpack_require__(23);
+var React = __webpack_require__(22);
 
 var invariant = __webpack_require__(1);
 
@@ -10507,9 +10507,9 @@ module.exports = getActiveElement;
 
 var _prodInvariant = __webpack_require__(3);
 
-var DOMLazyTree = __webpack_require__(26);
+var DOMLazyTree = __webpack_require__(25);
 var DOMProperty = __webpack_require__(19);
-var React = __webpack_require__(23);
+var React = __webpack_require__(22);
 var ReactBrowserEventEmitter = __webpack_require__(40);
 var ReactCurrentOwner = __webpack_require__(13);
 var ReactDOMComponentTree = __webpack_require__(5);
@@ -10519,7 +10519,7 @@ var ReactFeatureFlags = __webpack_require__(81);
 var ReactInstanceMap = __webpack_require__(30);
 var ReactInstrumentation = __webpack_require__(10);
 var ReactMarkupChecksum = __webpack_require__(209);
-var ReactReconciler = __webpack_require__(25);
+var ReactReconciler = __webpack_require__(24);
 var ReactUpdateQueue = __webpack_require__(57);
 var ReactUpdates = __webpack_require__(15);
 
@@ -11672,7 +11672,7 @@ var _reactDom = __webpack_require__(128);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(26);
 
 var _routes = __webpack_require__(246);
 
@@ -11920,7 +11920,7 @@ module.exports = ReactChildren;
 
 
 
-var _prodInvariant = __webpack_require__(24);
+var _prodInvariant = __webpack_require__(23);
 
 var invariant = __webpack_require__(17);
 
@@ -12037,7 +12037,7 @@ module.exports = PooledClass;
 
 
 
-var _prodInvariant = __webpack_require__(24);
+var _prodInvariant = __webpack_require__(23);
 
 var ReactCurrentOwner = __webpack_require__(13);
 var REACT_ELEMENT_TYPE = __webpack_require__(72);
@@ -12458,7 +12458,7 @@ module.exports = ReactDOMFactories;
 
 
 
-var _prodInvariant = __webpack_require__(24);
+var _prodInvariant = __webpack_require__(23);
 
 var ReactPropTypeLocationNames = __webpack_require__(118);
 var ReactPropTypesSecret = __webpack_require__(119);
@@ -14171,7 +14171,7 @@ module.exports = factory;
  */
 
 
-var _prodInvariant = __webpack_require__(24);
+var _prodInvariant = __webpack_require__(23);
 
 var ReactElement = __webpack_require__(20);
 
@@ -14231,7 +14231,7 @@ module.exports = __webpack_require__(129);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactDefaultInjection = __webpack_require__(130);
 var ReactMount = __webpack_require__(101);
-var ReactReconciler = __webpack_require__(25);
+var ReactReconciler = __webpack_require__(24);
 var ReactUpdates = __webpack_require__(15);
 var ReactVersion = __webpack_require__(211);
 
@@ -16521,7 +16521,7 @@ module.exports = ReactComponentBrowserEnvironment;
 
 var _prodInvariant = __webpack_require__(3);
 
-var DOMLazyTree = __webpack_require__(26);
+var DOMLazyTree = __webpack_require__(25);
 var ExecutionEnvironment = __webpack_require__(7);
 
 var createNodesFromMarkup = __webpack_require__(149);
@@ -16940,7 +16940,7 @@ var _prodInvariant = __webpack_require__(3),
 
 var AutoFocusUtils = __webpack_require__(154);
 var CSSPropertyOperations = __webpack_require__(155);
-var DOMLazyTree = __webpack_require__(26);
+var DOMLazyTree = __webpack_require__(25);
 var DOMNamespaces = __webpack_require__(50);
 var DOMProperty = __webpack_require__(19);
 var DOMPropertyOperations = __webpack_require__(88);
@@ -19569,7 +19569,7 @@ module.exports = checkPropTypes;
 
 var _assign = __webpack_require__(6);
 
-var React = __webpack_require__(23);
+var React = __webpack_require__(22);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactDOMSelect = __webpack_require__(91);
 
@@ -19868,7 +19868,7 @@ var ReactInstanceMap = __webpack_require__(30);
 var ReactInstrumentation = __webpack_require__(10);
 
 var ReactCurrentOwner = __webpack_require__(13);
-var ReactReconciler = __webpack_require__(25);
+var ReactReconciler = __webpack_require__(24);
 var ReactChildReconciler = __webpack_require__(172);
 
 var emptyFunction = __webpack_require__(14);
@@ -20313,7 +20313,7 @@ module.exports = ReactMultiChild;
 
 
 
-var ReactReconciler = __webpack_require__(25);
+var ReactReconciler = __webpack_require__(24);
 
 var instantiateReactComponent = __webpack_require__(92);
 var KeyEscapeUtils = __webpack_require__(56);
@@ -20475,14 +20475,14 @@ module.exports = ReactChildReconciler;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(6);
 
-var React = __webpack_require__(23);
+var React = __webpack_require__(22);
 var ReactComponentEnvironment = __webpack_require__(53);
 var ReactCurrentOwner = __webpack_require__(13);
 var ReactErrorUtils = __webpack_require__(45);
 var ReactInstanceMap = __webpack_require__(30);
 var ReactInstrumentation = __webpack_require__(10);
 var ReactNodeTypes = __webpack_require__(93);
-var ReactReconciler = __webpack_require__(25);
+var ReactReconciler = __webpack_require__(24);
 
 if (process.env.NODE_ENV !== 'production') {
   var checkReactTypeSpec = __webpack_require__(174);
@@ -21924,7 +21924,7 @@ module.exports = ReactServerUpdateQueue;
 
 var _assign = __webpack_require__(6);
 
-var DOMLazyTree = __webpack_require__(26);
+var DOMLazyTree = __webpack_require__(25);
 var ReactDOMComponentTree = __webpack_require__(5);
 
 var ReactDOMEmptyComponent = function (instantiate) {
@@ -22133,7 +22133,7 @@ var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(6);
 
 var DOMChildrenOperations = __webpack_require__(49);
-var DOMLazyTree = __webpack_require__(26);
+var DOMLazyTree = __webpack_require__(25);
 var ReactDOMComponentTree = __webpack_require__(5);
 
 var escapeTextContentForBrowser = __webpack_require__(39);
@@ -28678,7 +28678,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(26);
 
 var _index = __webpack_require__(247);
 
@@ -28726,7 +28726,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(26);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28828,8 +28828,6 @@ Object.defineProperty(exports, "__esModule", {
 var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
-
-var _reactRouterDom = __webpack_require__(22);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28994,7 +28992,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used with Modules. It is important that a child element should only be updated at its parent and modifications should only occur at the parent and filter down into other Blocks, Patterns or Modules using the element.'
+                        'To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used with Modules. It is important that an element should only be modified at its source and changes filter down.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29034,7 +29032,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'A Page is one or more Modules to create a view, which is part of a user\u2019s journey.'
+                        'A Page is one or more Modules to create a view, which is part of a user\'s journey.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29077,75 +29075,15 @@ var CompositionPage = function CompositionPage() {
                         'p',
                         null,
                         'All colours should be organised in accordance to usage and names should be based on this scenario, rather than visual appearance. Colours are used at Block level so any change should consider consider widespread impact.'
-                    ),
-                    _react2.default.createElement(
-                        'table',
-                        { className: 'table--goodbad' },
-                        _react2.default.createElement(
-                            'thead',
-                            null,
-                            _react2.default.createElement(
-                                'tr',
-                                null,
-                                _react2.default.createElement(
-                                    'td',
-                                    { className: 'good' },
-                                    'Good'
-                                ),
-                                _react2.default.createElement(
-                                    'td',
-                                    { className: 'bad' },
-                                    'Bad'
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            'tbody',
-                            null,
-                            _react2.default.createElement(
-                                'tr',
-                                null,
-                                _react2.default.createElement(
-                                    'td',
-                                    null,
-                                    'Error'
-                                ),
-                                _react2.default.createElement(
-                                    'td',
-                                    null,
-                                    'Red'
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'tr',
-                                null,
-                                _react2.default.createElement(
-                                    'td',
-                                    null,
-                                    'Success'
-                                ),
-                                _react2.default.createElement(
-                                    'td',
-                                    null,
-                                    'Green'
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'tr',
-                                null,
-                                _react2.default.createElement(
-                                    'td',
-                                    null,
-                                    'Warning'
-                                ),
-                                _react2.default.createElement(
-                                    'td',
-                                    null,
-                                    'Orange'
-                                )
-                            )
-                        )
-                    ),
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col10' },
                     _react2.default.createElement(
                         'h3',
                         null,
@@ -29261,7 +29199,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(26);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29332,7 +29270,15 @@ var CompositionBlockPage = function CompositionBlockPage() {
                         'p',
                         null,
                         'The list of categories is dependent on the application, however here are some of the most common, with example Blocks.'
-                    ),
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
                     _react2.default.createElement(
                         'ul',
                         { className: 'list__bullet' },
@@ -29357,7 +29303,7 @@ var CompositionBlockPage = function CompositionBlockPage() {
                             _react2.default.createElement(
                                 'li',
                                 null,
-                                'Social [Facebook, Google]'
+                                'Social'
                             ),
                             _react2.default.createElement(
                                 'li',
@@ -29396,7 +29342,7 @@ var CompositionBlockPage = function CompositionBlockPage() {
                             _react2.default.createElement(
                                 'li',
                                 null,
-                                'Text input [Email, Password, Text]'
+                                'Text input'
                             )
                         ),
                         _react2.default.createElement(
@@ -29417,7 +29363,15 @@ var CompositionBlockPage = function CompositionBlockPage() {
                                 null,
                                 'Form error'
                             )
-                        ),
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'ul',
+                        { className: 'list__bullet' },
                         _react2.default.createElement(
                             'li',
                             null,
@@ -29454,25 +29408,6 @@ var CompositionBlockPage = function CompositionBlockPage() {
                                 'li',
                                 null,
                                 'Product select'
-                            )
-                        ),
-                        _react2.default.createElement(
-                            'li',
-                            null,
-                            'Tab'
-                        ),
-                        _react2.default.createElement(
-                            'ul',
-                            null,
-                            _react2.default.createElement(
-                                'li',
-                                null,
-                                'Primary'
-                            ),
-                            _react2.default.createElement(
-                                'li',
-                                null,
-                                'Secondary'
                             )
                         ),
                         _react2.default.createElement(
@@ -29528,7 +29463,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(26);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30118,7 +30053,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(26);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30202,7 +30137,7 @@ exports = module.exports = __webpack_require__(256)(undefined);
 
 
 // module
-exports.push([module.i, "/*\n    timelpatel.com\n    Base SASS\n*/\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/*\n    timelpatel.com\n    _varables.scss\n*/\n/* typography */\n/* font */\n/* background */\n/* button */\n/* table  */\n/*\n    timelpatel.com\n    mixins.scss\n*/\n.container {\n  padding: 40px; }\n\n.row {\n  display: flex;\n  flex-flow: row wrap;\n  /*margin: 0 -10px;\n    margin-bottom: 10px;*/ }\n\n.col {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.col1 {\n  width: 8.333%; }\n\n.col2 {\n  width: 16.665%; }\n\n.col3 {\n  width: 25%; }\n\n.col4 {\n  width: 33.333%; }\n\n.col5 {\n  width: 41.665%; }\n\n.col6 {\n  width: 50%; }\n\n.col7 {\n  width: 58.333%; }\n\n.col8 {\n  width: 66.665%; }\n\n.col9 {\n  width: 75%; }\n\n.col10 {\n  width: 83.333%; }\n\n.col11 {\n  width: 91.665%; }\n\n.col12 {\n  width: 100%; }\n\n/* Smartphones (landscape) ----------- */\n@media screen and (max-width: 1024px) {\n  .col3 {\n    width: 33.333%; }\n  .col4 {\n    width: 50%; } }\n\n/* Smartphones (landscape) ----------- */\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .col3,\n  .col4,\n  .col6,\n  .col8 {\n    width: 100%; } }\n\n@font-face {\n  font-family: fontello;\n  src: url(\"/assets/font/fontello.eot\");\n  src: url(\"/assets/font/fontello.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/fontello.woff\") format(\"woff\"), url(\"/assets/font/fontello.ttf\") format(\"truetype\"), url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: fontello;\n    src: url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); } }\n\n@font-face {\n  font-family: heavydock11;\n  src: url(\"/assets/font/heavy_dock11.eot\");\n  src: url(\"/assets/font/heavy_dock11.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/heavy_dock11.woff\") format(\"woff\"), url(\"/assets/font/heavy_dock11.ttf\") format(\"truetype\"), url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: heavydock11;\n    src: url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); } }\n\n@font-face {\n  font-family: helveticaneueultralight;\n  src: url(\"/assets/font/helveticaneueultralight.eot\");\n  src: url(\"/assets/font/helveticaneueultralight.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/helveticaneueultralight.woff\") format(\"woff\"), url(\"/assets/font/helveticaneueultralight.ttf\") format(\"truetype\"), url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: helveticaneueultralight;\n    src: url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); } }\n\nh1 {\n  color: #6e7f80;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n\nh2 {\n  color: #6e7f80;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 20px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  line-height: 27px;\n  margin-bottom: 40px; }\n\nh3 {\n  color: #6e7f80;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 11px;\n  font-weight: bold;\n  letter-spacing: 1px;\n  line-height: 30px;\n  text-transform: uppercase; }\n\nh4 {\n  font-size: 14px;\n  font-weight: bold;\n  letter-spacing: 2;\n  text-transform: uppercase; }\n\np, li, td {\n  color: #8c8c8c;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 12px;\n  letter-spacing: 1px;\n  line-height: 18px; }\n\np {\n  margin-bottom: 20px; }\n\nul.list__bullet {\n  list-style: circle inside;\n  margin-bottom: 20px; }\n  ul.list__bullet ul {\n    list-style: circle inside;\n    margin-left: 20px; }\n\na:link, a:visited {\n  color: #09c;\n  text-decoration: none; }\n\na:active, a:hover {\n  color: #cc3300; }\n\n.hide-text {\n  text-indent: 100%;\n  white-space: nowrap;\n  overflow: hidden; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 415px) {\n  h1 {\n    font-size: 21px; } }\n\ntable.table--goodbad {\n  margin-bottom: 20px;\n  width: 100%; }\n  table.table--goodbad thead {\n    background: #fafafa; }\n    table.table--goodbad thead .bad {\n      color: red; }\n    table.table--goodbad thead .good {\n      color: green; }\n  table.table--goodbad td {\n    border: 1px solid #efefef;\n    padding: 6px 12px; }\n\n.me {\n  background: url(\"/assets/img/pexels-photo-301614.jpg\") no-repeat;\n  background-position: center;\n  height: 380px;\n  margin-bottom: 40px;\n  width: 100%; }\n  .me a.button {\n    margin-top: 40px; }\n\n.icm {\n  background: #fafafa; }\n  .icm .alt {\n    background: #fefefe; }\n\nfooter {\n  background: #424c4c; }\n\n.container__header {\n  background: #6e7f80;\n  color: #fff;\n  height: 80px;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  z-index: 1; }\n\n.header__h1 {\n  left: 40px;\n  position: absolute;\n  top: 30px; }\n  .header__h1 a {\n    color: #fff; }\n\n.header__menu {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  letter-spacing: 2px;\n  position: absolute;\n  right: 40px;\n  top: 32px; }\n  .header__menu li {\n    display: inline;\n    font-size: 16px;\n    margin-left: 40px; }\n    .header__menu li a {\n      color: #fff; }\n      .header__menu li a:hover {\n        border-bottom: 1px solid #fff;\n        padding-bottom: 6px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 415px) {\n  .header__h1 {\n    top: 32px; }\n  .header__menu li {\n    font-size: 13px;\n    margin-left: 20px; } }\n\n.social__icon {\n  background-position: 50% 50%;\n  background-repeat: no-repeat;\n  background-size: 55%;\n  border: 1px solid #000;\n  border-radius: 50%;\n  height: 40px;\n  margin-right: 20px;\n  width: 40px; }\n  .social__icon.linkedin {\n    background-image: url(\"/assets/img/linkedin.svg\"); }\n  .social__icon.twitter {\n    background-image: url(\"/assets/img/twitter.svg\"); }\n  .social__icon.instagram {\n    background-image: url(\"/assets/img/instagram.svg\"); }\n\n.work__logo {\n  background: #fefefe; }\n  .work__logo .col {\n    margin: 50px 0;\n    position: relative;\n    text-align: center; }\n    .work__logo .col img {\n      bottom: 50%;\n      position: absolute;\n      top: 50%;\n      transform: translate(-50%, -50%); }\n\n.work__project {\n  background: #fafafa; }\n  .work__project.alt {\n    background: #fefefe; }\n  .work__project h4 {\n    margin-bottom: 40px; }\n  .work__project .desktop-frame {\n    text-align: center; }\n    .work__project .desktop-frame img {\n      margin-bottom: 20px; }\n      .work__project .desktop-frame img.shadow {\n        box-shadow: 0px 0px 30px -10px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .work__logo {\n    padding-right: 40px; }\n  .work__project .desktop-frame {\n    text-align: left; } }\n\n/* global */\nbody {\n  background: #efefef;\n  color: #3c3c3c;\n  font: 100% helveticaneueultralight, \"helveticaneueultralight\";\n  margin-top: 80px;\n  min-width: 375px; }\n\n/* buttons */\na.button {\n  border: 1px solid #6e7f80;\n  display: inline-block;\n  padding: 10px;\n  transition: all 0.3s ease; }\n  a.button:hover {\n    background-color: #6e7f80; }\n    a.button:hover p {\n      color: #fff; }\n  a.button p {\n    margin: 0; }\n", ""]);
+exports.push([module.i, "/*\n    timelpatel.com\n    Base SASS\n*/\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/*\n    timelpatel.com\n    _varables.scss\n*/\n/* typography */\n/* font */\n/* background */\n/* button */\n/* table  */\n/*\n    timelpatel.com\n    mixins.scss\n*/\na.button {\n  border: 1px solid #6e7f80;\n  color: #3c3c3c;\n  display: inline-block;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  margin-bottom: 20px;\n  padding: 10px;\n  transition: all 0.3s ease; }\n  a.button:hover {\n    background-color: #6e7f80; }\n    a.button:hover p {\n      color: #fff; }\n  a.button p {\n    margin: 0; }\n\n.container {\n  padding: 40px; }\n\n.row {\n  display: flex;\n  flex-flow: row wrap;\n  /*margin: 0 -10px;\n    margin-bottom: 10px;*/ }\n\n.col {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.col1 {\n  width: 8.333%; }\n\n.col2 {\n  width: 16.665%; }\n\n.col3 {\n  width: 25%; }\n\n.col4 {\n  width: 33.333%; }\n\n.col5 {\n  width: 41.665%; }\n\n.col6 {\n  width: 50%; }\n\n.col7 {\n  width: 58.333%; }\n\n.col8 {\n  width: 66.665%; }\n\n.col9 {\n  width: 75%; }\n\n.col10 {\n  width: 83.333%; }\n\n.col11 {\n  width: 91.665%; }\n\n.col12 {\n  width: 100%; }\n\n/* Smartphones (landscape) ----------- */\n@media screen and (max-width: 1024px) {\n  .col3 {\n    width: 33.333%; }\n  .col4 {\n    width: 50%; } }\n\n/* Smartphones (landscape) ----------- */\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .col3,\n  .col4,\n  .col6,\n  .col8 {\n    width: 100%; } }\n\n@font-face {\n  font-family: fontello;\n  src: url(\"/assets/font/fontello.eot\");\n  src: url(\"/assets/font/fontello.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/fontello.woff\") format(\"woff\"), url(\"/assets/font/fontello.ttf\") format(\"truetype\"), url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: fontello;\n    src: url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); } }\n\n@font-face {\n  font-family: heavydock11;\n  src: url(\"/assets/font/heavy_dock11.eot\");\n  src: url(\"/assets/font/heavy_dock11.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/heavy_dock11.woff\") format(\"woff\"), url(\"/assets/font/heavy_dock11.ttf\") format(\"truetype\"), url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: heavydock11;\n    src: url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); } }\n\n@font-face {\n  font-family: helveticaneueultralight;\n  src: url(\"/assets/font/helveticaneueultralight.eot\");\n  src: url(\"/assets/font/helveticaneueultralight.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/helveticaneueultralight.woff\") format(\"woff\"), url(\"/assets/font/helveticaneueultralight.ttf\") format(\"truetype\"), url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: helveticaneueultralight;\n    src: url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); } }\n\nh1 {\n  color: #6e7f80;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n  @media screen and (max-width: 415px) {\n    h1 {\n      font-size: 21px; } }\n\nh2 {\n  color: #6e7f80;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 20px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  line-height: 27px;\n  margin-bottom: 40px; }\n\nh3 {\n  color: #6e7f80;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 11px;\n  font-weight: bold;\n  letter-spacing: 1px;\n  line-height: 30px;\n  text-transform: uppercase; }\n\nh4 {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 14px;\n  font-weight: bold;\n  letter-spacing: 2;\n  text-transform: uppercase; }\n\np, li, td {\n  color: #8c8c8c;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 12px;\n  letter-spacing: 1px;\n  line-height: 18px; }\n\np {\n  margin-bottom: 20px; }\n\nul.list__bullet {\n  list-style: circle inside;\n  margin-bottom: 20px; }\n  @media screen and (max-width: 600px) {\n    ul.list__bullet {\n      margin-bottom: 0; } }\n  ul.list__bullet ul {\n    list-style: circle inside;\n    margin-left: 20px; }\n\na:link, a:visited {\n  color: #09c;\n  text-decoration: none; }\n\na:active, a:hover {\n  color: #cc3300; }\n\n.hide-text {\n  text-indent: 100%;\n  white-space: nowrap;\n  overflow: hidden; }\n\ntable.table--goodbad {\n  margin-bottom: 20px;\n  width: 100%; }\n  table.table--goodbad thead {\n    background: #fafafa; }\n    table.table--goodbad thead .bad {\n      color: red; }\n    table.table--goodbad thead .good {\n      color: green; }\n  table.table--goodbad td {\n    border: 1px solid #efefef;\n    padding: 6px 12px; }\n\n.me {\n  background: url(\"/assets/img/pexels-photo-301614.jpg\") no-repeat;\n  background-position: center;\n  height: 380px;\n  margin-bottom: 40px;\n  width: 100%; }\n  .me a.button {\n    margin-top: 40px; }\n\n.icm {\n  background: #fafafa; }\n  .icm .alt {\n    background: #fefefe; }\n\nfooter {\n  background: #424c4c; }\n\n.container__header {\n  background: #6e7f80;\n  color: #fff;\n  height: 80px;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  z-index: 1; }\n\n.header__h1 {\n  left: 40px;\n  position: absolute;\n  top: 30px; }\n  .header__h1 a {\n    color: #fff; }\n\n.header__menu {\n  position: absolute;\n  right: 40px;\n  top: 32px; }\n  .header__menu li {\n    display: inline;\n    font-family: helveticaneueultralight, \"helveticaneueultralight\";\n    font-size: 16px;\n    letter-spacing: 2px;\n    margin-left: 40px; }\n    .header__menu li a {\n      color: #fff; }\n      .header__menu li a:hover {\n        border-bottom: 1px solid #fff;\n        padding-bottom: 6px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 415px) {\n  .header__h1 {\n    top: 32px; }\n  .header__menu li {\n    font-size: 13px;\n    margin-left: 20px; } }\n\n.social__icon {\n  background-position: 50% 50%;\n  background-repeat: no-repeat;\n  background-size: 55%;\n  border: 1px solid #000;\n  border-radius: 50%;\n  height: 40px;\n  margin-right: 20px;\n  width: 40px; }\n  .social__icon.linkedin {\n    background-image: url(\"/assets/img/linkedin.svg\"); }\n  .social__icon.twitter {\n    background-image: url(\"/assets/img/twitter.svg\"); }\n  .social__icon.instagram {\n    background-image: url(\"/assets/img/instagram.svg\"); }\n\n.work__logo {\n  background: #fefefe; }\n  .work__logo .col {\n    margin: 50px 0;\n    position: relative;\n    text-align: center; }\n    .work__logo .col img {\n      bottom: 50%;\n      position: absolute;\n      top: 50%;\n      transform: translate(-50%, -50%); }\n\n.work__project {\n  background: #fafafa; }\n  .work__project.alt {\n    background: #fefefe; }\n  .work__project h4 {\n    margin-bottom: 40px; }\n  .work__project .desktop-frame {\n    text-align: center; }\n    .work__project .desktop-frame img {\n      margin-bottom: 20px; }\n      .work__project .desktop-frame img.shadow {\n        box-shadow: 0px 0px 30px -10px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .work__logo {\n    padding-right: 40px; }\n  .work__project .desktop-frame {\n    text-align: left; } }\n\n/* global */\nbody {\n  background: #efefef;\n  color: #3c3c3c;\n  font: 100% helveticaneue, helvetica, arial;\n  margin-top: 80px;\n  min-width: 375px; }\n", ""]);
 
 // exports
 

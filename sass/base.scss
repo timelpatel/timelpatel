@@ -6,8 +6,9 @@
 @import '_reset';
 @import '_variables';
 @import '_mixins';
+@import 'button';
 @import 'grid';
-@import 'fonts';
+@import 'font';
 @import 'table';
 @import './components/about-page';
 @import './components/composition-page';
@@ -22,27 +23,7 @@
 body {
     background: $background-body;
     color: $font-primary-color;
-    font: 100% $font-stack-light;
+    font: 100% $font-stack-normal;
     margin-top: 80px;
     min-width: 375px;
-}
-
-/* buttons */
-a.button {
-    border: 1px solid $button-primary-color;
-    display: inline-block;
-    padding: 10px;
-    transition: all 0.3s ease;
-
-    &:hover {
-        background-color: $button-primary-color;
-
-        p {
-            color: $font-white;
-        }
-    }
-
-    p {
-        margin: 0;
-    }
 }

@@ -32,13 +32,17 @@ const CompositionBlockPage = () => (
             <div className='row'>
                 <div className='col col10'>
                     <p>The list of categories is dependent on the application, however here are some of the most common, with example Blocks.</p>
+                </div>
+            </div>
 
+            <div className='row'>
+                <div className='col col6'>
                     <ul className='list__bullet'>
                         <li>Button</li>
                         <ul>
                             <li>Primary</li>
                             <li>Secondary</li>
-                            <li>Social [Facebook, Google]</li>
+                            <li>Social</li>
                             <li>Tertiary</li>
                         </ul>
 
@@ -48,7 +52,7 @@ const CompositionBlockPage = () => (
                             <li>Date</li>
                             <li>Dropdown</li>
                             <li>Text area</li>
-                            <li>Text input [Email, Password, Text]</li>
+                            <li>Text input</li>
                         </ul>
 
                         <li>Messaging and Notification</li>
@@ -56,7 +60,11 @@ const CompositionBlockPage = () => (
                             <li>Alert</li>
                             <li>Form error</li>
                         </ul>
+                    </ul>
+                </div>
 
+                <div className='col col6'>
+                    <ul className='list__bullet'>
                         <li>Navigation</li>
                         <ul>
                             <li>Main</li>
@@ -67,12 +75,6 @@ const CompositionBlockPage = () => (
                         <ul>
                             <li>Data</li>
                             <li>Product select</li>
-                        </ul>
-
-                        <li>Tab</li>
-                        <ul>
-                            <li>Primary</li>
-                            <li>Secondary</li>
                         </ul>
 
                         <li>Typography</li>

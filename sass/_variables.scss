@@ -23,7 +23,9 @@ $background-container-primary: #fafafa;
 $background-container-secondary: #fefefe;
 
 /* button */
-$button-primary-color: #6e7f80;
+$button-border-color: #6e7f80;
+$button-hover-color: $button-border-color;
+$button-primary-color: #3c3c3c;
 
 /* table  */
 $table-background-header: #fafafa;

@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 
 const CompositionPage = () => (
@@ -54,7 +53,7 @@ const CompositionPage = () => (
                 <div className='col col10'>
                     <h2>Elements</h2>
                     <p>Elements are the foundations of the composition model. Blocks, Patterns and Modules are how components are built from single elements into final usable components. Pages and Journeys are how a user will navigate to complete their desired goal.</p>
-                    <p>To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used with Modules. It is important that a child element should only be updated at its parent and modifications should only occur at the parent and filter down into other Blocks, Patterns or Modules using the element.</p>
+                    <p>To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used with Modules. It is important that an element should only be modified at its source and changes filter down.</p>
 
                     <h3>Block</h3>
                     <p>A Block is a single element, which is visually styled, but has no feasible usage on its own.</p>
@@ -66,7 +65,7 @@ const CompositionPage = () => (
                     <p>A Module is one or more Blocks and/or Patterns to create a fully functional, usable component.</p>
 
                     <h3>Page</h3>
-                    <p>A Page is one or more Modules to create a view, which is part of a user’s journey.</p>
+                    <p>A Page is one or more Modules to create a view, which is part of a user&#39;s journey.</p>
 
                     <h3>Journey</h3>
                     <p>A Journey is one or more Pages, brought together in a particular order to form a user Journey.</p>
@@ -82,7 +81,11 @@ const CompositionPage = () => (
 
                     <h3>Colour</h3>
                     <p>All colours should be organised in accordance to usage and names should be based on this scenario, rather than visual appearance. Colours are used at Block level so any change should consider consider widespread impact.</p>
-
+                </div>
+            </div>
+{/*
+            <div className='row'>
+                <div className='col col5'>
                     <table className='table--goodbad'>
                         <thead>
                             <tr>
@@ -105,7 +108,11 @@ const CompositionPage = () => (
                             </tr>
                         </tbody>
                     </table>
-
+                </div>
+            </div>
+*/}
+            <div className='row'>
+                <div className='col col10'>
                     <h3>Font</h3>
                     <p>The font library should be declared and used within Blocks. Our Font section is a collection of possible fonts, which can be used on the platform.</p>
 

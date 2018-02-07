@@ -11,6 +11,10 @@ h1 {
     letter-spacing: 2px;
     margin-bottom: 40px;
     text-transform: uppercase;
+
+    @media screen and (max-width : 415px) {
+        font-size: 21px;
+    }
 }
 
 h2 {
@@ -33,6 +37,7 @@ h3 {
     text-transform: uppercase;
 }
 h4 {
+    font-family: $font-stack-light;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 2;
@@ -55,6 +60,10 @@ ul.list__bullet {
     list-style: circle inside;
     margin-bottom: 20px;
 
+    @media screen and (max-width : 600px) {
+        margin-bottom: 0;
+    }
+
     ul {
         list-style: circle inside;
         margin-left: 20px;
@@ -74,15 +83,4 @@ a:active, a:hover {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-}
-
-
-
-/* Smartphones (portrait) ----------- */
-@media screen and (max-width : 415px) {
-
-    h1 {
-        font-size: 21px;
-    }
-
 }
