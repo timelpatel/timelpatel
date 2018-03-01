@@ -3,14 +3,14 @@ import React from 'react'
 
 const CompositionPage = () => (
 
-    <div className='icm'>
+    <div className='bcd'>
 
         <div className='container'>
             <div className='row'>
                 <div className='col col10'>
-                    <h1>Interface Composition Model</h1>
-                    <p>The ICM is a methodology to structure digital components into manageable assets. It ensures consistency, whilst allowing flexibility for business requirements. Design language and naming conventions are downstreamed from the design community to software engineering, allowing for a seamless integration.</p>
-                    <p>ICM has three main areas, which form the final digital component; Elements, Assets and Behaviours.</p>
+                    <h1>Block Component Design (BCD)</h1>
+                    <p>BCD is a methodology to structure digital components into manageable assets. It ensures consistency whilst allowing flexibility for business requirements. Design language and naming conventions are downstreamed from the design community to software engineering, allowing for a seamless integration.</p>
+                    <p>There are three main areas, which form the final component; Elements, Assets and Behaviours.</p>
                 </div>
             </div>
 
@@ -52,8 +52,8 @@ const CompositionPage = () => (
             <div className='row'>
                 <div className='col col10'>
                     <h2>Elements</h2>
-                    <p>Elements are the foundations of the composition model. Blocks, Patterns and Modules are how components are built from single elements into final usable components. Pages and Journeys are how a user will navigate to complete their desired goal.</p>
-                    <p>To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used with Modules. It is important that an element should only be modified at its source and changes filter down.</p>
+                    <p>Elements are the foundations of the BCD system. Blocks, Patterns and Modules are how components are built from single elements into final usable components. Pages and Journeys are how a user will navigate to complete their desired goal.</p>
+                    <p>To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used within Modules. It is important that an element should only be modified at its source and changes filter down.</p>
 
                     <h3>Block</h3>
                     <p>A Block is a single element, which is visually styled, but has no feasible usage on its own.</p>

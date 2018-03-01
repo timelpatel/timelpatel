@@ -30,8 +30,8 @@ const AboutPage = () => (
             <div className='col col9'>
                 <Link
                     className='button'
-                    to='/interface-composition-model'>
-                    <p>Interface Composition Model</p>
+                    to='/block-component-design'>
+                    <p>Block Component Design</p>
                 </Link>
             </div>
         </div>

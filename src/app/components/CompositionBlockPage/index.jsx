@@ -4,19 +4,19 @@ import {Link} from 'react-router-dom'
 
 const CompositionBlockPage = () => (
 
-    <div className='icm'>
+    <div className='bcd'>
 
         <div className='container'>
             <div className='row'>
                 <div className='col col9'>
-                    <h3>Interface Composition Model</h3>
+                    <h3>BCD</h3>
                     <h1>Blocks</h1>
                 </div>
                 <div className='col col3'>
                     <Link
                         className='button'
-                        to='/interface-composition-model'>
-                        <p>Interface Composition Model</p>
+                        to='/block-component-design'>
+                        <p>Block Component Design</p>
                     </Link>
                 </div>
             </div>
