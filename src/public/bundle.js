@@ -28857,7 +28857,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'There are three main areas, which form the final component; Elements, Assets and Behaviours.'
+                        'There are three main areas, which form the final component; Elements, Assets and Behaviours. Usage of this system can vary based on application requirements. It is however advisable as a minimum to use Blocks, Patterns and Modules from Elements. All other sections can be included, if and when required.'
                     )
                 )
             ),
@@ -28954,7 +28954,7 @@ var CompositionPage = function CompositionPage() {
                         _react2.default.createElement(
                             'li',
                             null,
-                            'Functional'
+                            'Motion'
                         ),
                         _react2.default.createElement(
                             'li',
@@ -29134,7 +29134,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'Behavioural elements are a set of expectations, which establish a consistent experience. This may include the tone of language to our audience, how we expect them to use the digital components and a set of rules, which govern the functional and data entry into business logic.'
+                        'Behavioural elements are a set of expectations, which encourage a consistent experience. This may include the tone of language, user intereaction with the application or a set of rules, which govern data into the system.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29144,17 +29144,17 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'Writing style and consistent wording is important. Common words and phrases could be listed and stored digital. This may include multilingual support, however Communication is a section, which may not be suitable for all applications so you should decide if it is right and manageable for your application.'
+                        'Writing style and consistent wording is important. This could be defined in a best practice document or stored in the code, as a list of common phrases. Communication is a section, which may not be suitable for all applications so you should decide if it is right and manageable for your application.'
                     ),
                     _react2.default.createElement(
                         'h3',
                         null,
-                        'Functional'
+                        'Motion'
                     ),
                     _react2.default.createElement(
                         'p',
                         null,
-                        'Many actions a user performs on an application can sometimes occur from several areas or components. For this reason, having functions which perform the same task is a good idea for consistency and can save on repeating code in multiple places.'
+                        'Animating particular interactions or events can be a nice and subtle way to notify the user of actions. A panel sliding up or fading out a deleted message are good examples. Like other behaviours, the idea is to define the actual action and not the movement itself; delete message instead of fade-out, for example.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29164,7 +29164,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'User input from touch devices can sometimes vary, however we are starting to see a growing number of consistent touch actions across leading applications. Swiping right on a message to delete? Maybe left to mark as unread? Either way, having this library can make for a better user experience.'
+                        'User input from touch devices can sometimes vary, however we are starting to see a growing number of consistent touch actions across leading applications. Swiping right on a message to delete? Maybe left to mark as unread? Either way, having these interactions defined can make for a better experience.'
                     ),
                     _react2.default.createElement(
                         'h3',

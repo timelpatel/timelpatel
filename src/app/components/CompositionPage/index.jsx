@@ -10,7 +10,7 @@ const CompositionPage = () => (
                 <div className='col col10'>
                     <h1>Block Component Design (BCD)</h1>
                     <p>BCD is a methodology to structure digital components into manageable assets. It ensures consistency whilst allowing flexibility for business requirements. Design language and naming conventions are downstreamed from the design community to software engineering, allowing for a seamless integration.</p>
-                    <p>There are three main areas, which form the final component; Elements, Assets and Behaviours.</p>
+                    <p>There are three main areas, which form the final component; Elements, Assets and Behaviours. Usage of this system can vary based on application requirements. It is however advisable as a minimum to use Blocks, Patterns and Modules from Elements. All other sections can be included, if and when required.</p>
                 </div>
             </div>
 
@@ -40,7 +40,7 @@ const CompositionPage = () => (
                     <h3>Behaviours</h3>
                     <ul className='list__bullet'>
                         <li>Communication</li>
-                        <li>Functional</li>
+                        <li>Motion</li>
                         <li>Touch</li>
                         <li>Validation</li>
                     </ul>
@@ -129,16 +129,16 @@ const CompositionPage = () => (
             <div className='row'>
                 <div className='col col10'>
                     <h2>Behaviours</h2>
-                    <p>Behavioural elements are a set of expectations, which establish a consistent experience. This may include the tone of language to our audience, how we expect them to use the digital components and a set of rules, which govern the functional and data entry into business logic.</p>
+                    <p>Behavioural elements are a set of expectations, which encourage a consistent experience. This may include the tone of language, user intereaction with the application or a set of rules, which govern data into the system.</p>
 
                     <h3>Communication</h3>
-                    <p>Writing style and consistent wording is important. Common words and phrases could be listed and stored digital. This may include multilingual support, however Communication is a section, which may not be suitable for all applications so you should decide if it is right and manageable for your application.</p>
+                    <p>Writing style and consistent wording is important. This could be defined in a best practice document or stored in the code, as a list of common phrases. Communication is a section, which may not be suitable for all applications so you should decide if it is right and manageable for your application.</p>
 
-                    <h3>Functional</h3>
-                    <p>Many actions a user performs on an application can sometimes occur from several areas or components. For this reason, having functions which perform the same task is a good idea for consistency and can save on repeating code in multiple places.</p>
+                    <h3>Motion</h3>
+                    <p>Animating particular interactions or events can be a nice and subtle way to notify the user of actions. A panel sliding up or fading out a deleted message are good examples. Like other behaviours, the idea is to define the actual action and not the movement itself; delete message instead of fade-out, for example.</p>
 
                     <h3>Touch</h3>
-                    <p>User input from touch devices can sometimes vary, however we are starting to see a growing number of consistent touch actions across leading applications. Swiping right on a message to delete? Maybe left to mark as unread? Either way, having this library can make for a better user experience.</p>
+                    <p>User input from touch devices can sometimes vary, however we are starting to see a growing number of consistent touch actions across leading applications. Swiping right on a message to delete? Maybe left to mark as unread? Either way, having these interactions defined can make for a better experience.</p>
 
                     <h3>Validation</h3>
                     <p>Consistency in this field is important as it is usually an area for unnecessary abrupt user messaging. Messages are based on the application however we should consider the user has either accidentally inputted data or it was not clear what data to enter.</p>
