@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 
 const CompositionPage = () => (
@@ -40,6 +41,7 @@ const CompositionPage = () => (
                     <h3>Behaviours</h3>
                     <ul className='list__bullet'>
                         <li>Communication</li>
+                        <li>Functional</li>
                         <li>Motion</li>
                         <li>Touch</li>
                         <li>Validation</li>
@@ -55,6 +57,14 @@ const CompositionPage = () => (
                     <p>Elements are the foundations of the BCD system. Blocks, Patterns and Modules are how components are built from single elements into final usable components. Pages and Journeys are how a user will navigate to complete their desired goal.</p>
                     <p>To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used within Modules. It is important that an element should only be modified at its source and changes filter down.</p>
 
+                    <div className='bcd-frame shadow'>
+                        <img
+                            alt='Elements overview'
+                            src='/assets/img/bcd/elements-overview.png'
+                            width='100%'
+                        />
+                    </div>
+
                     <h3>Block</h3>
                     <p>A Block is a single element, which is visually styled, but has no feasible usage on its own.</p>
 
@@ -69,6 +79,13 @@ const CompositionPage = () => (
 
                     <h3>Journey</h3>
                     <p>A Journey is one or more Pages, brought together in a particular order to form a user Journey.</p>
+
+                    <br /><br />
+                    <Link
+                        className='button'
+                        to='/element'>
+                        <p>More about Elements</p>
+                    </Link>
                 </div>
             </div>
         </div>
@@ -133,6 +150,9 @@ const CompositionPage = () => (
 
                     <h3>Communication</h3>
                     <p>Writing style and consistent wording is important. This could be defined in a best practice document or stored in the code, as a list of common phrases. Communication is a section, which may not be suitable for all applications so you should decide if it is right and manageable for your application.</p>
+
+                    <h3>Functional</h3>
+                    <p>Functional behaviour may include a set of reusable functions for a varity of things. Something to truncate text , for example.</p>
 
                     <h3>Motion</h3>
                     <p>Animating particular interactions or events can be a nice and subtle way to notify the user of actions. A panel sliding up or fading out a deleted message are good examples. Like other behaviours, the idea is to define the actual action and not the movement itself; delete message instead of fade-out, for example.</p>

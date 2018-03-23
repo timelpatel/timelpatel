@@ -44,7 +44,7 @@ h4 {
     text-transform: uppercase;
 }
 
-p, li, td {
+p, li, td, code {
     color: $font-body-color;
     font-family: $font-stack-normal;
     font-size: 12px;
@@ -83,4 +83,10 @@ a:active, a:hover {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.folder, code {
+    font-family: monospace, courier;
+    line-height: 16px;
+    margin-bottom: 20px;
 }
