@@ -17,7 +17,7 @@ const CompositionPage = () => (
 
             <div className='row'>
                 <div className='col col3'>
-                    <h3>Elements</h3>
+                    <h3><Link to='/element'>Elements</Link></h3>
                     <ul className='list__bullet'>
                         <li>Block</li>
                         <li>Pattern</li>
@@ -54,25 +54,16 @@ const CompositionPage = () => (
             <div className='row'>
                 <div className='col col10'>
                     <h2>Elements</h2>
-                    <p>Elements are the foundations of the BCD system. Blocks, Patterns and Modules are how components are built from single elements into final usable components. Pages and Journeys are how a user will navigate to complete their desired goal.</p>
-                    <p>To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used within Modules. It is important that an element should only be modified at its source and changes filter down.</p>
-
-                    <div className='bcd-frame shadow'>
-                        <img
-                            alt='Elements overview'
-                            src='/assets/img/bcd/elements-overview.png'
-                            width='100%'
-                        />
-                    </div>
+                    <p>Elements are the foundations of the BCD system. Blocks, Patterns and Modules are how components are built from single elements into usable components. Pages and Journeys are how a user will navigate to complete their desired goal.</p>
 
                     <h3>Block</h3>
-                    <p>A Block is a single element, which is visually styled, but has no feasible usage on its own.</p>
+                    <p>A Block is a single element, which is visually styled.</p>
 
                     <h3>Pattern</h3>
                     <p>A Pattern is one or more Blocks, arranged together to form a reusable layout.</p>
 
                     <h3>Module</h3>
-                    <p>A Module is one or more Blocks and/or Patterns to create a fully functional, usable component.</p>
+                    <p>A Module is one or more Blocks and/or Patterns to create a fully functional, usable component with data and content.</p>
 
                     <h3>Page</h3>
                     <p>A Page is one or more Modules to create a view, which is part of a user&#39;s journey.</p>
@@ -94,7 +85,7 @@ const CompositionPage = () => (
             <div className='row'>
                 <div className='col col10'>
                     <h2>Assets</h2>
-                    <p>Assets are a collection of brand personality used within Blocks and Patterns.</p>
+                    <p>Assets are a collection of branding used within Blocks and Patterns.</p>
 
                     <h3>Colour</h3>
                     <p>All colours should be organised in accordance to usage and names should be based on this scenario, rather than visual appearance. Colours are used at Block level so any change should consider consider widespread impact.</p>
@@ -131,10 +122,10 @@ const CompositionPage = () => (
             <div className='row'>
                 <div className='col col10'>
                     <h3>Font</h3>
-                    <p>The font library should be declared and used within Blocks. Our Font section is a collection of possible fonts, which can be used on the platform.</p>
+                    <p>The font library is a collection of font combinations, which can be used on the platform. They are always consumed at Block level.</p>
 
                     <h3>Grid</h3>
-                    <p>The grid system is the container for some of our Elements. Some may wonder why this is not part of our Blocks or Patterns, however we see our Elements consuming the Grid and therefore, we have made it part of the Assets.</p>
+                    <p>The grid system is the container for some of our Elements. Some may wonder why this is not part of our Blocks or Patterns, however we see our Elements consuming the Grid and therefore it is part of our Assets.</p>
 
                     <h3>Icon</h3>
                     <p>The icon collection should be used at Block level. It is advisable to have a scalable format, which may have a predefined set of sizes, which can be referenced using t-shirt sizing.</p>
@@ -146,13 +137,13 @@ const CompositionPage = () => (
             <div className='row'>
                 <div className='col col10'>
                     <h2>Behaviours</h2>
-                    <p>Behavioural elements are a set of expectations, which encourage a consistent experience. This may include the tone of language, user intereaction with the application or a set of rules, which govern data into the system.</p>
+                    <p>Behavioural elements are a set of expectations, which encourage a consistent experience. This may include the tone of language, user interaction with the application or a set of rules, which govern data into the system.</p>
 
                     <h3>Communication</h3>
-                    <p>Writing style and consistent wording is important. This could be defined in a best practice document or stored in the code, as a list of common phrases. Communication is a section, which may not be suitable for all applications so you should decide if it is right and manageable for your application.</p>
+                    <p>Writing style and consistent wording is important. This could be defined in a best practice document or stored in the code, as a list of common phrases. Communication is a section, which may not be suitable for all projects so you should decide if it is right and manageable for your application.</p>
 
                     <h3>Functional</h3>
-                    <p>Functional behaviour may include a set of reusable functions for a varity of things. Something to truncate text , for example.</p>
+                    <p>Functional behaviour may include a set of reusable functions for a variety of things. Something to truncate text , for example.</p>
 
                     <h3>Motion</h3>
                     <p>Animating particular interactions or events can be a nice and subtle way to notify the user of actions. A panel sliding up or fading out a deleted message are good examples. Like other behaviours, the idea is to define the actual action and not the movement itself; delete message instead of fade-out, for example.</p>

@@ -1457,7 +1457,7 @@ var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(6);
 
 var CallbackQueue = __webpack_require__(80);
-var PooledClass = __webpack_require__(21);
+var PooledClass = __webpack_require__(22);
 var ReactFeatureFlags = __webpack_require__(81);
 var ReactReconciler = __webpack_require__(25);
 var Transaction = __webpack_require__(36);
@@ -1845,7 +1845,7 @@ module.exports = invariant;
 
 var _assign = __webpack_require__(6);
 
-var PooledClass = __webpack_require__(21);
+var PooledClass = __webpack_require__(22);
 
 var emptyFunction = __webpack_require__(14);
 var warning = __webpack_require__(2);
@@ -2315,6 +2315,65 @@ module.exports = DOMProperty;
 
 /***/ }),
 /* 20 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(217);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(222);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(107);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(224);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(227);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(230);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(232);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(108);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(65);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(238);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(240);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(242);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(243);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2661,7 +2720,7 @@ module.exports = ReactElement;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2779,65 +2838,6 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 22 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(217);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(222);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(107);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(224);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(227);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(230);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(232);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(108);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(65);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(238);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(240);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(242);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(243);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
 /* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2859,7 +2859,7 @@ var _assign = __webpack_require__(33);
 var ReactBaseClasses = __webpack_require__(69);
 var ReactChildren = __webpack_require__(112);
 var ReactDOMFactories = __webpack_require__(116);
-var ReactElement = __webpack_require__(20);
+var ReactElement = __webpack_require__(21);
 var ReactPropTypes = __webpack_require__(120);
 var ReactVersion = __webpack_require__(124);
 
@@ -8214,7 +8214,7 @@ module.exports = getIteratorFn;
 
 var ReactCurrentOwner = __webpack_require__(13);
 var ReactComponentTreeHook = __webpack_require__(9);
-var ReactElement = __webpack_require__(20);
+var ReactElement = __webpack_require__(21);
 
 var checkReactTypeSpec = __webpack_require__(117);
 
@@ -8653,7 +8653,7 @@ var _prodInvariant = __webpack_require__(3);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var PooledClass = __webpack_require__(21);
+var PooledClass = __webpack_require__(22);
 
 var invariant = __webpack_require__(1);
 
@@ -11672,23 +11672,23 @@ var _reactDom = __webpack_require__(128);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(20);
 
 var _routes = __webpack_require__(246);
 
 var _routes2 = _interopRequireDefault(_routes);
 
-var _index = __webpack_require__(251);
+var _index = __webpack_require__(252);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _index3 = __webpack_require__(253);
+var _index3 = __webpack_require__(254);
 
 var _index4 = _interopRequireDefault(_index3);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var css = __webpack_require__(254);
+var css = __webpack_require__(255);
 
 var App = function App() {
     return _react2.default.createElement(
@@ -11724,7 +11724,7 @@ _reactDom2.default.render(_react2.default.createElement(
 
 
 var PooledClass = __webpack_require__(113);
-var ReactElement = __webpack_require__(20);
+var ReactElement = __webpack_require__(21);
 
 var emptyFunction = __webpack_require__(42);
 var traverseAllChildren = __webpack_require__(114);
@@ -12283,7 +12283,7 @@ module.exports = KeyEscapeUtils;
 
 
 
-var ReactElement = __webpack_require__(20);
+var ReactElement = __webpack_require__(21);
 
 /**
  * Create a factory that creates HTML tag elements.
@@ -12604,7 +12604,7 @@ module.exports = ReactPropTypesSecret;
 
 
 
-var _require = __webpack_require__(20),
+var _require = __webpack_require__(21),
     isValidElement = _require.isValidElement;
 
 var factory = __webpack_require__(121);
@@ -13267,7 +13267,7 @@ module.exports = '15.6.1';
 var _require = __webpack_require__(69),
     Component = _require.Component;
 
-var _require2 = __webpack_require__(20),
+var _require2 = __webpack_require__(21),
     isValidElement = _require2.isValidElement;
 
 var ReactNoopUpdateQueue = __webpack_require__(70);
@@ -14173,7 +14173,7 @@ module.exports = factory;
 
 var _prodInvariant = __webpack_require__(24);
 
-var ReactElement = __webpack_require__(20);
+var ReactElement = __webpack_require__(21);
 
 var invariant = __webpack_require__(17);
 
@@ -14904,7 +14904,7 @@ module.exports = BeforeInputEventPlugin;
 
 var _assign = __webpack_require__(6);
 
-var PooledClass = __webpack_require__(21);
+var PooledClass = __webpack_require__(22);
 
 var getTextContentAccessor = __webpack_require__(79);
 
@@ -21683,7 +21683,7 @@ module.exports = flattenChildren;
 
 var _assign = __webpack_require__(6);
 
-var PooledClass = __webpack_require__(21);
+var PooledClass = __webpack_require__(22);
 var Transaction = __webpack_require__(36);
 var ReactInstrumentation = __webpack_require__(10);
 var ReactServerUpdateQueue = __webpack_require__(181);
@@ -22374,7 +22374,7 @@ var _assign = __webpack_require__(6);
 
 var EventListener = __webpack_require__(98);
 var ExecutionEnvironment = __webpack_require__(7);
-var PooledClass = __webpack_require__(21);
+var PooledClass = __webpack_require__(22);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactUpdates = __webpack_require__(15);
 
@@ -22616,7 +22616,7 @@ module.exports = ReactInjection;
 var _assign = __webpack_require__(6);
 
 var CallbackQueue = __webpack_require__(80);
-var PooledClass = __webpack_require__(21);
+var PooledClass = __webpack_require__(22);
 var ReactBrowserEventEmitter = __webpack_require__(40);
 var ReactInputSelection = __webpack_require__(99);
 var ReactInstrumentation = __webpack_require__(10);
@@ -28678,7 +28678,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(20);
 
 var _index = __webpack_require__(247);
 
@@ -28696,6 +28696,10 @@ var _index7 = __webpack_require__(250);
 
 var _index8 = _interopRequireDefault(_index7);
 
+var _index9 = __webpack_require__(251);
+
+var _index10 = _interopRequireDefault(_index9);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Routes = function Routes() {
@@ -28703,9 +28707,10 @@ var Routes = function Routes() {
         'div',
         null,
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _index2.default }),
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/block-component-design', component: _index4.default }),
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/element', component: _index6.default }),
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/work', component: _index8.default })
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/block-component-design', component: _index6.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/asset', component: _index4.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/element', component: _index8.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/work', component: _index10.default })
     );
 };
 
@@ -28726,7 +28731,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(20);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28829,7 +28834,159 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(20);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var AssetPage = function AssetPage() {
+    return _react2.default.createElement(
+        'div',
+        { className: 'bcd' },
+        _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col10' },
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        _react2.default.createElement(
+                            _reactRouterDom.Link,
+                            { to: '/block-component-design' },
+                            'BCD'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'h1',
+                        null,
+                        'Assets'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Assets allow us to moderate a strict branding policy across our application, by only allowing pre-defined values. These rules can be enforced at Engineering level using test scripts, for example. Maybe Blocks do not accept hex colour values or font and icons can not be hardcoded into the styling file.'
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'container alt' },
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col10' },
+                    _react2.default.createElement(
+                        'h2',
+                        null,
+                        'Folder structure'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Like our Components, Assets are stored in the root of the BCD folder. Some assets are then categorised, whilst others are put into the name of the asset.'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Below is a sample folder structure for what you might expect to find.'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'folder' },
+                        '/asset',
+                        _react2.default.createElement('br', null),
+                        '\xA0\u251C\u2500\u2500 /colour',
+                        _react2.default.createElement('br', null),
+                        '\xA0| \xA0\xA0 \u2514\u2500\u2500 /category-name',
+                        _react2.default.createElement('br', null),
+                        '\xA0| \xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 /style.css',
+                        _react2.default.createElement('br', null),
+                        '\xA0|',
+                        _react2.default.createElement('br', null),
+                        '\xA0\u251C\u2500\u2500 /font',
+                        _react2.default.createElement('br', null),
+                        '\xA0| \xA0\xA0 \u2514\u2500\u2500 /font-name',
+                        _react2.default.createElement('br', null),
+                        '\xA0| \xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u251C\u2500\u2500 font-name.tff',
+                        _react2.default.createElement('br', null),
+                        '\xA0| \xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 font-name.woff',
+                        _react2.default.createElement('br', null),
+                        '\xA0|',
+                        _react2.default.createElement('br', null),
+                        '\xA0\u2514\u2500\u2500 /grid',
+                        _react2.default.createElement('br', null),
+                        '\xA0| \xA0\xA0 \u2514\u2500\u2500 /style.css',
+                        _react2.default.createElement('br', null),
+                        '\xA0|',
+                        _react2.default.createElement('br', null),
+                        '\xA0\u2514\u2500\u2500 /icon',
+                        _react2.default.createElement('br', null),
+                        '\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 /category-name',
+                        _react2.default.createElement('br', null),
+                        '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 /icon-name',
+                        _react2.default.createElement('br', null),
+                        '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u251C\u2500\u2500 icon-name.png',
+                        _react2.default.createElement('br', null),
+                        '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 icon-name.svg'
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col10' },
+                    _react2.default.createElement(
+                        'h2',
+                        null,
+                        'Using Assets'
+                    ),
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'Colour'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Defining colours into useful categories is a nice way to make sure you do not have uncessesory colours, which are similar.'
+                    )
+                )
+            )
+        )
+    );
+};
+
+exports.default = AssetPage;
+
+/***/ }),
+/* 249 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(20);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28872,7 +29029,11 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'h3',
                         null,
-                        'Elements'
+                        _react2.default.createElement(
+                            _reactRouterDom.Link,
+                            { to: '/element' },
+                            'Elements'
+                        )
                     ),
                     _react2.default.createElement(
                         'ul',
@@ -28994,21 +29155,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'Elements are the foundations of the BCD system. Blocks, Patterns and Modules are how components are built from single elements into final usable components. Pages and Journeys are how a user will navigate to complete their desired goal.'
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        'To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used within Modules. It is important that an element should only be modified at its source and changes filter down.'
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'bcd-frame shadow' },
-                        _react2.default.createElement('img', {
-                            alt: 'Elements overview',
-                            src: '/assets/img/bcd/elements-overview.png',
-                            width: '100%'
-                        })
+                        'Elements are the foundations of the BCD system. Blocks, Patterns and Modules are how components are built from single elements into usable components. Pages and Journeys are how a user will navigate to complete their desired goal.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29018,7 +29165,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'A Block is a single element, which is visually styled, but has no feasible usage on its own.'
+                        'A Block is a single element, which is visually styled.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29038,7 +29185,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'A Module is one or more Blocks and/or Patterns to create a fully functional, usable component.'
+                        'A Module is one or more Blocks and/or Patterns to create a fully functional, usable component with data and content.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29093,7 +29240,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'Assets are a collection of brand personality used within Blocks and Patterns.'
+                        'Assets are a collection of branding used within Blocks and Patterns.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29121,7 +29268,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'The font library should be declared and used within Blocks. Our Font section is a collection of possible fonts, which can be used on the platform.'
+                        'The font library is a collection of font combinations, which can be used on the platform. They are always consumed at Block level.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29131,7 +29278,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'The grid system is the container for some of our Elements. Some may wonder why this is not part of our Blocks or Patterns, however we see our Elements consuming the Grid and therefore, we have made it part of the Assets.'
+                        'The grid system is the container for some of our Elements. Some may wonder why this is not part of our Blocks or Patterns, however we see our Elements consuming the Grid and therefore it is part of our Assets.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29163,7 +29310,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'Behavioural elements are a set of expectations, which encourage a consistent experience. This may include the tone of language, user intereaction with the application or a set of rules, which govern data into the system.'
+                        'Behavioural elements are a set of expectations, which encourage a consistent experience. This may include the tone of language, user interaction with the application or a set of rules, which govern data into the system.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29173,7 +29320,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'Writing style and consistent wording is important. This could be defined in a best practice document or stored in the code, as a list of common phrases. Communication is a section, which may not be suitable for all applications so you should decide if it is right and manageable for your application.'
+                        'Writing style and consistent wording is important. This could be defined in a best practice document or stored in the code, as a list of common phrases. Communication is a section, which may not be suitable for all projects so you should decide if it is right and manageable for your application.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29183,7 +29330,7 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'Functional behaviour may include a set of reusable functions for a varity of things. Something to truncate text , for example.'
+                        'Functional behaviour may include a set of reusable functions for a variety of things. Something to truncate text , for example.'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -29224,7 +29371,7 @@ var CompositionPage = function CompositionPage() {
 exports.default = CompositionPage;
 
 /***/ }),
-/* 249 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29238,7 +29385,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(20);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29258,27 +29405,35 @@ var ElementPage = function ElementPage() {
                     _react2.default.createElement(
                         'h3',
                         null,
-                        'BCD'
+                        _react2.default.createElement(
+                            _reactRouterDom.Link,
+                            { to: '/block-component-design' },
+                            'BCD'
+                        )
                     ),
                     _react2.default.createElement(
                         'h1',
                         null,
                         'Elements'
-                    )
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'col col3' },
+                    ),
                     _react2.default.createElement(
-                        _reactRouterDom.Link,
-                        {
-                            className: 'button',
-                            to: '/block-component-design' },
-                        _react2.default.createElement(
-                            'p',
-                            null,
-                            'Block Component Design'
-                        )
+                        'p',
+                        null,
+                        'The most important part of the BCD system, Elements are the foundational infrastructure required to support the whole ecosystem.'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used within Modules. It is important that an element should only be modified at its source and changes filter down. For example, it would be bad practice to change the visual styling of a block after it was imported into a pattern; we want to ensure a single source of truth policy.'
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'bcd-frame shadow' },
+                        _react2.default.createElement('img', {
+                            alt: 'Elements overview',
+                            src: '/assets/img/bcd/elements-overview.png',
+                            width: '100%'
+                        })
                     )
                 )
             )
@@ -29305,7 +29460,7 @@ var ElementPage = function ElementPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'In the sample folder structure below, we have added HTML, CSS and JS files, however these can be replaced by the technology stack you are using (index.jsx and style.scss, for example). You may also wish to include other files, which relate to the component. This is completely fine as long as you abide by the fundamental rules of the system.'
+                        'In the sample folder structure below, we have added HTML, CSS and JS files, however these can be replaced by the technology stack in use (index.jsx and style.scss, for example). You may also wish to include other files, which relate to the component. This is completely fine as long as you abide by the fundamental rules of the system.'
                     ),
                     _react2.default.createElement(
                         'p',
@@ -29361,17 +29516,103 @@ var ElementPage = function ElementPage() {
                     _react2.default.createElement(
                         'h2',
                         null,
-                        'Naming conventions'
+                        'Code structure'
                     ),
                     _react2.default.createElement(
                         'p',
                         null,
-                        'We can use a BEM-style naming convention for our component names, however this is entirly up to preference. BEM works well because of it\'s double dashes and underscores allowing us to defrenciate between sections of our system, however the variant class names can get long. Using BEM as a wrapper class and specifiying shorter class names within would work as well.'
+                        'Now that we have our component names and categories in place, we can use them within the code. Notice how we use double dashes and underscores to differentiate between sections of our system.'
+                    ),
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'HTML'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'code' },
+                        'div class=\'category-name--element-name\'',
+                        _react2.default.createElement('br', null),
+                        'div class=\'button--primary\''
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'code' },
+                        'div class=\'category-name--element-name__variant\'',
+                        _react2.default.createElement('br', null),
+                        'div class=\'button--primary__large\''
+                    ),
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'CSS'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'code' },
+                        '.category-name--element-name',
+                        _react2.default.createElement('br', null),
+                        '.button--primary'
+                    ),
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'JavaScript'
                     ),
                     _react2.default.createElement(
                         'p',
                         null,
-                        'The list of categories is dependent on the application, however here are some of the most common, with example Blocks.'
+                        'Scrpting files specific to certain components should reference the component name used in the HTML and CSS. This is different to scripting files found in the Behaviours section as they are for generic use and have their own naming convention.'
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'container alt' },
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col10' },
+                    _react2.default.createElement(
+                        'h2',
+                        null,
+                        'Breaking down components'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'The names you choose for your components are entirely up to you. We find that a design team, which starts to think about components is able to downstream their thoughts and naming conventions into engineering.'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Components can sometimes look similar but have different usage in the application. In this case, it is good to think about change management. If the design or behaviour changed in one component, would you always want the same for the other?'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Lets take a Primary and Secondary button for example. The only difference may be the background colour, however if we wanted to change the styling or sizing of one, does not always mean we want to change the other. One side effect of having such a managable system is that you may end up with slightly more code, however the advantages when it comes to re-designing components and testing components in isolation usually outweight the negatives.'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Below are some example categories and component names.'
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col10' },
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'Blocks'
                     )
                 )
             ),
@@ -29416,6 +29657,20 @@ var ElementPage = function ElementPage() {
                         _react2.default.createElement(
                             'li',
                             null,
+                            'Imagery'
+                        ),
+                        _react2.default.createElement(
+                            'ul',
+                            null,
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Avatar'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'li',
+                            null,
                             'Input Field'
                         ),
                         _react2.default.createElement(
@@ -29446,7 +29701,15 @@ var ElementPage = function ElementPage() {
                                 null,
                                 'Text input'
                             )
-                        ),
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'ul',
+                        { className: 'list__bullet' },
                         _react2.default.createElement(
                             'li',
                             null,
@@ -29465,15 +29728,7 @@ var ElementPage = function ElementPage() {
                                 null,
                                 'Form error'
                             )
-                        )
-                    )
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'col col6' },
-                    _react2.default.createElement(
-                        'ul',
-                        { className: 'list__bullet' },
+                        ),
                         _react2.default.createElement(
                             'li',
                             null,
@@ -29528,7 +29783,7 @@ var ElementPage = function ElementPage() {
                             _react2.default.createElement(
                                 'li',
                                 null,
-                                'Form Label'
+                                'Form label'
                             ),
                             _react2.default.createElement(
                                 'li',
@@ -29543,11 +29798,7 @@ var ElementPage = function ElementPage() {
                         )
                     )
                 )
-            )
-        ),
-        _react2.default.createElement(
-            'div',
-            { className: 'container alt' },
+            ),
             _react2.default.createElement(
                 'div',
                 { className: 'row' },
@@ -29555,45 +29806,172 @@ var ElementPage = function ElementPage() {
                     'div',
                     { className: 'col col10' },
                     _react2.default.createElement(
-                        'h2',
+                        'h3',
                         null,
-                        'Code structure'
-                    ),
+                        'Patterns'
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
                     _react2.default.createElement(
-                        'p',
-                        null,
-                        'Now that we have our component names and categories in place, we can use them within the code.'
-                    ),
+                        'ul',
+                        { className: 'list__bullet' },
+                        _react2.default.createElement(
+                            'li',
+                            null,
+                            'Form'
+                        ),
+                        _react2.default.createElement(
+                            'ul',
+                            null,
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Credit card'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Date of birth'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Telephone number'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Text'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'li',
+                            null,
+                            'List'
+                        ),
+                        _react2.default.createElement(
+                            'ul',
+                            null,
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Action'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Comment'
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'ul',
+                        { className: 'list__bullet' },
+                        _react2.default.createElement(
+                            'li',
+                            null,
+                            'Messaging & Communication'
+                        ),
+                        _react2.default.createElement(
+                            'ul',
+                            null,
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Add comment'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Send message'
+                            )
+                        )
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col10' },
                     _react2.default.createElement(
                         'h3',
                         null,
-                        'HTML'
-                    ),
+                        'Modules'
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
                     _react2.default.createElement(
-                        'p',
-                        { className: 'code' },
-                        'div class=\'category-name__element-name\'',
-                        _react2.default.createElement('br', null),
-                        'div class=\'button__primary\''
-                    ),
+                        'ul',
+                        { className: 'list__bullet' },
+                        _react2.default.createElement(
+                            'li',
+                            null,
+                            'Messaging & Communication'
+                        ),
+                        _react2.default.createElement(
+                            'ul',
+                            null,
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Chat'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Comments'
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
                     _react2.default.createElement(
-                        'p',
-                        { className: 'code' },
-                        'div class=\'category-name__element-name--variant\'',
-                        _react2.default.createElement('br', null),
-                        'div class=\'button__primary--large\''
-                    ),
-                    _react2.default.createElement(
-                        'h3',
-                        null,
-                        'CSS'
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        { className: 'code' },
-                        '.category-name__element-name',
-                        _react2.default.createElement('br', null),
-                        '.button__primary'
+                        'ul',
+                        { className: 'list__bullet' },
+                        _react2.default.createElement(
+                            'li',
+                            null,
+                            'Personal information'
+                        ),
+                        _react2.default.createElement(
+                            'ul',
+                            null,
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Address'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Payment'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'Telephone'
+                            )
+                        )
                     )
                 )
             )
@@ -29714,7 +30092,7 @@ var ElementPage = function ElementPage() {
 exports.default = ElementPage;
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29728,7 +30106,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(20);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30208,7 +30586,7 @@ var WorkPage = function WorkPage() {
 exports.default = WorkPage;
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30222,7 +30600,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _index = __webpack_require__(252);
+var _index = __webpack_require__(253);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -30239,7 +30617,7 @@ var Footer = function Footer() {
 exports.default = Footer;
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30304,7 +30682,7 @@ var Social = function Social() {
 exports.default = Social;
 
 /***/ }),
-/* 253 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30318,7 +30696,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(20);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30363,13 +30741,13 @@ var Header = function Header() {
 exports.default = Header;
 
 /***/ }),
-/* 254 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(255);
+var content = __webpack_require__(256);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -30377,7 +30755,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(257)(content, options);
+var update = __webpack_require__(258)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -30394,10 +30772,10 @@ if(false) {
 }
 
 /***/ }),
-/* 255 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(256)(undefined);
+exports = module.exports = __webpack_require__(257)(undefined);
 // imports
 
 
@@ -30408,7 +30786,7 @@ exports.push([module.i, "/*\n    timelpatel.com\n    Base SASS\n*/\n/* http://me
 
 
 /***/ }),
-/* 256 */
+/* 257 */
 /***/ (function(module, exports) {
 
 /*
@@ -30490,7 +30868,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 257 */
+/* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -30536,7 +30914,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(258);
+var	fixUrls = __webpack_require__(259);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -30849,7 +31227,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 258 */
+/* 259 */
 /***/ (function(module, exports) {
 
 

@@ -9,15 +9,17 @@ const ElementPage = () => (
         <div className='container'>
             <div className='row'>
                 <div className='col col9'>
-                    <h3>BCD</h3>
+                    <h3><Link to='/block-component-design'>BCD</Link></h3>
                     <h1>Elements</h1>
-                </div>
-                <div className='col col3'>
-                    <Link
-                        className='button'
-                        to='/block-component-design'>
-                        <p>Block Component Design</p>
-                    </Link>
+                    <p>The most important part of the BCD system, Elements are the foundational infrastructure required to support the whole ecosystem.</p>
+                    <p>To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used within Modules. It is important that an element should only be modified at its source and changes filter down. For example, it would be bad practice to change the visual styling of a block after it was imported into a pattern; we want to ensure a single source of truth policy.</p>
+                    <div className='bcd-frame shadow'>
+                        <img
+                            alt='Elements overview'
+                            src='/assets/img/bcd/elements-overview.png'
+                            width='100%'
+                        />
+                    </div>
                 </div>
             </div>
         </div>
@@ -27,7 +29,7 @@ const ElementPage = () => (
                 <div className='col col10'>
                     <h2>Folder structure</h2>
                     <p>Elements are stored in the component folder. Each type of Element is then stored within meaningful categories, followed by the component itself.</p>
-                    <p>In the sample folder structure below, we have added HTML, CSS and JS files, however these can be replaced by the technology stack you are using (index.jsx and style.scss, for example). You may also wish to include other files, which relate to the component. This is completely fine as long as you abide by the fundamental rules of the system.</p>
+                    <p>In the sample folder structure below, we have added HTML, CSS and JS files, however these can be replaced by the technology stack in use (index.jsx and style.scss, for example). You may also wish to include other files, which relate to the component. This is completely fine as long as you abide by the fundamental rules of the system.</p>
 
                     <p className='folder'>
                         /component<br />
@@ -56,9 +58,40 @@ const ElementPage = () => (
         <div className='container'>
             <div className='row'>
                 <div className='col col10'>
-                    <h2>Naming conventions</h2>
-                    <p>We can use a BEM-style naming convention for our component names, however this is entirly up to preference. BEM works well because of it&#39;s double dashes and underscores allowing us to defrenciate between sections of our system, however the variant class names can get long. Using BEM as a wrapper class and specifiying shorter class names within would work as well.</p>
-                    <p>The list of categories is dependent on the application, however here are some of the most common, with example Blocks.</p>
+                    <h2>Code structure</h2>
+                    <p>Now that we have our component names and categories in place, we can use them within the code. Notice how we use double dashes and underscores to differentiate between sections of our system.</p>
+
+                    <h3>HTML</h3>
+                    <p className='code'>div class='category-name--element-name'<br />
+                    div class='button--primary'</p>
+                    <p className='code'>div class='category-name--element-name__variant'<br />
+                    div class='button--primary__large'</p>
+
+                    <h3>CSS</h3>
+                    <p className='code'>.category-name--element-name<br />
+                    .button--primary</p>
+
+                    <h3>JavaScript</h3>
+                    <p>Scrpting files specific to certain components should reference the component name used in the HTML and CSS. This is different to scripting files found in the Behaviours section as they are for generic use and have their own naming convention.</p>
+                </div>
+            </div>
+        </div>
+
+        <div className='container alt'>
+
+            <div className='row'>
+                <div className='col col10'>
+                    <h2>Breaking down components</h2>
+                    <p>The names you choose for your components are entirely up to you. We find that a design team, which starts to think about components is able to downstream their thoughts and naming conventions into engineering.</p>
+                    <p>Components can sometimes look similar but have different usage in the application. In this case, it is good to think about change management. If the design or behaviour changed in one component, would you always want the same for the other?</p>
+                    <p>Lets take a Primary and Secondary button for example. The only difference may be the background colour, however if we wanted to change the styling or sizing of one, does not always mean we want to change the other. One side effect of having such a managable system is that you may end up with slightly more code, however the advantages when it comes to re-designing components and testing components in isolation usually outweight the negatives.</p>
+                    <p>Below are some example categories and component names.</p>
+                </div>
+            </div>
+
+            <div className='row'>
+                <div className='col col10'>
+                    <h3>Blocks</h3>
                 </div>
             </div>
 
@@ -73,6 +106,11 @@ const ElementPage = () => (
                             <li>Tertiary</li>
                         </ul>
 
+                        <li>Imagery</li>
+                        <ul>
+                            <li>Avatar</li>
+                        </ul>
+
                         <li>Input Field</li>
                         <ul>
                             <li>Checkbox</li>
@@ -81,17 +119,17 @@ const ElementPage = () => (
                             <li>Text area</li>
                             <li>Text input</li>
                         </ul>
-
-                        <li>Messaging and Notification</li>
-                        <ul>
-                            <li>Alert</li>
-                            <li>Form error</li>
-                        </ul>
                     </ul>
                 </div>
 
                 <div className='col col6'>
                     <ul className='list__bullet'>
+                        <li>Messaging and Notification</li>
+                        <ul>
+                            <li>Alert</li>
+                            <li>Form error</li>
+                        </ul>
+
                         <li>Navigation</li>
                         <ul>
                             <li>Main</li>
@@ -107,32 +145,79 @@ const ElementPage = () => (
                         <li>Typography</li>
                         <ul>
                             <li>Body copy</li>
-                            <li>Form Label</li>
+                            <li>Form label</li>
                             <li>Page title</li>
                             <li>Section title</li>
                         </ul>
                     </ul>
                 </div>
             </div>
-        </div>
 
-        <div className='container alt'>
             <div className='row'>
                 <div className='col col10'>
-                    <h2>Code structure</h2>
-                    <p>Now that we have our component names and categories in place, we can use them within the code.</p>
-
-                    <h3>HTML</h3>
-                    <p className='code'>div class='category-name__element-name'<br />
-                    div class='button__primary'</p>
-                    <p className='code'>div class='category-name__element-name--variant'<br />
-                    div class='button__primary--large'</p>
-
-                    <h3>CSS</h3>
-                    <p className='code'>.category-name__element-name<br />
-                    .button__primary</p>
+                    <h3>Patterns</h3>
                 </div>
             </div>
+
+            <div className='row'>
+                <div className='col col6'>
+                    <ul className='list__bullet'>
+                        <li>Form</li>
+                        <ul>
+                            <li>Credit card</li>
+                            <li>Date of birth</li>
+                            <li>Telephone number</li>
+                            <li>Text</li>
+                        </ul>
+
+                        <li>List</li>
+                        <ul>
+                            <li>Action</li>
+                            <li>Comment</li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <div className='col col6'>
+                    <ul className='list__bullet'>
+                        <li>Messaging &amp; Communication</li>
+                        <ul>
+                            <li>Add comment</li>
+                            <li>Send message</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+
+            <div className='row'>
+                <div className='col col10'>
+                    <h3>Modules</h3>
+                </div>
+            </div>
+
+            <div className='row'>
+                <div className='col col6'>
+                    <ul className='list__bullet'>
+                        <li>Messaging &amp; Communication</li>
+                        <ul>
+                            <li>Chat</li>
+                            <li>Comments</li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <div className='col col6'>
+                    <ul className='list__bullet'>
+                        <li>Personal information</li>
+                        <ul>
+                            <li>Address</li>
+                            <li>Payment</li>
+                            <li>Telephone</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
         <div className='container'>
