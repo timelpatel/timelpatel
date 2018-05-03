@@ -72,7 +72,7 @@ const ElementPage = () => (
                     .button--primary</p>
 
                     <h3>JavaScript</h3>
-                    <p>Scrpting files specific to certain components should reference the component name used in the HTML and CSS. This is different to scripting files found in the Behaviours section as they are for generic use and have their own naming convention.</p>
+                    <p>Scripting files specific to certain components should reference the component name used in the HTML and CSS. This is different to scripting files found in the Behaviours section as they are for generic use and have their own naming convention.</p>
                 </div>
             </div>
         </div>

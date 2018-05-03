@@ -28,7 +28,7 @@ const CompositionPage = () => (
                 </div>
 
                 <div className='col col3'>
-                    <h3>Assets</h3>
+                    <h3><Link to='/asset'>Assets</Link></h3>
                     <ul className='list__bullet'>
                         <li>Colour</li>
                         <li>Font</li>
@@ -129,6 +129,13 @@ const CompositionPage = () => (
 
                     <h3>Icon</h3>
                     <p>The icon collection should be used at Block level. It is advisable to have a scalable format, which may have a predefined set of sizes, which can be referenced using t-shirt sizing.</p>
+
+                    <br /><br />
+                    <Link
+                        className='button'
+                        to='/asset'>
+                        <p>More about Assets</p>
+                    </Link>
                 </div>
             </div>
         </div>

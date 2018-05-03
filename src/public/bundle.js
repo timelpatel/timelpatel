@@ -28904,19 +28904,19 @@ var AssetPage = function AssetPage() {
                         _react2.default.createElement('br', null),
                         '\xA0\u251C\u2500\u2500 /colour',
                         _react2.default.createElement('br', null),
-                        '\xA0| \xA0\xA0 \u2514\u2500\u2500 /category-name',
-                        _react2.default.createElement('br', null),
-                        '\xA0| \xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 /style.css',
+                        '\xA0| \xA0\xA0 \u2514\u2500\u2500 /category-name.css',
                         _react2.default.createElement('br', null),
                         '\xA0|',
                         _react2.default.createElement('br', null),
                         '\xA0\u251C\u2500\u2500 /font',
                         _react2.default.createElement('br', null),
-                        '\xA0| \xA0\xA0 \u2514\u2500\u2500 /font-name',
+                        '\xA0| \xA0\xA0 \u251C\u2500\u2500 /font-name',
                         _react2.default.createElement('br', null),
-                        '\xA0| \xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u251C\u2500\u2500 font-name.tff',
+                        '\xA0| \xA0\xA0\xA0| \xA0\xA0 \u251C\u2500\u2500 font-name.tff',
                         _react2.default.createElement('br', null),
-                        '\xA0| \xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 font-name.woff',
+                        '\xA0| \xA0\xA0\xA0| \xA0\xA0 \u2514\u2500\u2500 font-name.woff',
+                        _react2.default.createElement('br', null),
+                        '\xA0| \xA0\xA0 \u2514\u2500\u2500 /style.css',
                         _react2.default.createElement('br', null),
                         '\xA0|',
                         _react2.default.createElement('br', null),
@@ -28951,7 +28951,7 @@ var AssetPage = function AssetPage() {
                     _react2.default.createElement(
                         'h2',
                         null,
-                        'Using Assets'
+                        'Breaking down Assets'
                     ),
                     _react2.default.createElement(
                         'h3',
@@ -28961,7 +28961,187 @@ var AssetPage = function AssetPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'Defining colours into useful categories is a nice way to make sure you do not have uncessesory colours, which are similar.'
+                        'Defining colours into useful categories is a nice way to make sure colours have meaningful names based on usage and not the colour itself. Lets take a look at some examples:'
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'code' },
+                        'call-to-action.css',
+                        _react2.default.createElement('br', null),
+                        '.button-primary: ',
+                        _react2.default.createElement(
+                            'span',
+                            { className: 'example-primary' },
+                            '#009900'
+                        ),
+                        _react2.default.createElement('br', null),
+                        '.button-secondary: ',
+                        _react2.default.createElement(
+                            'span',
+                            { className: 'example-secondary' },
+                            '#ff9900'
+                        ),
+                        _react2.default.createElement('br', null),
+                        '.text-link: ',
+                        _react2.default.createElement(
+                            'span',
+                            { className: 'example-link' },
+                            '#ff0000'
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'p',
+                        { className: 'code' },
+                        'notification.css',
+                        _react2.default.createElement('br', null),
+                        '.error: ',
+                        _react2.default.createElement(
+                            'span',
+                            { className: 'example-error' },
+                            '#ff0000'
+                        ),
+                        _react2.default.createElement('br', null),
+                        '.success: ',
+                        _react2.default.createElement(
+                            'span',
+                            { className: 'example-success' },
+                            '#009900'
+                        ),
+                        _react2.default.createElement('br', null),
+                        '.warning: ',
+                        _react2.default.createElement(
+                            'span',
+                            { className: 'example-warning' },
+                            '#ff9900'
+                        )
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col10' },
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'Font'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Fonts are fairly self explanatory. Create a folder using the font name and add all the various font files within. These fonts can then be referenced in the style.css file in the fonts directory.'
+                    ),
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'Grid'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Firstly, lets explain why grid is here and does not sit with our Elements. Although the grid system will usually be developed using CSS, it\'s usage is more asset-like. It may be used to create page-level layouts as well as within components. Once defined, it is not likely to be modified or versioned like we may wish with components.'
+                    ),
+                    _react2.default.createElement(
+                        'h3',
+                        null,
+                        'Icon'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Like Colours, Icons will be defined within meaningful category names based on usage. Let\'s take a look at some examples:'
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'ul',
+                        { className: 'list__bullet' },
+                        _react2.default.createElement(
+                            'li',
+                            null,
+                            'Communication'
+                        ),
+                        _react2.default.createElement(
+                            'ul',
+                            null,
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'chat.svg'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'new-message.svg'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'reply.svg'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'send.svg'
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col col6' },
+                    _react2.default.createElement(
+                        'ul',
+                        { className: 'list__bullet' },
+                        _react2.default.createElement(
+                            'li',
+                            null,
+                            'Social'
+                        ),
+                        _react2.default.createElement(
+                            'ul',
+                            null,
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'amazon.svg'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'apple.svg'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'facebook.svg'
+                            ),
+                            _react2.default.createElement(
+                                'li',
+                                null,
+                                'google.svg'
+                            )
+                        )
                     )
                 )
             )
@@ -29071,7 +29251,11 @@ var CompositionPage = function CompositionPage() {
                     _react2.default.createElement(
                         'h3',
                         null,
-                        'Assets'
+                        _react2.default.createElement(
+                            _reactRouterDom.Link,
+                            { to: '/asset' },
+                            'Assets'
+                        )
                     ),
                     _react2.default.createElement(
                         'ul',
@@ -29289,6 +29473,19 @@ var CompositionPage = function CompositionPage() {
                         'p',
                         null,
                         'The icon collection should be used at Block level. It is advisable to have a scalable format, which may have a predefined set of sizes, which can be referenced using t-shirt sizing.'
+                    ),
+                    _react2.default.createElement('br', null),
+                    _react2.default.createElement('br', null),
+                    _react2.default.createElement(
+                        _reactRouterDom.Link,
+                        {
+                            className: 'button',
+                            to: '/asset' },
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'More about Assets'
+                        )
                     )
                 )
             )
@@ -29562,7 +29759,7 @@ var ElementPage = function ElementPage() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'Scrpting files specific to certain components should reference the component name used in the HTML and CSS. This is different to scripting files found in the Behaviours section as they are for generic use and have their own naming convention.'
+                        'Scripting files specific to certain components should reference the component name used in the HTML and CSS. This is different to scripting files found in the Behaviours section as they are for generic use and have their own naming convention.'
                     )
                 )
             )
@@ -30780,7 +30977,7 @@ exports = module.exports = __webpack_require__(257)(undefined);
 
 
 // module
-exports.push([module.i, "/*\n    timelpatel.com\n    Base SASS\n*/\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/*\n    timelpatel.com\n    _varables.scss\n*/\n/* typography */\n/* font */\n/* background */\n/* button */\n/* table  */\n/*\n    timelpatel.com\n    mixins.scss\n*/\na.button {\n  border: 1px solid #6e7f80;\n  color: #3c3c3c;\n  display: inline-block;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  margin-bottom: 20px;\n  padding: 10px;\n  transition: all 0.3s ease; }\n  a.button:hover {\n    background-color: #6e7f80; }\n    a.button:hover p {\n      color: #fff; }\n  a.button p {\n    margin: 0; }\n\n.container {\n  padding: 40px; }\n\n.row {\n  display: flex;\n  flex-flow: row wrap;\n  /*margin: 0 -10px;\n    margin-bottom: 10px;*/ }\n\n.col {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.col1 {\n  width: 8.333%; }\n\n.col2 {\n  width: 16.665%; }\n\n.col3 {\n  width: 25%; }\n\n.col4 {\n  width: 33.333%; }\n\n.col5 {\n  width: 41.665%; }\n\n.col6 {\n  width: 50%; }\n\n.col7 {\n  width: 58.333%; }\n\n.col8 {\n  width: 66.665%; }\n\n.col9 {\n  width: 75%; }\n\n.col10 {\n  width: 83.333%; }\n\n.col11 {\n  width: 91.665%; }\n\n.col12 {\n  width: 100%; }\n\n/* Smartphones (landscape) ----------- */\n@media screen and (max-width: 1024px) {\n  .col3 {\n    width: 33.333%; }\n  .col4 {\n    width: 50%; } }\n\n/* Smartphones (landscape) ----------- */\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .col3,\n  .col4,\n  .col6,\n  .col8,\n  .col10 {\n    width: 100%; } }\n\n@font-face {\n  font-family: fontello;\n  src: url(\"/assets/font/fontello.eot\");\n  src: url(\"/assets/font/fontello.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/fontello.woff\") format(\"woff\"), url(\"/assets/font/fontello.ttf\") format(\"truetype\"), url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: fontello;\n    src: url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); } }\n\n@font-face {\n  font-family: heavydock11;\n  src: url(\"/assets/font/heavy_dock11.eot\");\n  src: url(\"/assets/font/heavy_dock11.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/heavy_dock11.woff\") format(\"woff\"), url(\"/assets/font/heavy_dock11.ttf\") format(\"truetype\"), url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: heavydock11;\n    src: url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); } }\n\n@font-face {\n  font-family: helveticaneueultralight;\n  src: url(\"/assets/font/helveticaneueultralight.eot\");\n  src: url(\"/assets/font/helveticaneueultralight.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/helveticaneueultralight.woff\") format(\"woff\"), url(\"/assets/font/helveticaneueultralight.ttf\") format(\"truetype\"), url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: helveticaneueultralight;\n    src: url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); } }\n\nh1 {\n  color: #6e7f80;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n  @media screen and (max-width: 415px) {\n    h1 {\n      font-size: 21px; } }\n\nh2 {\n  color: #6e7f80;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 20px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  line-height: 27px;\n  margin-bottom: 40px; }\n\nh3 {\n  color: #6e7f80;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 11px;\n  font-weight: bold;\n  letter-spacing: 1px;\n  line-height: 30px;\n  text-transform: uppercase; }\n\nh4 {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 14px;\n  font-weight: bold;\n  letter-spacing: 2;\n  text-transform: uppercase; }\n\np, li, td, code {\n  color: #8c8c8c;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 12px;\n  letter-spacing: 1px;\n  line-height: 18px; }\n\np {\n  margin-bottom: 20px; }\n\nul.list__bullet {\n  list-style: circle inside;\n  margin-bottom: 20px; }\n  @media screen and (max-width: 600px) {\n    ul.list__bullet {\n      margin-bottom: 0; } }\n  ul.list__bullet ul {\n    list-style: circle inside;\n    margin-left: 20px; }\n\na:link, a:visited {\n  color: #09c;\n  text-decoration: none; }\n\na:active, a:hover {\n  color: #cc3300; }\n\n.hide-text {\n  text-indent: 100%;\n  white-space: nowrap;\n  overflow: hidden; }\n\n.folder, code {\n  font-family: monospace, courier;\n  line-height: 16px;\n  margin-bottom: 20px; }\n\ntable.table--goodbad {\n  margin-bottom: 20px;\n  width: 100%; }\n  table.table--goodbad thead {\n    background: #fafafa; }\n    table.table--goodbad thead .bad {\n      color: red; }\n    table.table--goodbad thead .good {\n      color: green; }\n  table.table--goodbad td {\n    border: 1px solid #efefef;\n    padding: 6px 12px; }\n\n.me {\n  background: url(\"/assets/img/pexels-photo-301614.jpg\") no-repeat;\n  background-position: center;\n  height: 380px;\n  margin-bottom: 40px;\n  width: 100%; }\n  .me a.button {\n    margin-top: 40px; }\n\n.bcd {\n  background: #fafafa; }\n  .bcd .alt {\n    background: #fefefe; }\n\nfooter {\n  background: #424c4c; }\n\n.container__header {\n  background: #6e7f80;\n  color: #fff;\n  height: 80px;\n  position: absolute;\n  top: 0;\n  width: 100%;\n  z-index: 1; }\n\n.header__h1 {\n  left: 40px;\n  position: absolute;\n  top: 30px; }\n  .header__h1 a {\n    color: #fff; }\n\n.header__menu {\n  position: absolute;\n  right: 40px;\n  top: 32px; }\n  .header__menu li {\n    display: inline;\n    font-family: helveticaneueultralight, \"helveticaneueultralight\";\n    font-size: 16px;\n    letter-spacing: 2px;\n    margin-left: 40px; }\n    .header__menu li a {\n      color: #fff; }\n      .header__menu li a:hover {\n        border-bottom: 1px solid #fff;\n        padding-bottom: 6px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 415px) {\n  .header__h1 {\n    top: 32px; }\n  .header__menu li {\n    font-size: 13px;\n    margin-left: 20px; } }\n\n.social__icon {\n  background-position: 50% 50%;\n  background-repeat: no-repeat;\n  background-size: 55%;\n  border: 1px solid #000;\n  border-radius: 50%;\n  height: 40px;\n  margin-right: 20px;\n  width: 40px; }\n  .social__icon.linkedin {\n    background-image: url(\"/assets/img/linkedin.svg\"); }\n  .social__icon.twitter {\n    background-image: url(\"/assets/img/twitter.svg\"); }\n  .social__icon.instagram {\n    background-image: url(\"/assets/img/instagram.svg\"); }\n\n.work__logo {\n  background: #fefefe; }\n  .work__logo .col {\n    margin: 50px 0;\n    position: relative;\n    text-align: center; }\n    .work__logo .col img {\n      bottom: 50%;\n      position: absolute;\n      top: 50%;\n      transform: translate(-50%, -50%); }\n\n.work__project {\n  background: #fafafa; }\n  .work__project.alt {\n    background: #fefefe; }\n  .work__project h4 {\n    margin-bottom: 40px; }\n  .work__project .desktop-frame {\n    text-align: center; }\n    .work__project .desktop-frame img {\n      margin-bottom: 20px; }\n      .work__project .desktop-frame img.shadow {\n        box-shadow: 0px 0px 30px -10px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .work__logo {\n    padding-right: 40px; }\n  .work__project .desktop-frame {\n    text-align: left; } }\n\n/* global */\nbody {\n  background: #efefef;\n  color: #3c3c3c;\n  font: 100% helveticaneue, helvetica, arial;\n  margin-top: 80px;\n  min-width: 375px; }\n\n.bcd-frame {\n  background: #fff;\n  margin: 20px 0;\n  max-width: 600px;\n  padding: 20px; }\n  .bcd-frame.shadow {\n    box-shadow: 0px 0px 25px -15px; }\n", ""]);
+exports.push([module.i, "/*\n    timelpatel.com\n    Base SASS\n*/\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n/*\n    timelpatel.com\n    _varables.scss\n*/\n/* typography */\n/* font */\n/* background */\n/* button */\n/* table  */\n/*\n    timelpatel.com\n    mixins.scss\n*/\na.button {\n  border: 1px solid #6e7f80;\n  color: #3c3c3c;\n  display: inline-block;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  margin-bottom: 20px;\n  padding: 10px;\n  transition: all 0.3s ease; }\n  a.button:hover {\n    background-color: #6e7f80; }\n    a.button:hover p {\n      color: #fff; }\n  a.button p {\n    margin: 0; }\n\n.container {\n  padding: 40px; }\n\n.row {\n  display: flex;\n  flex-flow: row wrap;\n  /*margin: 0 -10px;\n    margin-bottom: 10px;*/ }\n\n.col {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\n.col1 {\n  width: 8.333%; }\n\n.col2 {\n  width: 16.665%; }\n\n.col3 {\n  width: 25%; }\n\n.col4 {\n  width: 33.333%; }\n\n.col5 {\n  width: 41.665%; }\n\n.col6 {\n  width: 50%; }\n\n.col7 {\n  width: 58.333%; }\n\n.col8 {\n  width: 66.665%; }\n\n.col9 {\n  width: 75%; }\n\n.col10 {\n  width: 83.333%; }\n\n.col11 {\n  width: 91.665%; }\n\n.col12 {\n  width: 100%; }\n\n/* Smartphones (landscape) ----------- */\n@media screen and (max-width: 1024px) {\n  .col3 {\n    width: 33.333%; }\n  .col4 {\n    width: 50%; } }\n\n/* Smartphones (landscape) ----------- */\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .col3,\n  .col4,\n  .col6,\n  .col8,\n  .col10 {\n    width: 100%; } }\n\n@font-face {\n  font-family: fontello;\n  src: url(\"/assets/font/fontello.eot\");\n  src: url(\"/assets/font/fontello.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/fontello.woff\") format(\"woff\"), url(\"/assets/font/fontello.ttf\") format(\"truetype\"), url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: fontello;\n    src: url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); } }\n\n@font-face {\n  font-family: heavydock11;\n  src: url(\"/assets/font/heavy_dock11.eot\");\n  src: url(\"/assets/font/heavy_dock11.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/heavy_dock11.woff\") format(\"woff\"), url(\"/assets/font/heavy_dock11.ttf\") format(\"truetype\"), url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: heavydock11;\n    src: url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); } }\n\n@font-face {\n  font-family: helveticaneueultralight;\n  src: url(\"/assets/font/helveticaneueultralight.eot\");\n  src: url(\"/assets/font/helveticaneueultralight.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/helveticaneueultralight.woff\") format(\"woff\"), url(\"/assets/font/helveticaneueultralight.ttf\") format(\"truetype\"), url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: helveticaneueultralight;\n    src: url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); } }\n\nh1 {\n  color: #6e7f80;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n  @media screen and (max-width: 415px) {\n    h1 {\n      font-size: 21px; } }\n\nh2 {\n  color: #6e7f80;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 20px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  line-height: 27px;\n  margin-bottom: 40px; }\n\nh3 {\n  color: #6e7f80;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 11px;\n  font-weight: bold;\n  letter-spacing: 1px;\n  line-height: 30px;\n  text-transform: uppercase; }\n\nh4 {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 14px;\n  font-weight: bold;\n  letter-spacing: 2;\n  text-transform: uppercase; }\n\np, li, td, code {\n  color: #8c8c8c;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 12px;\n  letter-spacing: 1px;\n  line-height: 18px; }\n\np {\n  margin-bottom: 20px; }\n\nul.list__bullet {\n  list-style: circle inside;\n  margin-bottom: 20px; }\n  @media screen and (max-width: 600px) {\n    ul.list__bullet {\n      margin-bottom: 0; } }\n  ul.list__bullet ul {\n    list-style: circle inside;\n    margin-left: 20px; }\n\na:link, a:visited {\n  color: #09c;\n  text-decoration: none; }\n\na:active, a:hover {\n  color: #cc3300; }\n\n.hide-text {\n  text-indent: 100%;\n  white-space: nowrap;\n  overflow: hidden; }\n\n.folder, code {\n  font-family: monospace, courier;\n  line-height: 16px;\n  margin-bottom: 20px; }\n\ntable.table--goodbad {\n  margin-bottom: 20px;\n  width: 100%; }\n  table.table--goodbad thead {\n    background: #fafafa; }\n    table.table--goodbad thead .bad {\n      color: red; }\n    table.table--goodbad thead .good {\n      color: green; }\n  table.table--goodbad td {\n    border: 1px solid #efefef;\n    padding: 6px 12px; }\n\n.me {\n  background: url(\"/assets/img/pexels-photo-301614.jpg\") no-repeat;\n  background-position: center;\n  height: 380px;\n  margin-bottom: 40px;\n  width: 100%; }\n  .me a.button {\n    margin-top: 40px; }\n\n.bcd {\n  background: #fafafa; }\n  .bcd .alt {\n    background: #fefefe; }\n\nfooter {\n  background: #424c4c; }\n\n.container__header {\n  background: #6e7f80;\n  color: #fff;\n  height: 80px;\n  position: absolute;\n  top: 0;\n  width: 100%;\n  z-index: 1; }\n\n.header__h1 {\n  left: 40px;\n  position: absolute;\n  top: 30px; }\n  .header__h1 a {\n    color: #fff; }\n\n.header__menu {\n  position: absolute;\n  right: 40px;\n  top: 32px; }\n  .header__menu li {\n    display: inline;\n    font-family: helveticaneueultralight, \"helveticaneueultralight\";\n    font-size: 16px;\n    letter-spacing: 2px;\n    margin-left: 40px; }\n    .header__menu li a {\n      color: #fff; }\n      .header__menu li a:hover {\n        border-bottom: 1px solid #fff;\n        padding-bottom: 6px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 415px) {\n  .header__h1 {\n    top: 32px; }\n  .header__menu li {\n    font-size: 13px;\n    margin-left: 20px; } }\n\n.social__icon {\n  background-position: 50% 50%;\n  background-repeat: no-repeat;\n  background-size: 55%;\n  border: 1px solid #000;\n  border-radius: 50%;\n  height: 40px;\n  margin-right: 20px;\n  width: 40px; }\n  .social__icon.linkedin {\n    background-image: url(\"/assets/img/linkedin.svg\"); }\n  .social__icon.twitter {\n    background-image: url(\"/assets/img/twitter.svg\"); }\n  .social__icon.instagram {\n    background-image: url(\"/assets/img/instagram.svg\"); }\n\n.work__logo {\n  background: #fefefe; }\n  .work__logo .col {\n    margin: 50px 0;\n    position: relative;\n    text-align: center; }\n    .work__logo .col img {\n      bottom: 50%;\n      position: absolute;\n      top: 50%;\n      transform: translate(-50%, -50%); }\n\n.work__project {\n  background: #fafafa; }\n  .work__project.alt {\n    background: #fefefe; }\n  .work__project h4 {\n    margin-bottom: 40px; }\n  .work__project .desktop-frame {\n    text-align: center; }\n    .work__project .desktop-frame img {\n      margin-bottom: 20px; }\n      .work__project .desktop-frame img.shadow {\n        box-shadow: 0px 0px 30px -10px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .work__logo {\n    padding-right: 40px; }\n  .work__project .desktop-frame {\n    text-align: left; } }\n\n/* global */\nbody {\n  background: #efefef;\n  color: #3c3c3c;\n  font: 100% helveticaneue, helvetica, arial;\n  margin-top: 80px;\n  min-width: 375px; }\n\n.bcd-frame {\n  background: #fff;\n  margin: 20px 0;\n  max-width: 600px;\n  padding: 20px; }\n  .bcd-frame.shadow {\n    box-shadow: 0px 0px 25px -15px; }\n\n.example-error {\n  color: #ff0000; }\n\n.example-link {\n  color: #0000ff; }\n\n.example-primary,\n.example-success {\n  color: #009900; }\n\n.example-secondary,\n.example-warning {\n  color: #ff9900; }\n", ""]);
 
 // exports
 
