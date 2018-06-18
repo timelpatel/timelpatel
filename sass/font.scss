@@ -85,7 +85,8 @@ a:active, a:hover {
     overflow: hidden;
 }
 
-.folder, code {
+.code,
+.folder {
     font-family: monospace, courier;
     line-height: 16px;
     margin-bottom: 20px;

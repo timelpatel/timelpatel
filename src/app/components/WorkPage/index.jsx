@@ -15,7 +15,7 @@ const WorkPage = () => (
                         <li>Lloyds Banking Group</li>
                     </ul>
 
-                    <h3>Digital Advertising</h3>
+                    <h3>Digital Services</h3>
                     <ul className='list__bullet'>
                         <li>Billington Cartmell</li>
                         <li>Dare Digital</li>
@@ -37,7 +37,7 @@ const WorkPage = () => (
 
                     <h3>Government &amp; Public Sector</h3>
                     <ul className='list__bullet'>
-                        <li>National Archives</li>
+                        <li>The National Archives</li>
                     </ul>
 
                     <h3>Information</h3>
@@ -54,12 +54,12 @@ const WorkPage = () => (
 
                     <h3>Retail</h3>
                     <ul className='list__bullet'>
-                        <li>Comet Group, Rickmansworth</li>
+                        <li>Comet Group</li>
                     </ul>
 
                     <h3>Technology Start-up</h3>
                     <ul className='list__bullet'>
-                        <li>Evi Technologies</li>
+                        <li>Evi Technologies (an Amazon company)</li>
                         <li>Livedrive Internet</li>
                     </ul>
                 </div>

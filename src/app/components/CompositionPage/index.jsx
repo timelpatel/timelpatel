@@ -17,7 +17,7 @@ const CompositionPage = () => (
 
             <div className='row'>
                 <div className='col col3'>
-                    <h3><Link to='/element'>Elements</Link></h3>
+                    <h3><Link to='/elements'>Elements</Link></h3>
                     <ul className='list__bullet'>
                         <li>Block</li>
                         <li>Pattern</li>
@@ -28,7 +28,7 @@ const CompositionPage = () => (
                 </div>
 
                 <div className='col col3'>
-                    <h3><Link to='/asset'>Assets</Link></h3>
+                    <h3><Link to='/assets'>Assets</Link></h3>
                     <ul className='list__bullet'>
                         <li>Colour</li>
                         <li>Font</li>
@@ -38,12 +38,10 @@ const CompositionPage = () => (
                 </div>
 
                 <div className='col col3'>
-                    <h3>Behaviours</h3>
+                    <h3><Link to='/behaviours'>Behaviours</Link></h3>
                     <ul className='list__bullet'>
-                        <li>Communication</li>
                         <li>Functional</li>
-                        <li>Motion</li>
-                        <li>Touch</li>
+                        <li>Motion &amp; Touch</li>
                         <li>Validation</li>
                     </ul>
                 </div>
@@ -74,7 +72,7 @@ const CompositionPage = () => (
                     <br /><br />
                     <Link
                         className='button'
-                        to='/element'>
+                        to='/elements'>
                         <p>More about Elements</p>
                     </Link>
                 </div>
@@ -133,7 +131,7 @@ const CompositionPage = () => (
                     <br /><br />
                     <Link
                         className='button'
-                        to='/asset'>
+                        to='/assets'>
                         <p>More about Assets</p>
                     </Link>
                 </div>
@@ -144,22 +142,24 @@ const CompositionPage = () => (
             <div className='row'>
                 <div className='col col10'>
                     <h2>Behaviours</h2>
-                    <p>Behavioural elements are a set of expectations, which encourage a consistent experience. This may include the tone of language, user interaction with the application or a set of rules, which govern data into the system.</p>
-
-                    <h3>Communication</h3>
-                    <p>Writing style and consistent wording is important. This could be defined in a best practice document or stored in the code, as a list of common phrases. Communication is a section, which may not be suitable for all projects so you should decide if it is right and manageable for your application.</p>
+                    <p>Behavioural elements are a set of expectations, which encourage a consistent experience. This may include user interaction with the application or a set of rules, which govern data into the system.</p>
 
                     <h3>Functional</h3>
                     <p>Functional behaviour may include a set of reusable functions for a variety of things. Something to truncate text , for example.</p>
 
-                    <h3>Motion</h3>
+                    <h3>Motion &amp; Touch</h3>
                     <p>Animating particular interactions or events can be a nice and subtle way to notify the user of actions. A panel sliding up or fading out a deleted message are good examples. Like other behaviours, the idea is to define the actual action and not the movement itself; delete message instead of fade-out, for example.</p>
-
-                    <h3>Touch</h3>
                     <p>User input from touch devices can sometimes vary, however we are starting to see a growing number of consistent touch actions across leading applications. Swiping right on a message to delete? Maybe left to mark as unread? Either way, having these interactions defined can make for a better experience.</p>
 
                     <h3>Validation</h3>
                     <p>Consistency in this field is important as it is usually an area for unnecessary abrupt user messaging. Messages are based on the application however we should consider the user has either accidentally inputted data or it was not clear what data to enter.</p>
+
+                    <br /><br />
+                    <Link
+                        className='button'
+                        to='/behaviours'>
+                        <p>More about Behaviours</p>
+                    </Link>
                 </div>
             </div>
         </div>
