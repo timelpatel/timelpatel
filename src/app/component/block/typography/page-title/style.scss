@@ -1,0 +1,12 @@
+h1.typography__page_title {
+    color: $font-secondary-color;
+    font-family: $font-stack-title;
+    font-size: 27px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+
+    @media screen and (max-width : 415px) {
+        font-size: 21px;
+    }
+}

@@ -1,20 +1,20 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
-import AboutPage from './components/AboutPage/index.jsx'
-import AssetsPage from './components/AssetsPage/index.jsx'
-import BehavioursPage from './components/BehavioursPage/index.jsx'
-import CompositionPage from './components/CompositionPage/index.jsx'
-import ElementsPage from './components/ElementsPage/index.jsx'
-import WorkPage from './components/WorkPage/index.jsx'
+import AboutPage from './component/page/About/index.jsx'
+import AssetsPage from './component/page/Assets/index.jsx'
+import BehavioursPage from './component/page/Behaviours/index.jsx'
+import BcdPage from './component/page/bcd/index.jsx'
+import ComponentsPage from './component/page/components/index.jsx'
+import WorkPage from './component/page/Work/index.jsx'
 
 
 const Routes = () => (
     <div>
         <Route exact path='/' component={AboutPage}/>
-        <Route path='/block-component-design' component={CompositionPage}/>
+        <Route path='/block-component-design' component={BcdPage}/>
         <Route path='/assets' component={AssetsPage}/>
         <Route path='/behaviours' component={BehavioursPage}/>
-        <Route path='/elements' component={ElementsPage}/>
+        <Route path='/components' component={ComponentsPage}/>
         <Route path='/work' component={WorkPage}/>
     </div>
 )

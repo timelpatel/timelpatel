@@ -4,72 +4,6 @@
 
 
 
-h1 {
-    color: $font-secondary-color;
-    font-family: $font-stack-title;
-    font-size: 27px;
-    letter-spacing: 2px;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-
-    @media screen and (max-width : 415px) {
-        font-size: 21px;
-    }
-}
-
-h2 {
-    color: $font-secondary-color;
-    font-family: $font-stack-light;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    line-height: 27px;
-    margin-bottom: 40px;
-}
-
-h3 {
-    color: $font-secondary-color;
-    font-family: $font-stack-normal;
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 30px;
-    text-transform: uppercase;
-}
-h4 {
-    font-family: $font-stack-light;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 2;
-    text-transform: uppercase;
-}
-
-p, li, td, code {
-    color: $font-body-color;
-    font-family: $font-stack-normal;
-    font-size: 12px;
-    letter-spacing: 1px;
-    line-height: 18px;
-}
-
-p {
-    margin-bottom: 20px;
-}
-
-ul.list__bullet {
-    list-style: circle inside;
-    margin-bottom: 20px;
-
-    @media screen and (max-width : 600px) {
-        margin-bottom: 0;
-    }
-
-    ul {
-        list-style: circle inside;
-        margin-left: 20px;
-    }
-}
-
 a:link, a:visited {
     color: $font-primary-link;
     text-decoration: none;
@@ -83,11 +17,4 @@ a:active, a:hover {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-}
-
-.code,
-.folder {
-    font-family: monospace, courier;
-    line-height: 16px;
-    margin-bottom: 20px;
 }

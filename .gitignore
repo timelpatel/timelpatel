@@ -3,6 +3,7 @@
 /node_modules
 *.orig
 /.sass-cache
+/src/public
 .Thumbs.db
 *.Thumbs.db
 Thumbs.db

@@ -6,16 +6,35 @@
 @import '_reset';
 @import '_variables';
 @import '_mixins';
-@import 'button';
 @import 'grid';
 @import 'font';
-@import 'table';
+
 @import './components/about-page';
 @import './components/composition-page';
 @import './components/footer';
 @import './components/header';
-@import './components/social';
 @import './components/work-page';
+
+/* blocks */
+@import '../src/app/component/block/button/primary/style';
+@import '../src/app/component/block/button/social/style';
+@import '../src/app/component/block/container/billboard/style';
+@import '../src/app/component/block/container/chic/style';
+@import '../src/app/component/block/typography/body-copy/style';
+@import '../src/app/component/block/typography/bullet-list/style';
+@import '../src/app/component/block/typography/code/style';
+@import '../src/app/component/block/typography/logo/style';
+@import '../src/app/component/block/typography/loud/style';
+@import '../src/app/component/block/typography/loud/style';
+@import '../src/app/component/block/typography/page-title/style';
+@import '../src/app/component/block/typography/section-title/style';
+@import '../src/app/component/block/typography/sub-heading/style';
+@import '../src/app/component/block/typography/sub-loud/style';
+@import '../src/app/component/block/typography/subtle-title/style';
+
+/* patterns */
+@import '../src/app/component/pattern/banner/promote/style';
+@import '../src/app/component/pattern/header-footer/header/style';
 
 
 

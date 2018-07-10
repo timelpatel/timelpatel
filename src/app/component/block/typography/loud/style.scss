@@ -1,0 +1,12 @@
+h1.typography__loud {
+    color: #555;
+    font-family: $font-stack-title;
+    font-size: 33px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+
+    @media screen and (max-width : 415px) {
+        font-size: 27px;
+    }
+}

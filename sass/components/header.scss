@@ -9,20 +9,12 @@
 }
 
 .header__h1 {
-    left:40px;
-    position: absolute;
-    top: 30px;
-
-    a {
-        color: $font-white;
-    }
+    // a {
+    //     color: $font-white;
+    // }
 }
 
 .header__menu {
-    position: absolute;
-    right: 40px;
-    top: 32px;
-
     li {
         display: inline;
         font-family: $font-stack-light;
@@ -51,8 +43,8 @@
     }
 
     .header__menu li {
-        font-size: 13px;
-        margin-left: 20px;
+        font-size: 12px;
+        margin-left: 15px;
     }
 
 }
