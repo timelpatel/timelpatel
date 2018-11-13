@@ -1,7 +1,8 @@
-.bcd {
+.container__section {
     background: $background-container-primary;
+    padding: 40px;
 
-    .alt {
+    &.alt {
         background: $background-container-secondary;
     }
 }

@@ -1,25 +1,21 @@
-/*
-    timelpatel.com
-    Base SASS
-*/
-
 @import '_reset';
 @import '_variables';
 @import '_mixins';
 @import 'grid';
 @import 'font';
 
-@import './components/about-page';
-@import './components/composition-page';
-@import './components/footer';
-@import './components/header';
-@import './components/work-page';
-
 /* blocks */
 @import '../src/app/component/block/button/primary/style';
 @import '../src/app/component/block/button/social/style';
+@import '../src/app/component/block/card/project/style';
 @import '../src/app/component/block/container/billboard/style';
 @import '../src/app/component/block/container/chic/style';
+@import '../src/app/component/block/container/footer/style';
+@import '../src/app/component/block/container/header/style';
+@import '../src/app/component/block/container/section/style';
+@import '../src/app/component/block/imagery/hero/style';
+@import '../src/app/component/block/imagery/logos/style';
+@import '../src/app/component/block/navigation/header-link/style';
 @import '../src/app/component/block/typography/body-copy/style';
 @import '../src/app/component/block/typography/bullet-list/style';
 @import '../src/app/component/block/typography/code/style';
@@ -33,15 +29,15 @@
 @import '../src/app/component/block/typography/subtle-title/style';
 
 /* patterns */
-@import '../src/app/component/pattern/banner/promote/style';
-@import '../src/app/component/pattern/header-footer/header/style';
+@import '../src/app/component/pattern/banner/promote';
+@import '../src/app/component/pattern/header-footer/header';
 
 
 
 /* global */
 body {
     background: $background-body;
-    color: $font-primary-color;
+    color: $font-color-body;
     font: 100% $font-stack-normal;
     margin-top: 80px;
     min-width: 375px;

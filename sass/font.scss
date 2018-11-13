@@ -5,12 +5,12 @@
 
 
 a:link, a:visited {
-    color: $font-primary-link;
+    color: $font-color-link;
     text-decoration: none;
 }
 
 a:active, a:hover {
-    color: $font-primary-hover;
+    color: $font-color-link-hover;
 }
 
 .hide-text {

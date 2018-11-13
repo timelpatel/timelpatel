@@ -1,4 +1,11 @@
 .container__chic {
-    background: #e3e0cc;
+    background: $color-mustard;
     padding: 40px;
+
+    h2 {
+        color: $color-black;
+    }
+    p {
+        color: $font-color-loud;
+    }
 }

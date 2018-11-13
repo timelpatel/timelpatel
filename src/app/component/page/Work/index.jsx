@@ -1,255 +1,198 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Typography__Body_Copy from '../../../component/block/typography/body-copy/index.jsx'
-import Typography__Sub_Heading from '../../../component/block/typography/sub-heading/index.jsx'
-import Typography__Subtle_Title from '../../../component/block/typography/subtle-title/index.jsx'
+import Card__Project from '../../../component/block/card/project/index.jsx'
+import Container__Section from '../../../component/block/container/section/index.jsx'
+import Imagery__logos from '../../../component/block/imagery/logos/index.jsx'
 import Template__Tp from '../../../component/module/template/tp/index.jsx'
+import Typography__Bullet_List from '../../../component/block/typography/bullet-list/index.jsx'
+import Typography__Sub_Heading from '../../../component/block/typography/sub-heading/index.jsx'
 
 
 const WorkPage = () => (
     <Template__Tp>
 
-        <div className='container'>
+        <Container__Section>
 
             <div className='row'>
                 <div className='col col4'>
                     <Typography__Sub_Heading
                         text='Banking &amp; Financial Services'
                     />
-                    <ul className='list__bullet'>
-                        <li>Deloitte</li>
-                        <li>HSBC</li>
-                        <li>Lloyds Banking Group</li>
-                    </ul>
+                    <Typography__Bullet_List
+                        listItems={
+                            [
+                                {id: 1, text:'Deloitte'},
+                                {id: 2, text:'HSBC'},
+                                {id: 3, text:'Lloyds Banking Group'},
+                            ]
+                        }
+                    />
 
                     <Typography__Sub_Heading
                         text='Digital Services'
                     />
-                    <ul className='list__bullet'>
-                        <li>Billington Cartmell</li>
-                        <li>Dare Digital</li>
-                        <li>Deloitte Digital</li>
-                        <li>Investis</li>
-                        <li>Reflector Interactive</li>
-                        <li>Steak Digital</li>
-                        <li>Tequila</li>
-                        <li>TMP Worldwide</li>
-                        <li>Wipro Digital</li>
-                    </ul>
+                    <Typography__Bullet_List
+                        listItems={
+                            [
+                                {id: 1, text:'Billington Cartmell'},
+                                {id: 2, text:'Dare Digital'},
+                                {id: 3, text:'Deloitte Digital'},
+                                {id: 4, text:'Investis'},
+                                {id: 5, text:'Reflector Interactive'},
+                                {id: 6, text:'Steak Digital'},
+                                {id: 7, text:'Tequila'},
+                                {id: 8, text:'TMP Worldwide'},
+                                {id: 9, text:'Wipro Digital'},
+                            ]
+                        }
+                    />
                 </div>
 
                 <div className='col col4'>
                     <Typography__Sub_Heading
                         text='Gaming &amp; Entertainment'
                     />
-                    <ul className='list__bullet'>
-                        <li>Camelot Group</li>
-                        <li>Ideaworks 3D</li>
-                    </ul>
+                    <Typography__Bullet_List
+                        listItems={
+                            [
+                                {id: 1, text:'Camelot Group'},
+                                {id: 2, text:'Ideaworks 3D'},
+                            ]
+                        }
+                    />
 
                     <Typography__Sub_Heading
                         text='Government &amp; Public Sector'
                     />
-                    <ul className='list__bullet'>
-                        <li>The National Archives</li>
-                    </ul>
+                    <Typography__Bullet_List
+                        listItems={
+                            [
+                                {id: 1, text:'The National Archives'},
+                            ]
+                        }
+                    />
 
                     <Typography__Sub_Heading
                         text='Information'
                     />
-                    <ul className='list__bullet'>
-                        <li>Reed Business Information for Valtech</li>
-                    </ul>
+                    <Typography__Bullet_List
+                        listItems={
+                            [
+                                {id: 1, text:'Reed Business Information for Valtech'},
+                            ]
+                        }
+                    />
                 </div>
 
                 <div className='col col4'>
                     <Typography__Sub_Heading
                         text='Media &amp; Broadcasting'
                     />
-                    <ul className='list__bullet'>
-                        <li>BBC Worldwide</li>
-                    </ul>
+                    <Typography__Bullet_List
+                        listItems={
+                            [
+                                {id: 1, text:'BBC Worldwide'},
+                            ]
+                        }
+                    />
 
                     <Typography__Sub_Heading
                         text='Retail'
                     />
-                    <ul className='list__bullet'>
-                        <li>Comet Group</li>
-                    </ul>
+                    <Typography__Bullet_List
+                        listItems={
+                            [
+                                {id: 1, text:'Comet Group'},
+                            ]
+                        }
+                    />
 
                     <Typography__Sub_Heading
                         text='Technology Start-up'
                     />
-                    <ul className='list__bullet'>
-                        <li>Evi Technologies (an Amazon company)</li>
-                        <li>Livedrive Internet</li>
-                    </ul>
+                    <Typography__Bullet_List
+                        listItems={
+                            [
+                                {id: 1, text:'Evi Technologies (an Amazon company)'},
+                                {id: 2, text:'Livedrive Internet'},
+                            ]
+                        }
+                    />
                 </div>
             </div>
-        </div>
+        </Container__Section>
 
-        <div className='container work__logo'>
-            <div className='row'>
-                <div className='col col3'>
-                    <img alt='BBC logo' src='/assets/img/logo-bbc.svg' width='150' />
-                </div>
-                <div className='col col3'>
-                    <img alt='Deloitte logo' src='/assets/img/logo-deloitte.svg' width='150' />
-                </div>
-                <div className='col col3'>
-                    <img alt='HSBC logo' src='/assets/img/logo-hsbc.svg' width='150' />
-                </div>
-                <div className='col col3'>
-                    <img alt='Lloyds Banking Group logo' src='/assets/img/logo-lbg.svg' width='150' />
-                </div>
-            </div>
-        </div>
+        <Container__Section alt='alt'>
+            <Imagery__logos 
+                logos={
+                    [
+                        {id: 1, alt: 'BBC logo', src: '/assets/img/logo-bbc.svg'},
+                        {id: 2, alt: 'Deloitte logo', src: '/assets/img/logo-deloitte.svg'},
+                        {id: 3, alt: 'HSBC logo', src: '/assets/img/logo-hsbc.svg'},
+                        {id: 4, alt: 'Lloyds Banking Group logo', src: '/assets/img/logo-lbg.svg'},
+                    ]
+                }
+            />
+        </Container__Section>
 
-        <div className='container work__project'>
-            <div className='row'>
-                <div className='col col6'>
-                    <Typography__Sub_Heading
-                        text='Lloyds Banking Group'
-                    />
-                    <Typography__Subtle_Title
-                        text='Bank of Scotland public website'
-                    />
-                    <Typography__Body_Copy
-                        text='Led a team of developers to build the Bank of Scotland public website. Used kanban agile methodology to manage workload and provided support for other team members.'
-                    />
-                    <Typography__Body_Copy>
-                        <a href='https://www.bankofscotland.co.uk'>bankofscotland.co.uk</a>
-                    </Typography__Body_Copy>
-                </div>
-                <div className='col col6'>
-                    <div className='desktop-frame'>
-                        <img
-                            className='shadow'
-                            src='/assets/img/project-bos.png'
-                            width='60%'
-                            alt='Bank of Scotland website'
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className='container work__project alt'>
-            <div className='row'>
-                <div className='col col6'>
-                    <div className='desktop-frame'>
-                        <img
-                            className='shadow'
-                            src='/assets/img/project-hfax.jpg'
-                            width='60%'
-                            alt=''
-                        />
-                    </div>
-                </div>
-                <div className='col col6'>
-                    <Typography__Sub_Heading
-                        text='Lloyds Banking Group'
-                    />
-                    <Typography__Subtle_Title
-                        text='Halifax Car Finance'
-                    />
-                    <Typography__Body_Copy
-                        text='Worked in a small agile team to build a brand new car finance loan journey for Halifax Internet Banking customers.'
-                    />
-                    <Typography__Body_Copy>
-                        <a href='https://www.halifax.co.uk'>halifax.co.uk</a>
-                    </Typography__Body_Copy>
-                </div>
-            </div>
-        </div>
-
-        <div className='container work__project'>
-            <div className='row'>
-                <div className='col col6'>
-                    <Typography__Sub_Heading
-                        text='Lloyds Banking Group'
-                    />
-                    <Typography__Subtle_Title
-                        text='Lloyds Bank and TSB Demerger'
-                    />
-                    <Typography__Body_Copy
-                        text='Took part in the rebrand of Lloyds TSB Bank into two seperate UK banks in a high-profile, classified project.'
-                    />
-                    <Typography__Body_Copy>
-                        <a href='https://www.lloydsbank.com'>lloydsbank.com</a><br />
-                        <a href='https://www.tsb.co.uk'>tsb.co.uk</a>
-                    </Typography__Body_Copy>
-                </div>
-                <div className='col col6'>
-                    <div className='desktop-frame'>
-                        <img
-                            className='shadow'
-                            src='/assets/img/project-lloyds.png'
-                            width='60%'
-                            alt=''
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className='container work__project alt'>
-            <div className='row'>
-                <div className='col col6'>
-                    <div className='desktop-frame'>
-                        <img
-                            className='shadow'
-                            src='/assets/img/project-evi.png'
-                            height='300'
-                            width='auto'
-                            alt='Evi home screen'
-                        />
-                    </div>
-                </div>
-                <div className='col col6'>
-                    <Typography__Sub_Heading
-                        text='Evi Technologies'
-                    />
-                    <Typography__Subtle_Title
-                        text='The Evi app'
-                    />
-                    <Typography__Body_Copy
-                        text='Created pixel-perfect views for this Cambridge based artificial intelligence start-up, which is now part of the Amazon Group of companies.'
-                    />
-                    <Typography__Body_Copy>
-                        <a href='https://www.evi.com'>evi.com</a>
-                    </Typography__Body_Copy>
-                </div>
-            </div>
-        </div>
-
-        <div className='container work__project'>
-            <div className='row'>
-                <div className='col col6'>
-                    <Typography__Sub_Heading
-                        text='Livedrive'
-                    />
-                    <Typography__Subtle_Title
-                        text='Cloud storage software'
-                    />
-                    <Typography__Body_Copy
-                        text='Provided full art direction, creating all digital assets as well as user interface development. Helped the company launch a suite of products and features including websites, mobile and desktop applications and marketing materials.'
-                    />
-                    <Typography__Body_Copy>
-                        <a href='https://www.livedrive.com'>livedrive.com</a>
-                    </Typography__Body_Copy>
-                </div>
-                <div className='col col6'>
-                    <div className='desktop-frame'>
-                        <img
-                            alt='Computer files flying out of a folder'
-                            src='/assets/img/project-livedrive.png'
-                            width='70%'
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Card__Project 
+            projects={
+                [
+                    {
+                        id: 1,
+                        alt: 'Bank of Scotland website',
+                        client: 'Lloyds Banking Group',
+                        src: '/assets/img/project-bos.png',
+                        summary: 'Led a team of developers to build the Bank of Scotland public website. Used kanban agile methodology to manage workload and provided support for other team members.',
+                        title: 'Bank of Scotland public website',
+                        url: 'bankofscotland.co.uk',
+                        width: '60%',
+                    },
+                    {
+                        id: 2,
+                        alt: '',
+                        client: 'Lloyds Banking Group',
+                        flip: true,
+                        src: '/assets/img/project-hfax.jpg',
+                        summary: 'Worked in a small agile team to build a brand new car finance loan journey for Halifax Internet Banking customers.',
+                        title: 'Halifax Car Finance',
+                        url: 'halifax.co.uk',
+                        width: '60%',
+                    },
+                    {
+                        id: 3,
+                        alt: 'Lloyds Bank rebranded screen',
+                        client: 'Lloyds Banking Group',
+                        src: '/assets/img/project-lloyds.png',
+                        summary: 'Took part in the rebrand of Lloyds TSB Bank into two seperate UK banks in a high-profile, classified project.',
+                        title: 'Lloyds Bank and TSB Demerger',
+                        url: 'lloydsbank.com',
+                        width: '60%',
+                    },
+                    {
+                        id: 4,
+                        alt: 'Evi home screen',
+                        client: 'Evi Technologies',
+                        flip: true,
+                        height: '300',
+                        src: '/assets/img/project-evi.png',
+                        summary: 'Created pixel-perfect views for this Cambridge based artificial intelligence start-up, which is now part of the Amazon Group of companies.',
+                        title: 'The Evi app',
+                        url: 'evi.com',
+                        width: 'auto',
+                    },
+                    {
+                        id: 5,
+                        alt: 'Computer files flying out of a folder',
+                        client: 'Livedrive',
+                        src: '/assets/img/project-livedrive.png',
+                        summary: 'Provided full art direction, creating all digital assets as well as user interface development. Helped the company launch a suite of products and features including websites, mobile and desktop applications and marketing materials.',
+                        title: 'Cloud storage software',
+                        url: 'livedrive.com',
+                        width: '60%',
+                    },
+                ]
+            }
+        />
 
     </Template__Tp>
 )

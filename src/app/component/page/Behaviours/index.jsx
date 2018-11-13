@@ -1,11 +1,11 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import Container__Section from '../../../component/block/container/section/index.jsx'
+import Template__Bcd from '../../../component/module/template/bcd/index.jsx'
 import Typography__Body_Copy from '../../../component/block/typography/body-copy/index.jsx'
 import Typography__Code from '../../../component/block/typography/code/index.jsx'
 import Typography__Page_Title from '../../../component/block/typography/page-title/index.jsx'
 import Typography__Section_Title from '../../../component/block/typography/section-title/index.jsx'
 import Typography__Sub_Heading from '../../../component/block/typography/sub-heading/index.jsx'
-import Template__Bcd from '../../../component/module/template/bcd/index.jsx'
 
 
 const BehavioursPage = () => (
@@ -13,7 +13,7 @@ const BehavioursPage = () => (
     <Template__Bcd>
         <div className='bcd'>
 
-            <div className='container'>
+            <Container__Section>
                 <div className='row'>
                     <div className='col col10'>
                         <Typography__Page_Title
@@ -24,9 +24,9 @@ const BehavioursPage = () => (
                         />
                     </div>
                 </div>
-            </div>
+            </Container__Section>
 
-            <div className='container alt'>
+            <Container__Section alt='alt'>
                 <div className='row'>
                     <div className='col col10'>
                         <Typography__Section_Title
@@ -56,9 +56,9 @@ const BehavioursPage = () => (
                         </Typography__Code>
                     </div>
                 </div>
-            </div>
+            </Container__Section>
 
-            <div className='container'>
+            <Container__Section>
                 <div className='row'>
                     <div className='col col10'>
                         <Typography__Section_Title
@@ -71,12 +71,12 @@ const BehavioursPage = () => (
                         <Typography__Body_Copy
                             text='Common functions, which may be used throughout the application. Again, using meaningful categories will be helpful for developers to find existing functions.'
                         />
-                        <Typography__Code>
+                        {/* <Typography__Code>
                             add-numbers.js<br />
                             function addNumbers (n1, n2) &#123;<br />
                             &nbsp;&nbsp;&nbsp;&nbsp;return n1 + n2;<br />
                             &#125;
-                        </Typography__Code>
+                        </Typography__Code> */}
 
                         <Typography__Sub_Heading
                             text='Motion &amp; Touch'
@@ -93,7 +93,7 @@ const BehavioursPage = () => (
                         />
                     </div>
                 </div>
-            </div>
+            </Container__Section>
 
         </div>
     </Template__Bcd>

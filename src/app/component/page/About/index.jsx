@@ -1,12 +1,12 @@
 import React from 'react'
-
 import Button__Primary from '../../../component/block/button/primary/index.jsx'
 import Container__Section from '../../../component/block/container/section/index.jsx'
+import CTA_BCD from '../../../component/module/cta/bcd/index.jsx'
+import Imagery__Hero from '../../../component/block/imagery/hero/index.jsx'
+import Template__Tp from '../../../component/module/template/tp/index.jsx'
 import Typography__Body_Copy from '../../../component/block/typography/body-copy/index.jsx'
 import Typography__Section_Title from '../../../component/block/typography/section-title/index.jsx'
 import Typography__Sub_Heading from '../../../component/block/typography/sub-heading/index.jsx'
-import CTA_BCD from '../../../component/module/cta/bcd/index.jsx'
-import Template__Tp from '../../../component/module/template/tp/index.jsx'
 
 
 const AboutPage = () => (
@@ -14,7 +14,7 @@ const AboutPage = () => (
     <Template__Tp>
 
         <Container__Section>
-            <div className='me' />
+            <Imagery__Hero />
 
             <div className='row'>
                 <div className='col col10'>

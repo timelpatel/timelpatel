@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import Container__Section from '../../../component/block/container/section/index.jsx'
+import Template__Bcd from '../../../component/module/template/bcd/index.jsx'
 import Typography__Body_Copy from '../../../component/block/typography/body-copy/index.jsx'
 import Typography__Bullet_List from '../../../component/block/typography/bullet-list/index.jsx'
 import Typography__Code from '../../../component/block/typography/code/index.jsx'
@@ -7,7 +8,6 @@ import Typography__Page_Title from '../../../component/block/typography/page-tit
 import Typography__Section_Title from '../../../component/block/typography/section-title/index.jsx'
 import Typography__Sub_Heading from '../../../component/block/typography/sub-heading/index.jsx'
 import Typography__Subtle_Title from '../../../component/block/typography/subtle-title/index.jsx'
-import Template__Bcd from '../../../component/module/template/bcd/index.jsx'
 
 
 const ComponentsPage = () => (
@@ -15,7 +15,7 @@ const ComponentsPage = () => (
     <Template__Bcd>
         <div className='bcd'>
 
-            <div className='container'>
+            <Container__Section>
                 <div className='row'>
                     <div className='col col9'>
                         <Typography__Page_Title
@@ -25,7 +25,7 @@ const ComponentsPage = () => (
                             text='The most important part of the BCD system, Components are the foundational infrastructure required to support the whole ecosystem.'
                         />
                         <Typography__Body_Copy
-                            text='To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used within Modules. It is important that an component should only be modified at its source and changes filter down. For example, it would be bad practice to change the visual styling of a block after it was imported into a pattern; we want to ensure a single source of truth policy.'
+                            text='To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used within Modules. It is important that an component should only be modified at its source and changes filter down. For example, it would be bad practice to change the visual styling of a block after it was imported into a module; we want to ensure a single source of truth policy.'
                         />
                         <div className='bcd-frame shadow'>
                             <img
@@ -36,9 +36,9 @@ const ComponentsPage = () => (
                         </div>
                     </div>
                 </div>
-            </div>
+            </Container__Section>
 
-            <div className='container alt'>
+            <Container__Section alt='alt'>
                 <div className='row'>
                     <div className='col col10'>
                         <Typography__Section_Title
@@ -61,9 +61,7 @@ const ComponentsPage = () => (
                             &nbsp;|<br />
                             &nbsp;├── /pattern<br />
                             &nbsp;| &nbsp;&nbsp; └── /category-name<br />
-                            &nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── /pattern-name<br />
-                            &nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── index.html<br />
-                            &nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── style.css<br />
+                            &nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── pattern-name.css<br />
                             &nbsp;|<br />
                             &nbsp;└── /module<br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── /category-name<br />
@@ -73,9 +71,9 @@ const ComponentsPage = () => (
                         </Typography__Code>
                     </div>
                 </div>
-            </div>
+            </Container__Section>
 
-            <div className='container'>
+            <Container__Section>
                 <div className='row'>
                     <div className='col col10'>
                         <Typography__Section_Title
@@ -89,17 +87,17 @@ const ComponentsPage = () => (
                             text='HTML'
                         />
                         <Typography__Code>
-                            div class='category-name--component-name'<br />
-                            div class='button--primary'<br />
-                            div class='category-name--component-name__variant'<br />
-                            div class='button--primary__large'
+                            div class='category-name__component-name'<br />
+                            div class='button__primary'<br />
+                            div class='category-name__component-name--variant'<br />
+                            div class='button__primary--large'
                         </Typography__Code>
 
                         <Typography__Sub_Heading
                             text='CSS'
                         />
-                        <Typography__Code>.category-name--component-name<br />
-                            .button--primary
+                        <Typography__Code>.category-name__component-name<br />
+                            .button__primary
                         </Typography__Code>
 
                         <Typography__Sub_Heading
@@ -110,9 +108,9 @@ const ComponentsPage = () => (
                         />
                     </div>
                 </div>
-            </div>
+            </Container__Section>
 
-            <div className='container alt'>
+            <Container__Section alt='alt'>
 
                 <div className='row'>
                     <div className='col col10'>
@@ -329,9 +327,9 @@ const ComponentsPage = () => (
                     </div>
                 </div>
 
-            </div>
+            </Container__Section>
 
-            <div className='container'>
+            <Container__Section>
                 <div className='row'>
                     <div className='col col10'>
                         <Typography__Section_Title
@@ -349,7 +347,7 @@ const ComponentsPage = () => (
                                     {id: 1, text:'/component/block/input-field/dropdown'},
                                     {id: 2, text:'/component/block/input-field/text-input'},
                                     {id: 3, text:'/component/block/typography/form-label'},
-                                    {id: 4, text:'/component/pattern/user-data/telephone-row'},
+                                    {id: 4, text:'/component/pattern/user-data/telephone-row.css'},
                                     {id: 5, text:'/component/module/personal-information/telephone-numbers'},
                                 ]
                             }
@@ -398,7 +396,7 @@ const ComponentsPage = () => (
                         </div>
                     </div>
                 </div>
-            </div>
+            </Container__Section>
 
         </div>
     </Template__Bcd>

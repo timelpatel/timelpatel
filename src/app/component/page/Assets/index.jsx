@@ -1,13 +1,12 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-
+import Container__Section from '../../../component/block/container/section/index.jsx'
+import Template__Bcd from '../../../component/module/template/bcd/index.jsx'
 import Typography__Body_Copy from '../../../component/block/typography/body-copy/index.jsx'
 import Typography__Code from '../../../component/block/typography/code/index.jsx'
 import Typography__Page_Title from '../../../component/block/typography/page-title/index.jsx'
 import Typography__Section_Title from '../../../component/block/typography/section-title/index.jsx'
 import Typography__Sub_Heading from '../../../component/block/typography/sub-heading/index.jsx'
 import Typography__Subtle_Title from '../../../component/block/typography/subtle-title/index.jsx'
-import Template__Bcd from '../../../component/module/template/bcd/index.jsx'
 
 
 const AssetPage = () => (
@@ -15,20 +14,20 @@ const AssetPage = () => (
     <Template__Bcd>
         <div className='bcd'>
 
-            <div className='container'>
+            <Container__Section>
                 <div className='row'>
                     <div className='col col10'>
                         <Typography__Page_Title
                             text='Assets'
                         />
                         <Typography__Body_Copy
-                            text='Assets allow us to moderate a strict branding policy across our application, by only allowing pre-defined values. These rules can be enforced at Engineering level using test scripts, for example. Maybe Blocks do not accept hex colour values or font and icons can not be hardcoded into the styling file.'
+                            text='Assets allow us to moderate a strict branding policy across our application, by only allowing pre-defined values. These rules can be enforced at Engineering level using test scripts. Maybe Blocks do not accept hex colour values or font and icons can not be hardcoded into the styling file.'
                         />
                     </div>
                 </div>
-            </div>
+            </Container__Section>
 
-            <div className='container alt'>
+            <Container__Section alt='alt'>
                 <div className='row'>
                     <div className='col col10'>
                         <Typography__Section_Title
@@ -60,9 +59,9 @@ const AssetPage = () => (
                         </Typography__Code>
                     </div>
                 </div>
-            </div>
+            </Container__Section>
 
-            <div className='container'>
+            <Container__Section>
                 <div className='row'>
                     <div className='col col10'>
                         <Typography__Section_Title
@@ -144,7 +143,7 @@ const AssetPage = () => (
                         </ul>
                     </div>
                 </div>
-            </div>
+            </Container__Section>
 
         </div>
     </Template__Bcd>

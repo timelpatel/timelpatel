@@ -2,11 +2,15 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 55%;
-    border: 1px solid #000;
+    border: 1px solid $color-black;
     border-radius: 50%;
     height: 40px;
     margin-right: 20px;
     width: 40px;
+
+    &:hover {
+        background-color: $background-header;
+    }
 
     &.linkedin {
         background-image: url('/assets/img/linkedin.svg');
@@ -14,17 +18,9 @@
 
     &.twitter {
         background-image: url('/assets/img/twitter.svg');
-
-        &:hover {
-
-        }
     }
 
     &.instagram {
         background-image: url('/assets/img/instagram.svg');
-
-        &:hover {
-
-        }
     }
 }

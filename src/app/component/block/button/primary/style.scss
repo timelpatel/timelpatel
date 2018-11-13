@@ -1,7 +1,7 @@
 a.button__primary {
-    background: #aa863a;
-    // border: 1px solid $button-border-color;
-    color: $font-white;
+    background: $color-cta;
+    border: 1px solid transparent;
+    color: $color-white;
     display: inline-block;
     font-family: $font-stack-normal;
     font-size: 12px;
@@ -10,6 +10,8 @@ a.button__primary {
     transition: all 0.3s ease;
 
     &:hover {
-        background-color: $button-hover-color;
+        background-color: transparent;
+        border: 1px solid $color-cta;
+        color: $color-cta;
     }
 }

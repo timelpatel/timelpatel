@@ -1,16 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
 import Button__Primary from '../../../component/block/button/primary/index.jsx'
 import Container__Billboard from '../../../component/block/container/billboard/index.jsx'
 import Container__Section from '../../../component/block/container/section/index.jsx'
+import Template__Bcd from '../../../component/module/template/bcd/index.jsx'
 import Typography__Body_Copy from '../../../component/block/typography/body-copy/index.jsx'
 import Typography__Bullet_List from '../../../component/block/typography/bullet-list/index.jsx'
 import Typography__Loud from '../../../component/block/typography/loud/index.jsx'
 import Typography__Section_Title from '../../../component/block/typography/section-title/index.jsx'
 import Typography__Sub_Loud from '../../../component/block/typography/sub-loud/index.jsx'
 import Typography__Sub_Heading from '../../../component/block/typography/sub-heading/index.jsx'
-import Template__Bcd from '../../../component/module/template/bcd/index.jsx'
 
 
 const BcdPage = () => (
@@ -154,45 +153,18 @@ const BcdPage = () => (
                             text='Assets'
                         />
                         <Typography__Body_Copy
-                            text='Assets are a collection of branding used within Blocks and Patterns.'
+                            text='A collection of brand assets used within Blocks.'
                         />
 
                         <Typography__Sub_Heading
                             text='Colour'
                         />
                         <Typography__Body_Copy
-                            text='All colours should be organised in accordance to usage and names should be based on this scenario, rather than visual appearance. Colours are used at Block level so any change should consider consider widespread impact.'
+                            text='All colours should be organised in accordance to usage and names should be based on this scenario, rather than visual appearance. Colours are used at Block level so any change should consider widespread impact.'
                         />
                     </div>
                 </div>
-    {/*
-                <div className='row'>
-                    <div className='col col5'>
-                        <table className='table--goodbad'>
-                            <thead>
-                                <tr>
-                                    <td className='good'>Good</td>
-                                    <td className='bad'>Bad</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Error</td>
-                                    <td>Red</td>
-                                </tr>
-                                <tr>
-                                    <td>Success</td>
-                                    <td>Green</td>
-                                </tr>
-                                <tr>
-                                    <td>Warning</td>
-                                    <td>Orange</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-    */}
+
                 <div className='row'>
                     <div className='col col10'>
                         <Typography__Sub_Heading

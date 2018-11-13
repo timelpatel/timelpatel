@@ -1,0 +1,16 @@
+.imagery__logo {
+    // background: $background-container-secondary;
+
+    .col {
+        margin: 50px 0;
+        position: relative;
+        text-align: center;
+
+        img {
+            bottom: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
