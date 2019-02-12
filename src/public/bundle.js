@@ -27645,7 +27645,7 @@ var ComponentsPage = function ComponentsPage() {
                             text: 'The most important part of the BCD system, Components are the foundational infrastructure required to support the whole ecosystem.'
                         }),
                         _react2.default.createElement(_index6.default, {
-                            text: 'To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used within Modules. It is important that an component should only be modified at its source and changes filter down. For example, it would be bad practice to change the visual styling of a block after it was imported into a module; we want to ensure a single source of truth policy.'
+                            text: 'To allow for flexibility, Blocks can be used within Blocks and Modules can be used within Modules. It is important that an component should only be modified at its source and changes filter down. For example, it would be bad practice to change the visual styling of a block after it was imported into a module; we want to ensure a single source of truth policy.'
                         }),
                         _react2.default.createElement(
                             'div',
@@ -27694,23 +27694,17 @@ var ComponentsPage = function ComponentsPage() {
                             _react2.default.createElement('br', null),
                             '\xA0|',
                             _react2.default.createElement('br', null),
-                            '\xA0\u251C\u2500\u2500 /pattern',
-                            _react2.default.createElement('br', null),
-                            '\xA0| \xA0\xA0 \u2514\u2500\u2500 /category-name',
-                            _react2.default.createElement('br', null),
-                            '\xA0| \xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 pattern-name.css',
-                            _react2.default.createElement('br', null),
-                            '\xA0|',
-                            _react2.default.createElement('br', null),
                             '\xA0\u2514\u2500\u2500 /module',
                             _react2.default.createElement('br', null),
                             '\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 /category-name',
                             _react2.default.createElement('br', null),
-                            '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 /module-name',
+                            '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u251C\u2500\u2500 /module-name',
                             _react2.default.createElement('br', null),
-                            '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u251C\u2500\u2500 index.html',
+                            '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 |\xA0\xA0\xA0\xA0 \u251C\u2500\u2500 index.html',
                             _react2.default.createElement('br', null),
-                            '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 script.js'
+                            '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 |\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 script.js',
+                            _react2.default.createElement('br', null),
+                            '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 pattern-name.css'
                         )
                     )
                 )
@@ -27750,13 +27744,20 @@ var ComponentsPage = function ComponentsPage() {
                         _react2.default.createElement(
                             _index10.default,
                             null,
-                            '.category-name__component-name',
+                            '.category-name__component-name.css',
                             _react2.default.createElement('br', null),
-                            '.button__primary'
+                            '.button__primary.css'
                         ),
                         _react2.default.createElement(_index16.default, {
                             text: 'JavaScript'
                         }),
+                        _react2.default.createElement(
+                            _index10.default,
+                            null,
+                            '.category-name__component-name.js',
+                            _react2.default.createElement('br', null),
+                            '.button__primary.js'
+                        ),
                         _react2.default.createElement(_index6.default, {
                             text: 'Scripting files specific to certain components should reference the component name used in the HTML and CSS. This is different to scripting files found in the Behaviours section as they are for generic use and have their own naming convention.'
                         })
@@ -27825,7 +27826,7 @@ var ComponentsPage = function ComponentsPage() {
                             listItems: [{ id: 1, text: 'Checkbox' }, { id: 2, text: 'Date' }, { id: 3, text: 'Dropdown' }, { id: 4, text: 'Text area' }, { id: 5, text: 'Text input' }]
                         }),
                         _react2.default.createElement(_index18.default, {
-                            text: 'Messaging and Notification'
+                            text: 'Notification'
                         }),
                         _react2.default.createElement(_index8.default, {
                             listItems: [{ id: 1, text: 'Alert' }, { id: 2, text: 'Form error' }]
@@ -27861,47 +27862,6 @@ var ComponentsPage = function ComponentsPage() {
                         'div',
                         { className: 'col col10' },
                         _react2.default.createElement(_index16.default, {
-                            text: 'Patterns'
-                        })
-                    )
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'col col6' },
-                        _react2.default.createElement(_index18.default, {
-                            text: 'Form'
-                        }),
-                        _react2.default.createElement(_index8.default, {
-                            listItems: [{ id: 1, text: 'Credit card' }, { id: 2, text: 'Date of birth' }, { id: 3, text: 'Telephone number' }, { id: 4, text: 'Text' }]
-                        }),
-                        _react2.default.createElement(_index18.default, {
-                            text: 'List'
-                        }),
-                        _react2.default.createElement(_index8.default, {
-                            listItems: [{ id: 1, text: 'Action' }, { id: 2, text: 'Comment' }]
-                        })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'col col6' },
-                        _react2.default.createElement(_index18.default, {
-                            text: 'Messaging & Communication'
-                        }),
-                        _react2.default.createElement(_index8.default, {
-                            listItems: [{ id: 1, text: 'Add comment' }, { id: 2, text: 'Send message' }]
-                        })
-                    )
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'row' },
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'col col10' },
-                        _react2.default.createElement(_index16.default, {
                             text: 'Modules'
                         })
                     )
@@ -27912,6 +27872,12 @@ var ComponentsPage = function ComponentsPage() {
                     _react2.default.createElement(
                         'div',
                         { className: 'col col6' },
+                        _react2.default.createElement(_index18.default, {
+                            text: 'Header & Footer'
+                        }),
+                        _react2.default.createElement(_index8.default, {
+                            listItems: [{ id: 1, text: 'Auth header' }, { id: 2, text: 'Unauth header ' }, { id: 3, text: 'Footer ' }]
+                        }),
                         _react2.default.createElement(_index18.default, {
                             text: 'Messaging & Communication'
                         }),
@@ -27950,7 +27916,7 @@ var ComponentsPage = function ComponentsPage() {
                             text: 'Below are the folder names for our components:-'
                         }),
                         _react2.default.createElement(_index8.default, {
-                            listItems: [{ id: 1, text: '/component/block/input-field/dropdown' }, { id: 2, text: '/component/block/input-field/text-input' }, { id: 3, text: '/component/block/typography/form-label' }, { id: 4, text: '/component/pattern/user-data/telephone-row.css' }, { id: 5, text: '/component/module/personal-information/telephone-numbers' }]
+                            listItems: [{ id: 1, text: '/component/block/input-field/dropdown' }, { id: 2, text: '/component/block/input-field/text-input' }, { id: 3, text: '/component/block/typography/form-label' }, { id: 4, text: '/component/module/personal-information/telephone-row.css' }, { id: 5, text: '/component/module/personal-information/telephone-numbers' }]
                         }),
                         _react2.default.createElement(_index16.default, {
                             text: 'The Blocks'
@@ -27971,7 +27937,7 @@ var ComponentsPage = function ComponentsPage() {
                             text: 'The Pattern'
                         }),
                         _react2.default.createElement(_index6.default, {
-                            text: 'Here we have used our input-field Blocks to create a reusable Pattern. Styling used here is for positioning only. We do not change the visual appearance of our Blocks here, making Patterns a good area for testing for visual changes.'
+                            text: 'Here we have used our input-field Blocks to create a reusable Pattern. Styling used here is for positioning only. We do not change the visual appearance of our Blocks here, making Patterns a good area for testing visual changes.'
                         }),
                         _react2.default.createElement(
                             'div',
@@ -27986,7 +27952,7 @@ var ComponentsPage = function ComponentsPage() {
                             text: 'The Module'
                         }),
                         _react2.default.createElement(_index6.default, {
-                            text: 'Here we can see a functional module, which is ready to be used at Page level. Any content or data is added here but there is no styling.'
+                            text: 'Here we can see a functional module, which is ready to be used at Page level loaded with content and data.'
                         }),
                         _react2.default.createElement(
                             'div',

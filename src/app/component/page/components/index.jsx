@@ -25,7 +25,7 @@ const ComponentsPage = () => (
                             text='The most important part of the BCD system, Components are the foundational infrastructure required to support the whole ecosystem.'
                         />
                         <Typography__Body_Copy
-                            text='To allow for flexibility, Blocks can be used within Blocks. Patterns can be used within Patterns and Modules can be used within Modules. It is important that an component should only be modified at its source and changes filter down. For example, it would be bad practice to change the visual styling of a block after it was imported into a module; we want to ensure a single source of truth policy.'
+                            text='To allow for flexibility, Blocks can be used within Blocks and Modules can be used within Modules. It is important that an component should only be modified at its source and changes filter down. For example, it would be bad practice to change the visual styling of a block after it was imported into a module; we want to ensure a single source of truth policy.'
                         />
                         <div className='bcd-frame shadow'>
                             <img
@@ -59,15 +59,12 @@ const ComponentsPage = () => (
                             &nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── index.html<br />
                             &nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── style.css<br />
                             &nbsp;|<br />
-                            &nbsp;├── /pattern<br />
-                            &nbsp;| &nbsp;&nbsp; └── /category-name<br />
-                            &nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── pattern-name.css<br />
-                            &nbsp;|<br />
                             &nbsp;└── /module<br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── /category-name<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── /module-name<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── index.html<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── script.js
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── /module-name<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; ├── index.html<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; └── script.js<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── pattern-name.css
                         </Typography__Code>
                     </div>
                 </div>
@@ -96,13 +93,18 @@ const ComponentsPage = () => (
                         <Typography__Sub_Heading
                             text='CSS'
                         />
-                        <Typography__Code>.category-name__component-name<br />
-                            .button__primary
+                        <Typography__Code>
+                            .category-name__component-name.css<br />
+                            .button__primary.css
                         </Typography__Code>
 
                         <Typography__Sub_Heading
                             text='JavaScript'
                         />
+                        <Typography__Code>
+                            .category-name__component-name.js<br />
+                            .button__primary.js
+                        </Typography__Code>
                         <Typography__Body_Copy
                             text='Scripting files specific to certain components should reference the component name used in the HTML and CSS. This is different to scripting files found in the Behaviours section as they are for generic use and have their own naming convention.'
                         />
@@ -183,7 +185,7 @@ const ComponentsPage = () => (
                         />
 
                         <Typography__Subtle_Title
-                            text='Messaging and Notification'
+                            text='Notification'
                         />
                         <Typography__Bullet_List
                             listItems={
@@ -239,58 +241,6 @@ const ComponentsPage = () => (
                 <div className='row'>
                     <div className='col col10'>
                         <Typography__Sub_Heading
-                            text='Patterns'
-                        />
-                    </div>
-                </div>
-
-                <div className='row'>
-                    <div className='col col6'>
-                        <Typography__Subtle_Title
-                            text='Form'
-                        />
-                        <Typography__Bullet_List
-                            listItems={
-                                [
-                                    {id: 1, text:'Credit card'},
-                                    {id: 2, text:'Date of birth'},
-                                    {id: 3, text:'Telephone number'},
-                                    {id: 4, text:'Text'},
-                                ]
-                            }
-                        />
-
-                        <Typography__Subtle_Title
-                            text='List'
-                        />
-                        <Typography__Bullet_List
-                            listItems={
-                                [
-                                    {id: 1, text:'Action'},
-                                    {id: 2, text:'Comment'},
-                                ]
-                            }
-                        />
-                    </div>
-
-                    <div className='col col6'>
-                        <Typography__Subtle_Title
-                            text='Messaging &amp; Communication'
-                        />
-                        <Typography__Bullet_List
-                            listItems={
-                                [
-                                    {id: 1, text:'Add comment'},
-                                    {id: 2, text:'Send message'},
-                                ]
-                            }
-                        />
-                    </div>
-                </div>
-
-                <div className='row'>
-                    <div className='col col10'>
-                        <Typography__Sub_Heading
                             text='Modules'
                         />
                     </div>
@@ -298,6 +248,19 @@ const ComponentsPage = () => (
 
                 <div className='row'>
                     <div className='col col6'>
+                        <Typography__Subtle_Title
+                            text='Header &amp; Footer'
+                        />
+                        <Typography__Bullet_List
+                            listItems={
+                                [
+                                    {id: 1, text:'Auth header'},
+                                    {id: 2, text:'Unauth header '},
+                                    {id: 3, text:'Footer '},
+                                ]
+                            }
+                        />
+
                         <Typography__Subtle_Title
                             text='Messaging &amp; Communication'
                         />
@@ -347,7 +310,7 @@ const ComponentsPage = () => (
                                     {id: 1, text:'/component/block/input-field/dropdown'},
                                     {id: 2, text:'/component/block/input-field/text-input'},
                                     {id: 3, text:'/component/block/typography/form-label'},
-                                    {id: 4, text:'/component/pattern/user-data/telephone-row.css'},
+                                    {id: 4, text:'/component/module/personal-information/telephone-row.css'},
                                     {id: 5, text:'/component/module/personal-information/telephone-numbers'},
                                 ]
                             }
@@ -371,7 +334,7 @@ const ComponentsPage = () => (
                             text='The Pattern'
                         />
                         <Typography__Body_Copy
-                            text='Here we have used our input-field Blocks to create a reusable Pattern. Styling used here is for positioning only. We do not change the visual appearance of our Blocks here, making Patterns a good area for testing for visual changes.'
+                            text='Here we have used our input-field Blocks to create a reusable Pattern. Styling used here is for positioning only. We do not change the visual appearance of our Blocks here, making Patterns a good area for testing visual changes.'
                         />
                         <div className='bcd-frame shadow'>
                             <img
@@ -385,7 +348,7 @@ const ComponentsPage = () => (
                             text='The Module'
                         />
                         <Typography__Body_Copy
-                            text='Here we can see a functional module, which is ready to be used at Page level. Any content or data is added here but there is no styling.'
+                            text='Here we can see a functional module, which is ready to be used at Page level loaded with content and data.'
                         />
                         <div className='bcd-frame shadow'>
                             <img
