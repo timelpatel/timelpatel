@@ -1,0 +1,11 @@
+.collection__info-tile {
+    .typography__subtle_title {
+        border-bottom: 1px solid $color-mustard; // anti-pattern, styling should be in Blocks
+        margin: 0 24px;
+        padding: 18px 0 12px;
+    }
+
+    .list__bullet {
+        padding: 18px 24px;
+    }
+}

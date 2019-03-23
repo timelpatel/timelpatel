@@ -5,14 +5,16 @@
 .row {
     display: flex;
     flex-flow: row wrap;
-    /*margin: 0 -10px;
-    margin-bottom: 10px;*/
 }
 
 .col {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
+    .spaced {
+        padding: 0 12px;
+    }
 }
 
 // 12 col grid system
@@ -66,16 +68,6 @@
     }
 
 }
-
-
-
-/* Smartphones (landscape) ----------- */
-@media screen and (min-width : 601px) {
-
-
-
-}
-
 
 
 /* Smartphones (portrait) ----------- */

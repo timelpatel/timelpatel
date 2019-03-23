@@ -1,11 +1,10 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import Button__Primary from '../../../component/block/button/primary/index.jsx'
+import Collection__InfoTile from '../../../component/module/collection/info-tile/index.jsx'
 import Container__Billboard from '../../../component/block/container/billboard/index.jsx'
 import Container__Section from '../../../component/block/container/section/index.jsx'
 import Template__Bcd from '../../../component/module/template/bcd/index.jsx'
 import Typography__Body_Copy from '../../../component/block/typography/body-copy/index.jsx'
-import Typography__Bullet_List from '../../../component/block/typography/bullet-list/index.jsx'
 import Typography__Loud from '../../../component/block/typography/loud/index.jsx'
 import Typography__Section_Title from '../../../component/block/typography/section-title/index.jsx'
 import Typography__Sub_Loud from '../../../component/block/typography/sub-loud/index.jsx'
@@ -44,50 +43,47 @@ const BcdPage = () => (
 
                 <div className='row'>
                     <div className='col col3'>
-                        <Typography__Sub_Heading>
-                            <Link to='/components'>Components</Link>
-                        </Typography__Sub_Heading>
-                        <Typography__Bullet_List
-                            listItems={
-                                [
+                        <div className='spaced'>
+                            <Collection__InfoTile
+                                listItems={[
                                     {id: 1, text:'Block'},
                                     {id: 2, text:'Pattern'},
                                     {id: 3, text:'Module'},
                                     {id: 4, text:'Page'},
                                     {id: 5, text:'Journey'},
-                                ]
-                            }
-                        />
+                                ]}
+                                title='Components'
+                                url='/components'
+                            />
+                        </div>
                     </div>
 
                     <div className='col col3'>
-                        <Typography__Sub_Heading>
-                            <Link to='/assets'>Assets</Link>
-                        </Typography__Sub_Heading>
-                        <Typography__Bullet_List
-                            listItems={
-                                [
-                                    {id: 1, text:'Colour'},
-                                    {id: 2, text:'Font'},
-                                    {id: 3, text:'Icon'},
-                                ]
-                            }
-                        />
+                        <div className='spaced'>
+                            <Collection__InfoTile
+                                    listItems={[
+                                        {id: 1, text:'Colour'},
+                                        {id: 2, text:'Font'},
+                                        {id: 3, text:'Icon'},
+                                    ]}
+                                    title='Assets'
+                                    url='/assets'
+                            />
+                        </div>
                     </div>
 
                     <div className='col col3'>
-                        <Typography__Sub_Heading>
-                            <Link to='/behaviours'>Behaviours</Link>
-                        </Typography__Sub_Heading>
-                        <Typography__Bullet_List
-                            listItems={
-                                [
+                        <div className='spaced'>
+                            <Collection__InfoTile
+                                listItems={[
                                     {id: 1, text:'Functional'},
                                     {id: 2, text:'Motion & Touch'},
                                     {id: 3, text:'Validation'},
-                                ]
-                            }
-                        />
+                                ]}
+                                title='Behaviours'
+                                url='/behaviours'
+                            />
+                        </div>
                     </div>
                 </div>
             </Container__Section>

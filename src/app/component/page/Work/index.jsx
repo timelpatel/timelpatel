@@ -1,5 +1,5 @@
 import React from 'react'
-import Card__Project from '../../../component/block/card/project/index.jsx'
+import Collection__Project from '../../../component/module/collection/project/index.jsx'
 import Container__Section from '../../../component/block/container/section/index.jsx'
 import Imagery__logos from '../../../component/block/imagery/logos/index.jsx'
 import Template__Tp from '../../../component/module/template/tp/index.jsx'
@@ -134,7 +134,7 @@ const WorkPage = () => (
             />
         </Container__Section>
 
-        <Card__Project 
+        <Collection__Project 
             projects={
                 [
                     {

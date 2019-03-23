@@ -7,8 +7,8 @@
 /* blocks */
 @import '../src/app/component/block/button/primary/style';
 @import '../src/app/component/block/button/social/style';
-@import '../src/app/component/block/card/project/style';
 @import '../src/app/component/block/container/billboard/style';
+@import '../src/app/component/block/card/content/style';
 @import '../src/app/component/block/container/chic/style';
 @import '../src/app/component/block/container/footer/style';
 @import '../src/app/component/block/container/header/style';
@@ -29,9 +29,9 @@
 @import '../src/app/component/block/typography/subtle-title/style';
 
 /* patterns */
+@import '../src/app/component/module/collection/info-tile/style';
 @import '../src/app/component/module/cta/promote';
 @import '../src/app/component/module/header-footer/header';
-
 
 
 /* global */

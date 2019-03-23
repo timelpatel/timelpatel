@@ -1,16 +1,16 @@
 import React from 'react'
-import Container__Section from '../../container/section/index.jsx'
-import Typography__Body_Copy from '../../typography/body-copy/index.jsx'
-import Typography__Sub_Heading from '../../typography/sub-heading/index.jsx'
-import Typography__Subtle_Title from '../../typography/subtle-title/index.jsx'
+import Container__Section from '../../../block/container/section/index.jsx'
+import Typography__Body_Copy from '../../../block/typography/body-copy/index.jsx'
+import Typography__Sub_Heading from '../../../block/typography/sub-heading/index.jsx'
+import Typography__Subtle_Title from '../../../block/typography/subtle-title/index.jsx'
 
 
-const Card__Project = (props) => (
+const Collection__Project = (props) => (
 
     <div>
         {
             props.projects.map(project => (
-                <div className='work__project' key={project.id}>
+                <div className='collection__project' key={project.id}>
                 <Container__Section alt={project.flip && 'alt'}>
                     <div className='row'>
 
@@ -66,4 +66,4 @@ const Card__Project = (props) => (
 )
 
 
-export default Card__Project
+export default Collection__Project

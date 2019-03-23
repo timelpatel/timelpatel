@@ -1,5 +1,5 @@
-.work__project {
-    h4 {
+.collection__project {
+    .typography__subtle_title {
         margin-bottom: 40px;
     }
 
@@ -20,11 +20,7 @@
 /* Smartphones (portrait) ----------- */
 @media screen and (max-width : 600px) {
 
-    // .work__logo {
-    //     padding-right: 40px;
-    // }
-
-    .work__project {
+    .collection__Project {
 
         .desktop-frame {
             text-align: left;
