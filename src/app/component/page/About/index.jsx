@@ -1,7 +1,7 @@
 import React from 'react'
 import Button__Primary from '../../../component/block/button/primary/index.jsx'
 import Container__Section from '../../../component/block/container/section/index.jsx'
-import CTA_BCD from '../../../component/module/cta/bcd/index.jsx'
+import CTA__BCD from '../../../component/module/cta/bcd/index.jsx'
 import Imagery__Hero from '../../../component/block/imagery/hero/index.jsx'
 import Template__Tp from '../../../component/module/template/tp/index.jsx'
 import Typography__Body_Copy from '../../../component/block/typography/body-copy/index.jsx'
@@ -52,7 +52,7 @@ const AboutPage = () => (
 
         </Container__Section>
 
-        <CTA_BCD />
+        <CTA__BCD />
 
     </Template__Tp>
 

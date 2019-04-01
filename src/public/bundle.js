@@ -12193,7 +12193,7 @@ var _index = __webpack_require__(248);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _index3 = __webpack_require__(249);
+var _index3 = __webpack_require__(269);
 
 var _index4 = _interopRequireDefault(_index3);
 
@@ -26517,11 +26517,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Header_Footer__Header = function Header_Footer__Header() {
     return _react2.default.createElement(
-        _index2.default,
-        null,
+        'div',
+        { className: 'header-footer__header' },
         _react2.default.createElement(
-            'div',
-            { className: 'header-footer__header' },
+            _index2.default,
+            null,
             _react2.default.createElement(
                 _index6.default,
                 null,
@@ -26569,63 +26569,7 @@ var Container__Footer = function Container__Footer(props) {
 exports.default = Container__Footer;
 
 /***/ }),
-/* 249 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _react = __webpack_require__(1);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _index = __webpack_require__(250);
-
-var _index2 = _interopRequireDefault(_index);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Social = function Social() {
-    return _react2.default.createElement(
-        'div',
-        { className: 'row' },
-        _react2.default.createElement(
-            'div',
-            { className: 'col' },
-            _react2.default.createElement(_index2.default, {
-                css: 'linkedin',
-                href: 'https://linkedin.com/in/timelpatel',
-                text: 'LinkedIn'
-            })
-        ),
-        _react2.default.createElement(
-            'div',
-            { className: 'col' },
-            _react2.default.createElement(_index2.default, {
-                css: 'twitter',
-                href: 'https://twitter.com/timelpatel',
-                text: 'Twitter'
-            })
-        ),
-        _react2.default.createElement(
-            'div',
-            { className: 'col' },
-            _react2.default.createElement(_index2.default, {
-                css: 'instagram',
-                href: 'https://instagram.com/timelpatel/',
-                text: 'Instagram'
-            })
-        )
-    );
-};
-
-exports.default = Social;
-
-/***/ }),
+/* 249 */,
 /* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26814,29 +26758,36 @@ var AssetPage = function AssetPage() {
                         'div',
                         { className: 'col col6' },
                         _react2.default.createElement(
-                            _index8.default,
-                            null,
-                            'call-to-action.css',
-                            _react2.default.createElement('br', null),
-                            '.button-primary: ',
+                            'div',
+                            { className: 'spaced' },
                             _react2.default.createElement(
-                                'span',
-                                { className: 'example-primary' },
-                                '#009900'
-                            ),
-                            _react2.default.createElement('br', null),
-                            '.button-secondary: ',
-                            _react2.default.createElement(
-                                'span',
-                                { className: 'example-secondary' },
-                                '#ff9900'
-                            ),
-                            _react2.default.createElement('br', null),
-                            '.text-link: ',
-                            _react2.default.createElement(
-                                'span',
-                                { className: 'example-link' },
-                                '#ff0000'
+                                _index8.default,
+                                null,
+                                'call-to-action.sass',
+                                _react2.default.createElement('br', null),
+                                '$button-primary: ',
+                                _react2.default.createElement(
+                                    'span',
+                                    { className: 'example-primary' },
+                                    '#009900'
+                                ),
+                                ';',
+                                _react2.default.createElement('br', null),
+                                '$button-secondary: ',
+                                _react2.default.createElement(
+                                    'span',
+                                    { className: 'example-secondary' },
+                                    '#ff9900'
+                                ),
+                                ';',
+                                _react2.default.createElement('br', null),
+                                '$text-link: ',
+                                _react2.default.createElement(
+                                    'span',
+                                    { className: 'example-link' },
+                                    '#ff0000'
+                                ),
+                                ';'
                             )
                         )
                     ),
@@ -26844,29 +26795,36 @@ var AssetPage = function AssetPage() {
                         'div',
                         { className: 'col col6' },
                         _react2.default.createElement(
-                            _index8.default,
-                            null,
-                            'notification.css',
-                            _react2.default.createElement('br', null),
-                            '.error: ',
+                            'div',
+                            { className: 'spaced' },
                             _react2.default.createElement(
-                                'span',
-                                { className: 'example-error' },
-                                '#ff0000'
-                            ),
-                            _react2.default.createElement('br', null),
-                            '.success: ',
-                            _react2.default.createElement(
-                                'span',
-                                { className: 'example-success' },
-                                '#009900'
-                            ),
-                            _react2.default.createElement('br', null),
-                            '.warning: ',
-                            _react2.default.createElement(
-                                'span',
-                                { className: 'example-warning' },
-                                '#ff9900'
+                                _index8.default,
+                                null,
+                                'notification.sass',
+                                _react2.default.createElement('br', null),
+                                '$error: ',
+                                _react2.default.createElement(
+                                    'span',
+                                    { className: 'example-error' },
+                                    '#ff0000'
+                                ),
+                                ';',
+                                _react2.default.createElement('br', null),
+                                '$success: ',
+                                _react2.default.createElement(
+                                    'span',
+                                    { className: 'example-success' },
+                                    '#009900'
+                                ),
+                                ';',
+                                _react2.default.createElement('br', null),
+                                '$warning: ',
+                                _react2.default.createElement(
+                                    'span',
+                                    { className: 'example-warning' },
+                                    '#ff9900'
+                                ),
+                                ';'
                             )
                         )
                     )
@@ -26997,11 +26955,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Header_Footer__Bcd_Header = function Header_Footer__Bcd_Header() {
     return _react2.default.createElement(
-        _index2.default,
-        null,
+        'div',
+        { className: 'header-footer__header' },
         _react2.default.createElement(
-            'div',
-            { className: 'header-footer__header' },
+            _index2.default,
+            null,
             _react2.default.createElement(
                 _index6.default,
                 null,
@@ -27288,7 +27246,7 @@ var BcdPage = function BcdPage() {
                             'div',
                             { className: 'spaced' },
                             _react2.default.createElement(_index4.default, {
-                                listItems: [{ id: 1, text: 'Block' }, { id: 2, text: 'Pattern' }, { id: 3, text: 'Module' }, { id: 4, text: 'Page' }, { id: 5, text: 'Journey' }],
+                                listItems: [{ id: 1, text: 'Block' }, { id: 2, text: 'Pattern' }, { id: 3, text: 'Module' }, { id: 4, text: 'Page' }],
                                 title: 'Components',
                                 url: '/components'
                             })
@@ -27335,7 +27293,7 @@ var BcdPage = function BcdPage() {
                             text: 'Components'
                         }),
                         _react2.default.createElement(_index12.default, {
-                            text: 'Components are the foundations of the BCD system. Blocks, Patterns and Modules are how components are built from single elements into usable components. Pages and Journeys are how a user will navigate to complete their desired goal.'
+                            text: 'Components are the foundations of the BCD system. Blocks, Patterns and Modules are how components are built from single elements into usable components. Pages are, well pages. They will consume Blocks and Modules as required.'
                         }),
                         _react2.default.createElement(_index20.default, {
                             text: 'Block'
@@ -27353,19 +27311,13 @@ var BcdPage = function BcdPage() {
                             text: 'Module'
                         }),
                         _react2.default.createElement(_index12.default, {
-                            text: 'A Module is one or more Blocks and/or Patterns to create a fully functional, usable component with data and content.'
+                            text: 'A Module is one or more Blocks and/or Patterns to create a fully functional, usable component, which may have data and content.'
                         }),
                         _react2.default.createElement(_index20.default, {
                             text: 'Page'
                         }),
                         _react2.default.createElement(_index12.default, {
                             text: 'A Page is one or more Modules to create a view, which is part of a user\'s journey.'
-                        }),
-                        _react2.default.createElement(_index20.default, {
-                            text: 'Journey'
-                        }),
-                        _react2.default.createElement(_index12.default, {
-                            text: 'A Journey is one or more Pages, brought together in a particular order to form a user Journey.'
                         }),
                         _react2.default.createElement('br', null),
                         _react2.default.createElement('br', null),
@@ -27741,7 +27693,7 @@ var ComponentsPage = function ComponentsPage() {
                             text: 'Components are stored in the component folder. Each type of Component is then stored within meaningful categories, followed by the component itself.'
                         }),
                         _react2.default.createElement(_index6.default, {
-                            text: 'In the sample folder structure below, we have added HTML, CSS and JS files, however these can be replaced by the technology stack in use (index.jsx and style.scss, for example). You may also wish to include other files, which relate to the component. This is completely fine as long as you abide by the fundamental rules of the system.'
+                            text: 'In the sample folder structure below, we have added HTML and CSS, however these can be replaced by the technology stack in use (index.jsx and style.scss, for example). You may also wish to include other files, which relate to the component. This is completely fine as long as you abide by the fundamental rules of the system.'
                         }),
                         _react2.default.createElement(
                             _index10.default,
@@ -27762,15 +27714,17 @@ var ComponentsPage = function ComponentsPage() {
                             _react2.default.createElement('br', null),
                             '\xA0\u2514\u2500\u2500 /module',
                             _react2.default.createElement('br', null),
-                            '\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 /category-name',
+                            '\xA0| \xA0\xA0 \u2514\u2500\u2500 /category-name',
                             _react2.default.createElement('br', null),
-                            '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u251C\u2500\u2500 /module-name',
+                            '\xA0| \xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u251C\u2500\u2500 /module-name',
                             _react2.default.createElement('br', null),
-                            '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 |\xA0\xA0\xA0\xA0 \u251C\u2500\u2500 index.html',
+                            '\xA0| \xA0\xA0\xA0\xA0\xA0\xA0\xA0 |\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 index.html',
                             _react2.default.createElement('br', null),
-                            '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 |\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 script.js',
+                            '\xA0| \xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 pattern-name.css',
                             _react2.default.createElement('br', null),
-                            '\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 pattern-name.css'
+                            '\xA0\u2514\u2500\u2500 /page',
+                            _react2.default.createElement('br', null),
+                            '\xA0\xA0\xA0\xA0\xA0 \u2514\u2500\u2500 /page-name.html'
                         )
                     )
                 )
@@ -28391,7 +28345,7 @@ exports = module.exports = __webpack_require__(266)(false);
 
 
 // module
-exports.push([module.i, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n.container {\n  padding: 40px; }\n\n.row {\n  display: flex;\n  flex-flow: row wrap; }\n\n.col {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n  .col .spaced {\n    padding: 0 12px; }\n\n.col1 {\n  width: 8.333%; }\n\n.col2 {\n  width: 16.665%; }\n\n.col3 {\n  width: 25%; }\n\n.col4 {\n  width: 33.333%; }\n\n.col5 {\n  width: 41.665%; }\n\n.col6 {\n  width: 50%; }\n\n.col7 {\n  width: 58.333%; }\n\n.col8 {\n  width: 66.665%; }\n\n.col9 {\n  width: 75%; }\n\n.col10 {\n  width: 83.333%; }\n\n.col11 {\n  width: 91.665%; }\n\n.col12 {\n  width: 100%; }\n\n/* Smartphones (landscape) ----------- */\n@media screen and (max-width: 1024px) {\n  .col3 {\n    width: 33.333%; }\n  .col4 {\n    width: 50%; } }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .col3,\n  .col4,\n  .col6,\n  .col8,\n  .col10 {\n    width: 100%; } }\n\n@font-face {\n  font-family: fontello;\n  src: url(\"/assets/font/fontello.eot\");\n  src: url(\"/assets/font/fontello.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/fontello.woff\") format(\"woff\"), url(\"/assets/font/fontello.ttf\") format(\"truetype\"), url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: fontello;\n    src: url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); } }\n\n@font-face {\n  font-family: heavydock11;\n  src: url(\"/assets/font/heavy_dock11.eot\");\n  src: url(\"/assets/font/heavy_dock11.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/heavy_dock11.woff\") format(\"woff\"), url(\"/assets/font/heavy_dock11.ttf\") format(\"truetype\"), url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: heavydock11;\n    src: url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); } }\n\n@font-face {\n  font-family: helveticaneueultralight;\n  src: url(\"/assets/font/helveticaneueultralight.eot\");\n  src: url(\"/assets/font/helveticaneueultralight.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/helveticaneueultralight.woff\") format(\"woff\"), url(\"/assets/font/helveticaneueultralight.ttf\") format(\"truetype\"), url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: helveticaneueultralight;\n    src: url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); } }\n\na:link, a:visited {\n  color: #09c;\n  text-decoration: none; }\n\na:active, a:hover {\n  color: #cc3300; }\n\n.hide-text {\n  text-indent: 100%;\n  white-space: nowrap;\n  overflow: hidden; }\n\n/* blocks */\na.button__primary {\n  background: #09c;\n  border: 1px solid transparent;\n  color: #fff;\n  display: inline-block;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 12px;\n  letter-spacing: 1px;\n  padding: 12px;\n  transition: all 0.3s ease; }\n  a.button__primary:hover {\n    background-color: transparent;\n    border: 1px solid #09c;\n    color: #09c; }\n\n.social__icon {\n  background-position: 50% 50%;\n  background-repeat: no-repeat;\n  background-size: 55%;\n  border: 1px solid #000;\n  border-radius: 50%;\n  height: 40px;\n  margin-right: 20px;\n  width: 40px; }\n  .social__icon:hover {\n    background-color: #6e7f80; }\n  .social__icon.linkedin {\n    background-image: url(\"/assets/img/linkedin.svg\"); }\n  .social__icon.twitter {\n    background-image: url(\"/assets/img/twitter.svg\"); }\n  .social__icon.instagram {\n    background-image: url(\"/assets/img/instagram.svg\"); }\n\n.container__billboard {\n  background: #ffc300;\n  height: 250px;\n  padding: 150px 40px 0;\n  text-align: center; }\n  .container__billboard h1 {\n    font-size: 40px; }\n  .container__billboard p {\n    font-size: 20px; }\n  @media screen and (max-width: 415px) {\n    .container__billboard {\n      height: 200px;\n      padding-top: 70px; } }\n\n.card__content {\n  background: #fff;\n  border-radius: 12px;\n  box-shadow: 0px 0px 18px -10px; }\n\n.container__chic {\n  background: #ffc300;\n  padding: 40px; }\n  .container__chic h2 {\n    color: #000; }\n  .container__chic p {\n    color: #555; }\n\n.container__footer {\n  background: #424c4c;\n  padding: 30px 40px; }\n\n.container__header {\n  background: #6e7f80;\n  color: #fff;\n  height: 80px;\n  position: absolute;\n  top: 0;\n  width: 100%;\n  z-index: 1; }\n\n.container__section {\n  background: #fafafa;\n  padding: 40px; }\n  .container__section.alt {\n    background: #fefefe; }\n\n.imagery__hero {\n  background: url(\"/assets/img/pexels-photo-301614.jpg\") no-repeat;\n  background-position: center;\n  height: 380px;\n  margin-bottom: 40px;\n  width: 100%; }\n\n.imagery__logo .col {\n  margin: 50px 0;\n  position: relative;\n  text-align: center; }\n  .imagery__logo .col img {\n    bottom: 50%;\n    position: absolute;\n    top: 50%;\n    transform: translate(-50%, -50%); }\n\n.header__menu li {\n  display: inline;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 16px;\n  letter-spacing: 2px;\n  margin-left: 40px; }\n  .header__menu li a {\n    color: #fff; }\n    .header__menu li a:hover {\n      border-bottom: 1px solid #fff;\n      padding-bottom: 6px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 500px) {\n  .header__menu li {\n    font-size: 12px;\n    margin-left: 15px; } }\n\n.typography__body_copy {\n  color: #8c8c8c;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 12px;\n  letter-spacing: 1px;\n  line-height: 18px;\n  margin-bottom: 20px; }\n\nul.list__bullet {\n  list-style: circle inside;\n  margin-bottom: 20px; }\n  ul.list__bullet li {\n    color: #8c8c8c;\n    font-family: helveticaneue, helvetica, arial;\n    font-size: 12px;\n    letter-spacing: 1px;\n    line-height: 18px; }\n  ul.list__bullet ul {\n    list-style: circle inside;\n    margin-left: 20px; }\n\n.typography__code {\n  color: #8c8c8c;\n  font-family: monospace, courier;\n  font-size: 12px;\n  letter-spacing: 1px;\n  line-height: 16px;\n  margin-bottom: 20px; }\n\nh1.typography__logo {\n  color: #fff;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n  @media screen and (max-width: 500px) {\n    h1.typography__logo {\n      font-size: 21px; } }\n  h1.typography__logo a {\n    color: #fff; }\n\nh1.typography__loud {\n  color: #555;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 33px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n  @media screen and (max-width: 415px) {\n    h1.typography__loud {\n      font-size: 27px; } }\n\nh1.typography__loud {\n  color: #555;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 33px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n  @media screen and (max-width: 415px) {\n    h1.typography__loud {\n      font-size: 27px; } }\n\nh1.typography__page_title {\n  color: #6e7f80;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n  @media screen and (max-width: 415px) {\n    h1.typography__page_title {\n      font-size: 21px; } }\n\n.typography__section_title {\n  color: #6e7f80;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 20px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  line-height: 27px;\n  margin-bottom: 40px; }\n\n.typography__sub_heading {\n  color: #6e7f80;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 11px;\n  font-weight: bold;\n  letter-spacing: 1px;\n  line-height: 30px;\n  text-transform: uppercase; }\n\n.typography__sub_loud {\n  color: #555;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 20px;\n  letter-spacing: 2px; }\n  @media screen and (max-width: 415px) {\n    .typography__sub_loud {\n      font-size: 15px;\n      line-height: 23px; } }\n\n.typography__subtle_title {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 12px;\n  font-weight: bold;\n  letter-spacing: 2;\n  margin-bottom: 6px;\n  text-transform: uppercase; }\n\n/* patterns */\n.collection__info-tile .typography__subtle_title {\n  border-bottom: 1px solid #ffc300;\n  margin: 0 24px;\n  padding: 18px 0 12px; }\n\n.collection__info-tile .list__bullet {\n  padding: 18px 24px; }\n\n.banner__promote {\n  text-align: center; }\n  .banner__promote h2 {\n    margin-bottom: 20px; }\n  .banner__promote .typography__body_copy {\n    margin-bottom: 50px; }\n\n.header-footer__header .typography__logo {\n  left: 40px;\n  position: absolute;\n  top: 30px; }\n\n.header-footer__header .header__menu {\n  position: absolute;\n  right: 40px;\n  top: 32px; }\n\n/* global */\nbody {\n  background: #efefef;\n  color: #8c8c8c;\n  font: 100% helveticaneue, helvetica, arial;\n  margin-top: 80px;\n  min-width: 375px; }\n\n.bcd-frame {\n  background: #fff;\n  margin: 20px 0;\n  max-width: 600px;\n  padding: 20px; }\n  .bcd-frame.shadow {\n    box-shadow: 0px 0px 25px -15px; }\n\n.example-error {\n  color: #ff0000; }\n\n.example-link {\n  color: #0000ff; }\n\n.example-primary,\n.example-success {\n  color: #009900; }\n\n.example-secondary,\n.example-warning {\n  color: #ff9900; }\n", ""]);
+exports.push([module.i, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after, q:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n.container {\n  padding: 40px; }\n\n.row {\n  display: flex;\n  flex-flow: row wrap; }\n\n.col {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n  .col .spaced {\n    margin: 0 12px; }\n\n.col1 {\n  width: 8.333%; }\n\n.col2 {\n  width: 16.665%; }\n\n.col3 {\n  width: 25%; }\n\n.col4 {\n  width: 33.333%; }\n\n.col5 {\n  width: 41.665%; }\n\n.col6 {\n  width: 50%; }\n\n.col7 {\n  width: 58.333%; }\n\n.col8 {\n  width: 66.665%; }\n\n.col9 {\n  width: 75%; }\n\n.col10 {\n  width: 83.333%; }\n\n.col11 {\n  width: 91.665%; }\n\n.col12 {\n  width: 100%; }\n\n/* Smartphones (landscape) ----------- */\n@media screen and (max-width: 1024px) {\n  .col3 {\n    width: 33.333%; }\n  .col4 {\n    width: 50%; } }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 600px) {\n  .col3,\n  .col4,\n  .col6,\n  .col8,\n  .col9,\n  .col10 {\n    width: 100%; } }\n\n@font-face {\n  font-family: fontello;\n  src: url(\"/assets/font/fontello.eot\");\n  src: url(\"/assets/font/fontello.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/fontello.woff\") format(\"woff\"), url(\"/assets/font/fontello.ttf\") format(\"truetype\"), url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: fontello;\n    src: url(\"/assets/font/fontello.svg#fontello\") format(\"svg\"); } }\n\n@font-face {\n  font-family: heavydock11;\n  src: url(\"/assets/font/heavy_dock11.eot\");\n  src: url(\"/assets/font/heavy_dock11.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/heavy_dock11.woff\") format(\"woff\"), url(\"/assets/font/heavy_dock11.ttf\") format(\"truetype\"), url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: heavydock11;\n    src: url(\"/assets/font/heavy_dock11.svg#heavydock11\") format(\"svg\"); } }\n\n@font-face {\n  font-family: helveticaneueultralight;\n  src: url(\"/assets/font/helveticaneueultralight.eot\");\n  src: url(\"/assets/font/helveticaneueultralight.eot?#iefix\") format(\"embedded-opentype\"), url(\"/assets/font/helveticaneueultralight.woff\") format(\"woff\"), url(\"/assets/font/helveticaneueultralight.ttf\") format(\"truetype\"), url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); }\n\n/* Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-renderin */\n@media screen and (-webkit-min-device-pixel-ratio: 0) {\n  @font-face {\n    font-family: helveticaneueultralight;\n    src: url(\"/assets/font/helveticaneueultralight.svg#helveticaneueultralight\") format(\"svg\"); } }\n\na:link, a:visited {\n  color: #09c;\n  text-decoration: none; }\n\na:active, a:hover {\n  color: #cc3300; }\n\n.hide-text {\n  text-indent: 100%;\n  white-space: nowrap;\n  overflow: hidden; }\n\n/* blocks */\na.button__primary {\n  background: #09c;\n  border: 1px solid transparent;\n  color: #fff;\n  display: inline-block;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 12px;\n  letter-spacing: 1px;\n  padding: 12px;\n  transition: all 0.3s ease; }\n  a.button__primary:hover {\n    background-color: transparent;\n    border: 1px solid #09c;\n    color: #09c; }\n\n.social__icon {\n  background-position: 50% 50%;\n  background-repeat: no-repeat;\n  background-size: 55%;\n  border: 1px solid #000;\n  border-radius: 50%;\n  height: 40px;\n  margin-right: 20px;\n  width: 40px; }\n  .social__icon:hover {\n    background-color: #6e7f80; }\n  .social__icon.linkedin {\n    background-image: url(\"/assets/img/linkedin.svg\"); }\n  .social__icon.twitter {\n    background-image: url(\"/assets/img/twitter.svg\"); }\n  .social__icon.instagram {\n    background-image: url(\"/assets/img/instagram.svg\"); }\n\n.container__billboard {\n  background: #ffc300;\n  height: 250px;\n  padding: 150px 40px 0;\n  text-align: center; }\n  .container__billboard h1 {\n    font-size: 40px; }\n  .container__billboard p {\n    font-size: 20px; }\n  @media screen and (max-width: 415px) {\n    .container__billboard {\n      height: 200px;\n      padding-top: 70px; } }\n\n.card__content {\n  background: #fff;\n  border-radius: 12px;\n  box-shadow: 0px 0px 18px -10px; }\n\n.container__chic {\n  background: #ffc300;\n  padding: 40px; }\n  .container__chic h2 {\n    color: #000; }\n  .container__chic p {\n    color: #555; }\n\n.container__footer {\n  background: #424c4c;\n  padding: 30px 40px; }\n\n.container__header {\n  background: #6e7f80;\n  color: #fff;\n  height: 80px;\n  position: absolute;\n  top: 0;\n  width: 100%;\n  z-index: 1; }\n\n.container__section {\n  background: #fafafa;\n  padding: 40px; }\n  .container__section.alt {\n    background: #fefefe; }\n\n.imagery__hero {\n  background: url(\"/assets/img/pexels-photo-301614.jpg\") no-repeat;\n  background-position: center;\n  height: 380px;\n  margin-bottom: 40px;\n  width: 100%; }\n\n.imagery__logo .col {\n  margin: 50px 0;\n  position: relative;\n  text-align: center; }\n  .imagery__logo .col img {\n    bottom: 50%;\n    position: absolute;\n    top: 50%;\n    transform: translate(-50%, -50%); }\n\n.header__menu li {\n  display: inline;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 16px;\n  letter-spacing: 2px;\n  margin-left: 40px; }\n  .header__menu li a {\n    color: #fff; }\n    .header__menu li a:hover {\n      border-bottom: 1px solid #fff;\n      padding-bottom: 6px; }\n\n/* Smartphones (portrait) ----------- */\n@media screen and (max-width: 500px) {\n  .header__menu li {\n    font-size: 12px;\n    margin-left: 15px; } }\n\n.typography__body_copy {\n  color: #8c8c8c;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 12px;\n  letter-spacing: 1px;\n  line-height: 18px;\n  margin-bottom: 20px; }\n\nul.list__bullet {\n  list-style: circle inside;\n  margin-bottom: 20px; }\n  ul.list__bullet li {\n    color: #8c8c8c;\n    font-family: helveticaneue, helvetica, arial;\n    font-size: 12px;\n    letter-spacing: 1px;\n    line-height: 18px; }\n  ul.list__bullet ul {\n    list-style: circle inside;\n    margin-left: 20px; }\n\n.typography__code {\n  background: #efefef;\n  border-radius: 6px;\n  color: #8a2be2;\n  font-family: monospace, courier;\n  font-size: 12px;\n  letter-spacing: 1px;\n  line-height: 18px;\n  margin-bottom: 20px;\n  padding: 12px 18px; }\n\nh1.typography__logo {\n  color: #fff;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n  @media screen and (max-width: 500px) {\n    h1.typography__logo {\n      font-size: 21px; } }\n  h1.typography__logo a {\n    color: #fff; }\n\nh1.typography__loud {\n  color: #555;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 33px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n  @media screen and (max-width: 415px) {\n    h1.typography__loud {\n      font-size: 27px; } }\n\nh1.typography__loud {\n  color: #555;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 33px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n  @media screen and (max-width: 415px) {\n    h1.typography__loud {\n      font-size: 27px; } }\n\nh1.typography__page_title {\n  color: #6e7f80;\n  font-family: heavydock11, \"Arial Black\";\n  font-size: 27px;\n  letter-spacing: 2px;\n  margin-bottom: 40px;\n  text-transform: uppercase; }\n  @media screen and (max-width: 415px) {\n    h1.typography__page_title {\n      font-size: 21px; } }\n\n.typography__section_title {\n  color: #6e7f80;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 20px;\n  font-weight: bold;\n  letter-spacing: 2px;\n  line-height: 27px;\n  margin-bottom: 40px; }\n\n.typography__sub_heading {\n  color: #6e7f80;\n  font-family: helveticaneue, helvetica, arial;\n  font-size: 11px;\n  font-weight: bold;\n  letter-spacing: 1px;\n  line-height: 30px;\n  text-transform: uppercase; }\n\n.typography__sub_loud {\n  color: #555;\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 20px;\n  letter-spacing: 2px; }\n  @media screen and (max-width: 415px) {\n    .typography__sub_loud {\n      font-size: 15px;\n      line-height: 23px; } }\n\n.typography__subtle_title {\n  font-family: helveticaneueultralight, \"helveticaneueultralight\";\n  font-size: 12px;\n  font-weight: bold;\n  letter-spacing: 2;\n  margin-bottom: 6px;\n  text-transform: uppercase; }\n\n/* patterns */\n.collection__info-tile .typography__subtle_title {\n  border-bottom: 1px solid #ffc300;\n  margin: 0 24px;\n  padding: 18px 0 12px; }\n\n.collection__info-tile .list__bullet {\n  padding: 18px 24px; }\n\n.banner__promote {\n  text-align: center; }\n  .banner__promote h2 {\n    margin-bottom: 20px; }\n  .banner__promote .typography__body_copy {\n    margin-bottom: 50px; }\n\n.header-footer__header .typography__logo {\n  left: 40px;\n  position: absolute;\n  top: 30px; }\n\n.header-footer__header .header__menu {\n  position: absolute;\n  right: 40px;\n  top: 32px; }\n\n/* global */\nbody {\n  background: #efefef;\n  color: #8c8c8c;\n  font: 100% helveticaneue, helvetica, arial;\n  margin-top: 80px;\n  min-width: 375px; }\n\n.bcd-frame {\n  background: #fff;\n  margin: 20px 0;\n  max-width: 600px;\n  padding: 20px; }\n  .bcd-frame.shadow {\n    box-shadow: 0px 0px 25px -15px; }\n\n.example-error {\n  color: #ff0000; }\n\n.example-link {\n  color: #0000ff; }\n\n.example-primary,\n.example-success {\n  color: #009900; }\n\n.example-secondary,\n.example-warning {\n  color: #ff9900; }\n", ""]);
 
 // exports
 
@@ -28931,6 +28885,63 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
+
+/***/ }),
+/* 269 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _index = __webpack_require__(250);
+
+var _index2 = _interopRequireDefault(_index);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Social = function Social() {
+    return _react2.default.createElement(
+        'div',
+        { className: 'row' },
+        _react2.default.createElement(
+            'div',
+            { className: 'col' },
+            _react2.default.createElement(_index2.default, {
+                css: 'linkedin',
+                href: 'https://linkedin.com/in/timelpatel',
+                text: 'LinkedIn'
+            })
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'col' },
+            _react2.default.createElement(_index2.default, {
+                css: 'twitter',
+                href: 'https://twitter.com/timelpatel',
+                text: 'Twitter'
+            })
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'col' },
+            _react2.default.createElement(_index2.default, {
+                css: 'instagram',
+                href: 'https://instagram.com/timelpatel/',
+                text: 'Instagram'
+            })
+        )
+    );
+};
+
+exports.default = Social;
 
 /***/ })
 /******/ ]);

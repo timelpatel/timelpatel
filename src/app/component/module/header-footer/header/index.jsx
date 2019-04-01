@@ -7,8 +7,8 @@ import Typography__Logo from '../../../../component/block/typography/logo/index.
 
 const Header_Footer__Header = () => (
 
-    <Container__Header>
-        <div className='header-footer__header'>
+    <div className='header-footer__header'>
+        <Container__Header>
             <Typography__Logo>
                 <Link to='/'>Timel Patel</Link>
             </Typography__Logo>
@@ -21,8 +21,8 @@ const Header_Footer__Header = () => (
                     ]
                 }
             />
-        </div>
-    </Container__Header>
+        </Container__Header>
+    </div>
 
 )
 

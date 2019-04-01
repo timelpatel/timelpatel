@@ -1,5 +1,5 @@
 import React from 'react'
-import Button__Social from '../../../component/block/button/social/index.jsx'
+import Button__Social from '../../../../component/block/button/social/index.jsx'
 
 
 const Social = () => (

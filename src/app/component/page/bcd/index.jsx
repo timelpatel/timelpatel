@@ -50,7 +50,6 @@ const BcdPage = () => (
                                     {id: 2, text:'Pattern'},
                                     {id: 3, text:'Module'},
                                     {id: 4, text:'Page'},
-                                    {id: 5, text:'Journey'},
                                 ]}
                                 title='Components'
                                 url='/components'
@@ -95,7 +94,7 @@ const BcdPage = () => (
                             text='Components'
                         />
                         <Typography__Body_Copy
-                            text='Components are the foundations of the BCD system. Blocks, Patterns and Modules are how components are built from single elements into usable components. Pages and Journeys are how a user will navigate to complete their desired goal.'
+                            text='Components are the foundations of the BCD system. Blocks, Patterns and Modules are how components are built from single elements into usable components. Pages are, well pages. They will consume Blocks and Modules as required.'
                         />
 
                         <Typography__Sub_Heading
@@ -116,7 +115,7 @@ const BcdPage = () => (
                             text='Module'
                         />
                         <Typography__Body_Copy
-                            text='A Module is one or more Blocks and/or Patterns to create a fully functional, usable component with data and content.'
+                            text='A Module is one or more Blocks and/or Patterns to create a fully functional, usable component, which may have data and content.'
                         />
 
                         <Typography__Sub_Heading
@@ -124,13 +123,6 @@ const BcdPage = () => (
                         />
                         <Typography__Body_Copy
                             text='A Page is one or more Modules to create a view, which is part of a user&#39;s journey.'
-                        />
-
-                        <Typography__Sub_Heading
-                            text='Journey'
-                        />
-                        <Typography__Body_Copy
-                            text='A Journey is one or more Pages, brought together in a particular order to form a user Journey.'
                         />
 
                         <br /><br />

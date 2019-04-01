@@ -7,8 +7,8 @@ import Typography__Logo from '../../../../component/block/typography/logo/index.
 
 const Header_Footer__Bcd_Header = () => (
 
-    <Container__Header>
-        <div className='header-footer__header'>
+    <div className='header-footer__header'>
+        <Container__Header>
             <Typography__Logo>
                 <Link to='/block-component-design'>BCD</Link>
             </Typography__Logo>
@@ -22,8 +22,8 @@ const Header_Footer__Bcd_Header = () => (
                     ]
                 }
             />
-        </div>
-    </Container__Header>
+        </Container__Header>
+    </div>
 
 )
 

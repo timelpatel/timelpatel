@@ -82,21 +82,25 @@ const AssetPage = () => (
 
                 <div className='row'>
                     <div className='col col6'>
-                        <Typography__Code>
-                            call-to-action.css<br />
-                            .button-primary: <span className='example-primary'>#009900</span><br />
-                            .button-secondary: <span className='example-secondary'>#ff9900</span><br />
-                            .text-link: <span className='example-link'>#ff0000</span>
-                        </Typography__Code>
+                        <div className='spaced'>
+                            <Typography__Code>
+                                call-to-action.sass<br />
+                                $button-primary: <span className='example-primary'>#009900</span>;<br />
+                                $button-secondary: <span className='example-secondary'>#ff9900</span>;<br />
+                                $text-link: <span className='example-link'>#ff0000</span>;
+                            </Typography__Code>
+                        </div>
                     </div>
 
                     <div className='col col6'>
-                        <Typography__Code>
-                            notification.css<br />
-                            .error: <span className='example-error'>#ff0000</span><br />
-                            .success: <span className='example-success'>#009900</span><br />
-                            .warning: <span className='example-warning'>#ff9900</span>
-                        </Typography__Code>
+                        <div className='spaced'>
+                            <Typography__Code>
+                                notification.sass<br />
+                                $error: <span className='example-error'>#ff0000</span>;<br />
+                                $success: <span className='example-success'>#009900</span>;<br />
+                                $warning: <span className='example-warning'>#ff9900</span>;
+                            </Typography__Code>
+                        </div>
                     </div>
                 </div>
 

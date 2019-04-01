@@ -48,7 +48,7 @@ const ComponentsPage = () => (
                             text='Components are stored in the component folder. Each type of Component is then stored within meaningful categories, followed by the component itself.'
                         />
                         <Typography__Body_Copy
-                            text='In the sample folder structure below, we have added HTML, CSS and JS files, however these can be replaced by the technology stack in use (index.jsx and style.scss, for example). You may also wish to include other files, which relate to the component. This is completely fine as long as you abide by the fundamental rules of the system.'
+                            text='In the sample folder structure below, we have added HTML and CSS, however these can be replaced by the technology stack in use (index.jsx and style.scss, for example). You may also wish to include other files, which relate to the component. This is completely fine as long as you abide by the fundamental rules of the system.'
                         />
 
                         <Typography__Code>
@@ -60,11 +60,12 @@ const ComponentsPage = () => (
                             &nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── style.css<br />
                             &nbsp;|<br />
                             &nbsp;└── /module<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── /category-name<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── /module-name<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; ├── index.html<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; └── script.js<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── pattern-name.css
+                            &nbsp;| &nbsp;&nbsp; └── /category-name<br />
+                            &nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── /module-name<br />
+                            &nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; └── index.html<br />
+                            &nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── pattern-name.css<br />
+                            &nbsp;└── /page<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── /page-name.html
                         </Typography__Code>
                     </div>
                 </div>
