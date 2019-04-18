@@ -2,16 +2,18 @@ import React from 'react'
 import Button__Primary from '../../../component/block/button/primary/index.jsx'
 import Container__Section from '../../../component/block/container/section/index.jsx'
 import CTA__BCD from '../../../component/module/cta/bcd/index.jsx'
+import Header_Footer__Header from '../../../header-footer/header/index.jsx'
+import Header_Footer__Footer from '../../../header-footer/footer/index.jsx'
 import Imagery__Hero from '../../../component/block/imagery/hero/index.jsx'
-import Template__Tp from '../../../component/module/template/tp/index.jsx'
 import Typography__Body_Copy from '../../../component/block/typography/body-copy/index.jsx'
 import Typography__Section_Title from '../../../component/block/typography/section-title/index.jsx'
 import Typography__Sub_Heading from '../../../component/block/typography/sub-heading/index.jsx'
 
-
 const AboutPage = () => (
 
-    <Template__Tp>
+    <React.Fragment>
+
+        <Header_Footer__Header />
 
         <Container__Section>
             <Imagery__Hero />
@@ -49,12 +51,13 @@ const AboutPage = () => (
                     />
                 </div>
             </div>
-
         </Container__Section>
 
         <CTA__BCD />
 
-    </Template__Tp>
+        <Header_Footer__Footer />
+
+    </React.Fragment>
 
 )
 

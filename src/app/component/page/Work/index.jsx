@@ -1,14 +1,17 @@
 import React from 'react'
 import Collection__Project from '../../../component/module/collection/project/index.jsx'
 import Container__Section from '../../../component/block/container/section/index.jsx'
+import Header_Footer__Header from '../../../header-footer/header/index.jsx'
+import Header_Footer__Footer from '../../../header-footer/footer/index.jsx'
 import Imagery__logos from '../../../component/block/imagery/logos/index.jsx'
-import Template__Tp from '../../../component/module/template/tp/index.jsx'
 import Typography__Bullet_List from '../../../component/block/typography/bullet-list/index.jsx'
 import Typography__Sub_Heading from '../../../component/block/typography/sub-heading/index.jsx'
 
 
 const WorkPage = () => (
-    <Template__Tp>
+
+    <React.Fragment>        
+        <Header_Footer__Header />
 
         <Container__Section>
 
@@ -194,7 +197,8 @@ const WorkPage = () => (
             }
         />
 
-    </Template__Tp>
+        <Header_Footer__Footer />
+    </React.Fragment>
 )
 
 

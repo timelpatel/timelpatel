@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Button__Primary from '../../../../component/block/button/primary/index.jsx'
 import Container__Chic from '../../../../component/block/container/chic/index.jsx'
 import Typography__Body_Copy from '../../../../component/block/typography/body-copy/index.jsx'
 import Typography__Section_Title from '../../../../component/block/typography/section-title/index.jsx'
@@ -18,10 +17,11 @@ const CTA__BCD = () => (
                     <Typography__Body_Copy
                         text='A design system to structure components'
                     />
-                    <Button__Primary
-                        href='/block-component-design'
-                        text='Learn more'
-                    />
+                    <a href='http://bcd.timelpatel.com'>
+                        <Typography__Body_Copy
+                            text='bcd.timelpatel.com'
+                        />
+                    </a>
                 </div>
             </div>
         </Container__Chic>
