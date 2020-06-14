@@ -1,0 +1,12 @@
+@import '../../../../asset/base.scss';
+
+.typography__sub_heading {
+  color: #f1c40f;
+  font-family: $font-stack-light;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 24px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}

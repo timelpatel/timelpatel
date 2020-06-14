@@ -1,0 +1,28 @@
+.bio {
+  // padding: 10% 0 10% 10%;
+  // width: 300px;
+}
+
+img.me {
+  margin: -100px 0 100px;
+  width: 130px;
+}
+
+.wrapper {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 1px 1px 12px -6px;
+  margin: 10% 5% -10%;
+  padding: 10% 20% 10% 10%;
+  transform: rotate(-0.5deg);
+}
+
+
+// desktop
+@media screen and (min-width: 860px) {
+
+  .img.me {
+    margin-top: -180px
+  }
+
+}

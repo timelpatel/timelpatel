@@ -1,0 +1,12 @@
+@import '../../../../asset/base.scss';
+
+.typography__body {
+  // color: $font-color-body;
+  color: #000;
+  font-family: $font-stack-light;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}

@@ -1,0 +1,15 @@
+@import '../../../../asset/base.scss';
+
+ul.list__bullet {
+  // list-style: circle inside;
+  margin-bottom: 32px;
+
+  li {
+    color: #fff;
+    font-family: $font-stack-light;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 24px;
+  }
+}
